@@ -11,13 +11,9 @@ const Tips = () => {
     <div className='tips-page-container'>
       <div className='jumbotron jumbotron-fluid tips-jumbotron darkgreen-bg'>
         <div className='container'>
-          <h1 className='display-4 text-center'>Topics</h1>
+          <h1 className='display-4 text-center'>Installation</h1>
           <p>
-            Your carbon footprint is the total amount of greehouse gas emissions
-            that come from the production (or use) of a product or service.
-            Think of how you chose to travel, the foods you consume, and how
-            much energy is being used in your home. Science is complex, and alot
-            of the time it can be overwhelming to understand what it all means.
+          This is the installations page..
           </p>
         </div>
       </div>
