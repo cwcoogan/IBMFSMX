@@ -34,21 +34,26 @@
         }
 
         .image {
-            width: 206px;
-            height: 168px;
+            width: 220px;
+            height: 200px;
             background-repeat: no-repeat;
-
+            background-position: center center;
+            //navigation bar photos
             &.monitor {
-                background-image: url('/images/nature_on_screen.svg');
+                background-image: url('/images/logo1.png');
             }
 
             &.learn {
-                background-image: url('/images/book_love.svg');
+                background-image: url('/images/logo2.png');
             }
 
             &.improve {
-                background-image: url('/images/superhero.svg');
+                background-image: url('/images/logo3.png');
             }
+            &.learn2 {
+              background-image: url('/images/logo4.png');
+          }
+
 
             &.transportation {
                 background-image: url('/images/learn_transportation.svg');
@@ -76,6 +81,7 @@
             font-size: 24px;
             line-height: 36px;
             text-align: center;
+        
         }
 
         .text {

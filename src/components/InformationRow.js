@@ -31,6 +31,15 @@ const InformationRow = () => {
         </div>
                   </Link>
       </div>
+      <div className='image-container'>
+              <Link to = "/Learn">
+        <div className='image learn2' />
+        <div className='title'>learn2</div>
+        <div className='text'>
+                      Learn how to better yourself and lower your emissions.
+        </div>
+                  </Link>
+      </div>
     </div>
   );
 };
