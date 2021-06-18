@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { useAuth } from '../states/userState';
-import logoImg from '../images/ibm-grey-logo.png';
+import logoImg from '../images/ibm_logo_pos_RGB.png';
 
 const NavBar = () => {
   const [activeKey, setActiveKey] = useState(-1);
@@ -14,11 +14,11 @@ const NavBar = () => {
 
   //the home page contact form picture col needs to be set col-lg-6 so that it wraps correctly
   useEffect(() => {
-    if (location.pathname.startsWith('/questionnaire')) {
+    if (location.pathname.startsWith('/home')) {
       setActiveKey(1);
     } else if (location.pathname.startsWith('/about')) {
-      setActiveKey(2);
-    } else if (location.pathname.startsWith('/profile')) {
+      setActiveKey(3);
+    } else if (location.pathname.startsWith('/installations')) {
       setActiveKey(3);
     } else if (location.pathname == '/') {
       setActiveKey(0);
@@ -28,13 +28,13 @@ const NavBar = () => {
   }, [location]);
 
   return (
-    <Navbar expand='lg' sticky='top'>
+    <Navbar expand='sm' sticky='top'>
       <div className='container'>
         <Navbar.Brand as={Link} to='/' onClick={() => setActiveKey(0)}>
           <img
             src={logoImg}
             className='nav-bar-logo'
-            alt='Dream In Green logo'
+            alt='IBM Logo'
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls='nav-bar-component' />
@@ -62,18 +62,9 @@ const NavBar = () => {
             <Nav.Link as={Link} to='/contact' eventKey={2}>
               Contact
             </Nav.Link>
-            {user && (
-              <Nav.Link as={Link} to='/profile' eventKey={3}>
-                Profile
-              </Nav.Link>
-            )}
+            
           </Nav>
-          <Link
-            to='/questionnaire'
-            className='btn btn-primary my-2 my-lg-0 py-3 px-5'
-          >
-            {user ? 'Get Started' : 'Log In'}
-          </Link>
+          
         </Navbar.Collapse>
       </div>
     </Navbar>
