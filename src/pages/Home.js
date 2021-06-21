@@ -1,7 +1,10 @@
 import React from 'react';
+import { Bubble } from 'react-chartjs-2';
 import { Link } from 'react-router-dom';
 import InformationRow from '../components/InformationRow';
 import homeImgFir from '../images/home1.jpg';
+import homeImgSec from '../images/home2.png';
+
 
 const Home = () => {
   return (
@@ -33,7 +36,17 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <InformationRow />
+        <InformationRow/>
+        <div className='row-container' >
+          <h1 className='display-4'> </h1>
+          <h1 className='display-4 font-weight-bold mb-3'>FSM/Cloud Fact</h1>
+         <img 
+         src={homeImgSec}
+                className='fluid-img'
+                alt='Sitting on questionnaire'></img>
+          <h1 className='display-4 font-weight-bold mb-3'>FSM/Cloud Fact</h1>
+      </div>
+      
       </div>
     </div>
   );
