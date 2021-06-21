@@ -6,7 +6,7 @@ const InformationRow = () => {
     <div className='row-container home-row'>
           <div className='image-container'>
               <Link to='/profile'>
-        <div className='image monitor' />
+        <div className='image monitor2' />
         <div className='title'>Monitor</div>
         <div className='text'>
                       Monitor your progress over time all in the app.
