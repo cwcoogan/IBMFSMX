@@ -27,7 +27,55 @@
         box-shadow: 0 0 20px rgba(33,33,33,.2);
   
     }
-    
+
+    //images for the home page
+    .image-container-home {
+      width: 200px;
+
+      @include media-breakpoint-down(sm) {
+        &:not(:last-child) {
+            margin-bottom: 5rem;
+        }
+      }
+
+      .image {
+        width: 200px;
+        height: 150px;
+        background-repeat: no-repeat;
+        background-color: rgb(118, 64, 187);
+        background-position: center center;
+        //navigation bar photos
+        &.monitor {
+            background-image: url('/images/Picture1.png');
+        }
+        &.learn {
+          background-image: url('/images/Picture2.png');
+        }
+        &.improve {
+          background-image: url('/images/Picture3.png');
+        }
+        &.learn2 {
+        background-image: url('/images/Picture4.png');
+        }
+      }  
+
+      .title {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+       
+      }
+
+      .text {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+      }
+
+    }
+
     .image-container {
         width: 200px;
     
@@ -45,22 +93,6 @@
             //background-color: rgb(118, 64, 187);
             background-position: center center;
             //navigation bar photos
-            &.monitor {
-                background-image: url('/images/Picture1.png');
-            }
-
-            &.learn {
-                background-image: url('/images/Picture2.png');
-            }
-
-            &.improve {
-                background-image: url('/images/Picture3.png');
-            }
-            &.learn2 {
-              background-image: url('/images/Picture4.png');
-          }
-
-
             &.transportation {
                 background-image: url('/images/learn_transportation.svg');
             }
