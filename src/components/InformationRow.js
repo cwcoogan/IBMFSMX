@@ -4,16 +4,16 @@ import { Link } from 'react-router-dom';
 const InformationRow = () => {
   return (
     <div className='row-container home-row'>
-          <div className='image-container'>
+          <div className='image-container-home'>
               <Link to='/profile'>
-        <div className='image monitor2' />
+        <div className='image monitor' />
         <div className='title'>Monitor</div>
         <div className='text'>
                       Monitor your progress over time all in the app.
         </div>
                   </Link>
       </div>
-        <div className='image-container'>
+        <div className='image-container-home'>
               <Link to = "/Learn">
         <div className='image learn' />
         <div className='title'>Learn</div>
@@ -22,7 +22,7 @@ const InformationRow = () => {
         </div>
                   </Link>
       </div>
-          <div className='image-container'>
+          <div className='image-container-home'>
               <Link to='/questionnaire'>
         <div className='image improve' />
         <div className='title'>Improve</div>
@@ -31,7 +31,7 @@ const InformationRow = () => {
         </div>
                   </Link>
       </div>
-      <div className='image-container'>
+      <div className='image-container-home'>
               <Link to = "/Learn">
         <div className='image learn2' />
         <div className='title'>learn2</div>
