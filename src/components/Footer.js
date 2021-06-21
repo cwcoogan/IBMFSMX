@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import logoImg from '../images/ibm-grey-logo.png';
+import logoImg from '../images/IBM_logo_pos_RGB.png';
 
 const Footer = () => {
   return (
