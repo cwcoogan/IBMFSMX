@@ -19,7 +19,17 @@ const Tips = () => {
       </div>
       {/* <LearnInformationRow />
       <LearnInformationSecondRow /> */}
-      
+
+      <div className="column-container">
+        <div className='title'>For questions email:</div>
+        <div className='text'>
+          * Chase Coogan: chase.coogan@ibm.com
+        </div>
+        <div className='text'>
+          * John Lucas: john.lucas@ibm.com
+        </div>
+      </div>
+
       <div className='tips-text'>
         <h1 className='display-4 font-weight-bold mb-3'>FAQ</h1>
       </div>
