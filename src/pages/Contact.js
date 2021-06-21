@@ -17,16 +17,16 @@ const Tips = () => {
           </p>
         </div>
       </div>
-      <LearnInformationRow />
-      <LearnInformationSecondRow />
+      {/* <LearnInformationRow />
+      <LearnInformationSecondRow /> */}
       
       <div className='tips-text'>
-        <h1 className='display-4 font-weight-bold mb-3'>Check out these Tips</h1>
+        <h1 className='display-4 font-weight-bold mb-3'>FAQ</h1>
       </div>
       <Accordion className='pt-0 pb-0'>
         <Card className='accordion-section'>
           <Accordion.Toggle as={Card.Header} eventKey='0'>
-            <h5>Transportation Tips</h5>
+            <h5>How do I access the environment?</h5>
           </Accordion.Toggle>
           <Accordion.Collapse eventKey='0' className='accordion-tips'>
             <Card.Body>
@@ -52,7 +52,7 @@ const Tips = () => {
         </Card>
         <Card className='accordion-section'>
           <Accordion.Toggle as={Card.Header} eventKey='1'>
-            <h5>Household Tips</h5>
+            <h5>What is a Cloud Pak?</h5>
           </Accordion.Toggle>
           <Accordion.Collapse eventKey='1' className='accordion-tips'>
             <Card.Body>
@@ -73,7 +73,7 @@ const Tips = () => {
         </Card>
         <Card className='accordion-section'>
           <Accordion.Toggle as={Card.Header} eventKey='2'>
-            <h5>Food Tips</h5>
+            <h5>Where can I learn more?</h5>
           </Accordion.Toggle>
           <Accordion.Collapse eventKey='2' className='accordion-tips'>
             <Card.Body>
@@ -93,7 +93,7 @@ const Tips = () => {
             </Card.Body>
           </Accordion.Collapse>
         </Card>
-        <Card className='accordion-section'>
+        {/* <Card className='accordion-section'>
           <Accordion.Toggle as={Card.Header} eventKey='3'>
             <h5>Shopping Tips</h5>
           </Accordion.Toggle>
@@ -113,8 +113,8 @@ const Tips = () => {
               <h6>🍃 Bring your own reusable bag when shopping around. This will decrease the amount of plastic bags used, which can pollute our environment.</h6>
             </Card.Body>
           </Accordion.Collapse>
-        </Card>
-		<Card className='accordion-section'>
+        </Card> */}
+		{/* <Card className='accordion-section'>
           <Accordion.Toggle as={Card.Header} eventKey='4'>
             <h5>Clothing Tips</h5>
           </Accordion.Toggle>
@@ -133,7 +133,7 @@ const Tips = () => {
               <h6>🍃 When buying new clothes, look for items that are made with eco-friendly and natural fabrics. Some of them include, bamboo, silk, hemp, and organic cotton.</h6>
             </Card.Body>
           </Accordion.Collapse>
-        </Card>
+        </Card> */}
       </Accordion>
     </div>
 
