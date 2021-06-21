@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import InformationRow from '../components/InformationRow';
 import homeImgFir from '../images/home1.jpg';
 import homeImgSec from '../images/home2.png';
+import homeImgThird from '../images/home3.png';
+import homeImgFourth from '../images/home4.png';
 
 
 const Home = () => {
@@ -39,12 +41,30 @@ const Home = () => {
         <InformationRow/>
         <div className='row-container' >
           <h1 className='display-4'> </h1>
-          <h1 className='display-4 font-weight-bold mb-3'>FSM/Cloud Fact</h1>
+          <h1 className='display-4' >FSM/Cloud Fact</h1>
          <img 
          src={homeImgSec}
                 className='fluid-img'
                 alt='Sitting on questionnaire'></img>
-          <h1 className='display-4 font-weight-bold mb-3'>FSM/Cloud Fact</h1>
+          <h1 className='display-4'>FSM/Cloud Fact</h1>
+      </div>
+      <img 
+         src={homeImgThird}
+                className='fluid-img'
+                alt='Sitting on questionnaire'></img>
+      <div className='row-container'>
+        
+        <h1 className='display-5 font-weight-bold'>Business Case</h1>
+        <img 
+         src={homeImgFourth}
+                className='fluid-img'
+                alt='Sitting on questionnaire'> 
+                </img>
+        <p className='display-5 font-weight-bold'>
+              Deutsche Bank As a leading bank serving private, corporate, and fiduciary clients, Deutsche Bank has 
+        embraced digital transformation. The bank wanted to improve the experience of both its 
+        banking customers and users of its back-end technology, including employees
+            </p>
       </div>
       
       </div>
