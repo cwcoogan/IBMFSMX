@@ -36,13 +36,14 @@
         &:not(:last-child) {
             margin-bottom: 5rem;
         }
+        
       }
-
+      
       .image {
         width: 200px;
         height: 150px;
         background-repeat: no-repeat;
-        background-color: rgb(118, 64, 187);
+        background-color: #be95ff;
         background-position: center center;
         //navigation bar photos
         &.monitor {
@@ -90,26 +91,9 @@
             width: 200px;
             height: 150px;
             background-repeat: no-repeat;
-            background-color: rgb(118, 64, 187);
+            //background-color: rgb(118, 64, 187);
             background-position: center center;
             //navigation bar photos
-<<<<<<< HEAD
-            &.monitor {
-                background-image: url('/images/Picture1.png');
-            }
-
-            &.learn {
-                background-image: url('/images/Picture2.png');
-            }
-
-            &.improve {
-                background-image: url('/images/Picture3.png');
-            }
-            &.learn2 {
-              background-image: url('/images/Picture4.png');
-          }
-=======
->>>>>>> 96945452401bacdd7a24eab7a72a7abdcee841bd
             &.transportation {
                 background-image: url('/images/learn_transportation.svg');
             }
