@@ -11,9 +11,12 @@ const Tips = () => {
     <div className='tips-page-container'>
       <div className='jumbotron jumbotron-fluid tips-jumbotron darkgreen-bg'>
         <div className='container'>
-          <h1 className='display-4 text-center'>About</h1>
+          <h1 className='display-4 text-left'>Goal of FSMX</h1>
           <p>
-          This is the about page..
+          <li>To create a one stop, shop for sellers</li>
+          <li>Provide real use-case examples </li> 
+          <li>Provide the best solutions for our clients </li>
+          <li>Cross sell our products for ultimate solutions</li>
           </p>
         </div>
       </div>
