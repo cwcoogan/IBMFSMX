@@ -1,32 +1,50 @@
 import React from 'react';
 import Accordion from 'react-bootstrap/Accordion';
-import LearnInformationRow from '../components/LearnInformationRow';
-import LearnInformationSecondRow from '../components/LearnInformationSecondRow';
 import Card from 'react-bootstrap/Card';
-import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
+import contactImgFir from '../images/ContactVisual.png';
 
-const Tips = () => {
+const Contact = () => {
   return (
-    <div className='tips-page-container'>
-      <div className='jumbotron jumbotron-fluid tips-jumbotron darkgreen-bg'>
-        <div className='container'>
-          <h1 className='display-4 text-center'>Contact</h1>
-          <p>
-           This is the contact page..
-          </p>
+    <div>
+      <div className='container'>
+        <div className='row mt-5 hero-row-reverse-mobile home-row '>
+          <div className='col-lg-12 txt-md-left'>
+            <div className='row mb-3'>
+              <h1 className='display-5 font-weight-bold'>
+              Contact
+              </h1>
+              <h1 className='hr-purple'>
+            
+              </h1>
+            </div>
+          </div>
         </div>
-      </div>
+      </div>  
       {/* <LearnInformationRow />
       <LearnInformationSecondRow /> */}
 
-      <div className="column-container">
-        <div className='title'>For questions email:</div>
-        <div className='text'>
-          * Chase Coogan: chase.coogan@ibm.com
-        </div>
-        <div className='text'>
-          * John Lucas: john.lucas@ibm.com
+      <div className="container">
+        <div className='row mt-5 hero-row-reverse mobile home-row'>
+          <div className='col-lg-6 txt-md-left'>
+            <div className='row mb-3'></div>
+            <p className='lead font-weight bold'>
+              For questions email:
+            </p>
+            <p className='lead font-weight bold'>
+              ● Chase Coogan: chase.coogan@ibm.com<br></br>
+              ● John Lucas: john.lucas@ibm.com
+            </p>
+          </div> 
+          <div className='col-lg-4'>
+            <div className='hero-img-right'>
+              <img
+                src={contactImgFir}
+                className='fluid-img'
+                alt='Contact Page Image'
+              />  
+            </div>
+          </div> 
         </div>
       </div>
 
@@ -146,8 +164,8 @@ const Tips = () => {
         </Card> */}
       </Accordion>
     </div>
-
+        
   );
 };
 
-export default Tips;
+export default Contact;
