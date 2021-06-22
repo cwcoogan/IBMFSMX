@@ -39,6 +39,15 @@ const Home = () => {
           </div>
         </div>
         <InformationRow/>
+        <div className='row-container' >
+          <h1 className='display-4'> </h1>
+          <h1 className='display-4' >FSM/Cloud Fact</h1>
+         <img 
+         src={homeImgSec}
+                className='fluid-img'
+                alt='Sitting on questionnaire'></img>
+          <h1 className='display-4'>FSM/Cloud Fact</h1>
+      </div>
       <img 
          src={homeImgThird}
                 className='fluid-img'
