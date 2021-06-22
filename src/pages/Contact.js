@@ -21,8 +21,6 @@ const Contact = () => {
           </div>
         </div>
       </div>  
-      {/* <LearnInformationRow />
-      <LearnInformationSecondRow /> */}
 
       <div className="container">
         <div className='row mt-5 hero-row-reverse mobile home-row'>
@@ -42,15 +40,18 @@ const Contact = () => {
                 src={contactImgFir}
                 className='fluid-img'
                 alt='Contact Page Image'
-              />  
+              />
             </div>
           </div> 
         </div>
       </div>
 
-      <div className='tips-text'>
-        <h1 className='display-4 font-weight-bold mb-3'>FAQ</h1>
+    
+      <div className='container'>
+        <h1 className='display-5 font-weight-bold'>FAQ</h1>
+        <h1 className='hr-purple'> </h1>
       </div>
+      <div className='row mt-5 faq-right mobile home-row'>
       <Accordion className='pt-0 pb-0'>
         <Card className='accordion-section'>
           <Accordion.Toggle as={Card.Header} eventKey='0'>
@@ -121,49 +122,11 @@ const Contact = () => {
             </Card.Body>
           </Accordion.Collapse>
         </Card>
-        {/* <Card className='accordion-section'>
-          <Accordion.Toggle as={Card.Header} eventKey='3'>
-            <h5>Shopping Tips</h5>
-          </Accordion.Toggle>
-          <Accordion.Collapse eventKey='3' className='accordion-tips'>
-            <Card.Body>
-              <h6>🍃 Reduce the amount of stuff you purchase and consider using recycled items when possible.</h6>
-            </Card.Body>
-          </Accordion.Collapse>
-          <Accordion.Collapse eventKey='3' className='accordion-tips'>
-            <Card.Body>
-              <h6>🍃 If youre looking to purchase a new computer, try purchasing a laptop instead of a traditional desktop. 
-			  Dekstops require more energy than laptops, making them less environmentally friendly.</h6>
-            </Card.Body>
-          </Accordion.Collapse>
-		  <Accordion.Collapse eventKey='3' className='accordion-tips'>
-            <Card.Body>
-              <h6>🍃 Bring your own reusable bag when shopping around. This will decrease the amount of plastic bags used, which can pollute our environment.</h6>
-            </Card.Body>
-          </Accordion.Collapse>
-        </Card> */}
-		{/* <Card className='accordion-section'>
-          <Accordion.Toggle as={Card.Header} eventKey='4'>
-            <h5>Clothing Tips</h5>
-          </Accordion.Toggle>
-          <Accordion.Collapse eventKey='4' className='accordion-tips'>
-            <Card.Body>
-              <h6>🍃 Washing your clothes in cold water could save up to 500 pounds of carbon dioxide. Using cold water instead of hot/warm water can also clean your clothes better.</h6>
-            </Card.Body>
-          </Accordion.Collapse>
-          <Accordion.Collapse eventKey='4' className='accordion-tips'>
-            <Card.Body>
-              <h6>🍃 Buying secondhand clothes can save the resources used to otherwise create a new clothing piece. Shopping for second hand items can also save you more money.</h6>
-            </Card.Body>
-          </Accordion.Collapse>
-		  <Accordion.Collapse eventKey='4' className='accordion-tips'>
-            <Card.Body>
-              <h6>🍃 When buying new clothes, look for items that are made with eco-friendly and natural fabrics. Some of them include, bamboo, silk, hemp, and organic cotton.</h6>
-            </Card.Body>
-          </Accordion.Collapse>
-        </Card> */}
+       
       </Accordion>
+    </div>  
     </div>
+
         
   );
 };
