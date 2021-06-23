@@ -23,18 +23,20 @@ const LearnInformationRow = () => {
             <button className="close" onClick={close}>
               &times;
             </button>
-            <div className="display-4 font-weight-bold text-center mb-3"> Shopping Tips </div>
+            <div className="display-4 font-weight-bold text-center mb-3"> Cloud Pak for Data </div>
             <div className="content font-weight-bold">
             🍃 Reduce the amount of stuff you purchase and consider using recycled items when possible.<br>
-              </br>
+            </br>
               <br />
-            🍃 If youre looking to purchase a new computer, try purchasing a laptop instead of a traditional desktop. 
-			  Dekstops require more energy than laptops, making them less environmentally friendly.<br>
+              ● Installer: Rajesh Kartha<br>
               </br>
-              <br />
-            🍃 Bring your own reusable bag when shopping around. This will decrease the amount of plastic bags used, which can pollute our environment.<br>
+              {/* <br /> */}
+              ● Install Completed<br>
               </br>
-              <br />
+              {/* <br /> */}
+              ● CP4D CoreOS: 4.6
+              <br>
+              </br>
             </div>
             <div className="actions">
               <button
