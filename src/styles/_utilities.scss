@@ -23,6 +23,24 @@
   content: " ";
   padding: 0;
 }
+
+.team-image {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin: 0em 0;
+}
+
+.text-margin {
+  margin: 1em 0;
+  font-weight: lead;
+  font-size: 20px;
+  line-height: 20px;
+  position: relative;
+  left: 80px;
+  top: 35px;
+}
+
 .darkgreen-bg {
   background-color: #3d9e67;
   background-size: 400% 400%;
