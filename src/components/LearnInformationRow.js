@@ -9,9 +9,9 @@ const LearnInformationRow = () => {
             <Popup
         trigger={<div className='image-container'>
         <div className='image transportation' />
-        <div className='title'>Transportation</div>
+        <div className='title'>Q1</div>
         <div className='text'>
-          Learn how your choice of travel can affect the environment.
+          Environment Initialized 
         </div>
       </div>}
         modal
@@ -22,17 +22,12 @@ const LearnInformationRow = () => {
             <button className="close" onClick={close}>
               &times;
             </button>
-            <div className="display-4 font-weight-bold text-center mb-3"> Transportation Tips </div>
+            <div className="display-4 font-weight-bold text-center mb-3"> Environment Initialized </div>
             <div className="content font-weight-bold">
-            🍃 Switch lights off! Driving less will reduce the amount of CO2 emitted and it will lessen traffic congestion. 
-				Consider taking public transportation, carpooling or riding a bike to your destination.<br>
+            • Team created the environment<br>
               </br>
               <br />
-              🍃 If you are driving, avoid making unnecesarry braking and acceleration. 
-				Studies have found that aggressive driving can result in more fuel consumption compared to consistent and calm driving.<br>
-              </br>
-              <br />
-              🍃 If you are going on a long trip, using cruise control can reduce your fuel consumption.<br>
+              • Team began installing cloud paks<br>
               </br>
               <br />
             </div>
@@ -53,9 +48,9 @@ const LearnInformationRow = () => {
       <Popup
         trigger={<div className='image-container'>
         <div className='image household' />
-        <div className='title'>Household</div>
+        <div className='title'>Q2</div>
         <div className='text'>
-        Learn how much energy is being used and lower your emissions.
+        Cloud Pak Installation
         </div>
       </div>}
         modal
@@ -66,17 +61,10 @@ const LearnInformationRow = () => {
             <button className="close" onClick={close}>
               &times;
             </button>
-            <div className="display-4 font-weight-bold text-center mb-3"> Household Tips </div>
+            <div className="display-4 font-weight-bold text-center mb-3"> Cloud Pak Installation </div>
             <div className="content font-weight-bold">
-              🍃 Consider using LED lightbulbs instead of regular lightbulbs. 
-			  LED bulbs may cost more but they use a quarter of the energy compared to the regular ones and last up to 25 times longer<br>
-              </br>
-              <br />
-              🍃 Make sure you turn off all electronic devices when not in use and dont forget to turn off the light when leaving your room<br>
-              </br>
-              <br />
-              🍃 If you use the water heater often, try turning down the heater to 120˚F. Doing this can save you roughly 500 pounds of CO2.<br>
-              </br>
+              • Team began to install cloud paks<br>
+              </br> 
               <br />
             </div>
             <div className="actions">
@@ -96,9 +84,9 @@ const LearnInformationRow = () => {
       <Popup
         trigger={<div className='image-container'>
         <div className='image food' />
-        <div className='title'>Food</div>
+        <div className='title'>Q3</div>
         <div className='text'>
-        Learn how the foods you consume can affect the environment.
+       Data Spin Up
         </div>
       </div>}
         modal

@@ -1,27 +1,55 @@
 import React from 'react';
 import Accordion from 'react-bootstrap/Accordion';
-import LearnInformationRow from '../components/LearnInformationRow';
+import CurrentAboutRow from '../components/CurrentAboutRow';
 import LearnInformationSecondRow from '../components/LearnInformationSecondRow';
 import Card from 'react-bootstrap/Card';
 import Popup from 'reactjs-popup';
+import aboutFirst from '../images/about1.png';
 import 'reactjs-popup/dist/index.css';
 
 const Tips = () => {
   return (
     <div className='tips-page-container'>
-      <div className='jumbotron jumbotron-fluid tips-jumbotron darkgreen-bg'>
-        <div className='container'>
-          <h1 className='display-4 text-left'>Goal of FSMX</h1>
-          <p>
-          <li>To create a one stop, shop for sellers</li>
-          <li>Provide real use-case examples </li> 
-          <li>Provide the best solutions for our clients </li>
-          <li>Cross sell our products for ultimate solutions</li>
-          </p>
+      <div className='container'>
+        <div className='row mt-5 hero-row-reverse-mobile home-row '>
+          <div className='col-lg-12 txt-md-left'>
+            <div className='row mb-3'>
+              <h1 className='hr-purple'>
+            
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>  
+
+      <div className="container">
+        <div className='row mt-5 hero-row-reverse mobile home-row'>
+          <div className='col-lg-6 txt-md-left'>
+            <div className='row mb-3'></div>
+            <p className='lead font-weight bold'>
+            <h1 className='display-5 font-weight-bold'>
+              Goal of FSMX 
+              </h1>
+              <li>To create a one stop, shop for sellers</li>
+              <li>Provide real use-case examples </li> 
+              <li>Provide the best solutions for our clients </li>
+              <li>Cross sell our products for ultimate solutions</li>
+            </p>
+          </div> 
+          <div className='col-lg-4'>
+            <div className='hero-img-right'>
+              <img
+                src={aboutFirst}
+                className='fluid-img'
+                alt='Contact Page Image'
+              />  
+            </div>
+          </div> 
         </div>
       </div>
-      <LearnInformationRow />
-      <LearnInformationSecondRow />
+
+      /* <CurrentAboutRow />
+      <LearnInformationSecondRow /> */
       
       <div className='tips-text'>
         <h1 className='display-4 font-weight-bold mb-3'>Check out these Tips</h1>
