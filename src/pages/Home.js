@@ -39,13 +39,15 @@ const Home = () => {
           </div>
         </div>
         <InformationRow/>
+      <div className= 'row-container'>
+      <h1 className='homePageTitle'>Business Cases</h1>
+      </div>
       <img 
          src={homeImgThird}
                 className='fluid-img'
                 alt='Sitting on questionnaire'></img>
       <div className='row-container'>
-        
-        <h1 className='homePageTitle'>Business Case</h1>
+      <h1 className='homePageTitle'>Case 1 </h1>
         <img 
          src={homeImgFourth}
                 className='img'
