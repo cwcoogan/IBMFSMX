@@ -6,17 +6,23 @@ import Card from 'react-bootstrap/Card';
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 
-const Tips = () => {
+const Connecting = () => {
   return (
-    <div className='tips-page-container'>
-      <div className='jumbotron jumbotron-fluid tips-jumbotron darkgreen-bg'>
-        <div className='container'>
-          <h1 className='display-4 text-center'>Connecting</h1>
-          <p>
-          This is the connecting page..
-          </p>
+    <div>
+      <div className='container'>
+        <div className='row mt-5 hero-row-reverse-mobile home-row '>
+          <div className='col-lg-12 txt-md-left'>
+            <div className='row mb-3'>
+              <h1 className='display-5 font-weight-bold'>
+              Connecting
+              </h1>
+              <h1 className='hr-purple'>
+            
+              </h1>
+            </div>
+          </div>
         </div>
-      </div>
+      </div>  
       <LearnInformationRow />
       <LearnInformationSecondRow />
       
@@ -140,4 +146,4 @@ const Tips = () => {
   );
 };
 
-export default Tips;
+export default Connecting;
