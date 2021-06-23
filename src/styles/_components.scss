@@ -39,7 +39,7 @@
   font-weight: bold;
         font-size: 36px;
         line-height: 36px;
-        text-align: left;
+        text-align: center;
        color:white;
 }
 .row-container {
@@ -64,7 +64,7 @@
 
     //images for the home page
     .image-container-home {
-      width: 200px;
+      width: 100%;
 
       @include media-breakpoint-down(sm) {
         &:not(:last-child) {
@@ -74,8 +74,8 @@
       }
       
       .image {
-        width: 200px;
-        height: 150px;
+        width: 90%;
+        height: 120px;
         background-repeat: no-repeat;
         background-color: #be95ff;
         background-position: center center;
