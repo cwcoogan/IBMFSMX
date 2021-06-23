@@ -5,6 +5,7 @@ import LearnInformationSecondRow from '../components/LearnInformationSecondRow';
 import Card from 'react-bootstrap/Card';
 import Popup from 'reactjs-popup';
 import aboutFirst from '../images/about1.png';
+import aboutTwo from '../images/about3.png';
 import 'reactjs-popup/dist/index.css';
 
 const Tips = () => {
@@ -50,6 +51,29 @@ const Tips = () => {
         </div>
       </div>
 
+      <div className='container'>
+        <div className='row mt-5 hero-row-reverse-mobile home-row '>
+          <div className='col-lg-12 txt-md-left'>
+            <div className='row mb-3'>
+              <h1 className='display-5 font-weight-bold'>
+              Experience Roadmap
+              </h1>
+              <h1 className='hr-purple'>
+            
+              </h1>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <div className='hero-img-right'>
+              <img
+                src={aboutTwo}
+                className='fluid-img'
+                alt='Timeline Image'
+              />  
+            </div>
+            
       /* <CurrentAboutRow />
       <LearnInformationSecondRow /> */
       
