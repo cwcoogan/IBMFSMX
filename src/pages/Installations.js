@@ -2,6 +2,7 @@ import React from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 import LearnInformationRow from '../components/LearnInformationRow';
 import CurrentInstallationsRow from '../components/CurrentInstallationsRow';
+import CurrentInstallationsSecondRow from '../components/CurrentInstallationsSecondRow';
 import LearnInformationSecondRow from '../components/LearnInformationSecondRow';
 import Card from 'react-bootstrap/Card';
 import Popup from 'reactjs-popup';
@@ -25,7 +26,7 @@ const Installations = () => {
         </div>
       </div> 
       <CurrentInstallationsRow />
-      <LearnInformationSecondRow />
+      <CurrentInstallationsSecondRow />
       
       <div className='tips-text'>
         <h1 className='display-4 font-weight-bold mb-3'>Check out these Tips</h1>
