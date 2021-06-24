@@ -6,13 +6,9 @@ $full-height: calc(100vh - 87px - 127px);
 @import 'objects';
 
 // Pages
-@import './pages/questionnaire';
-@import './pages/success';
-@import './pages/tips';
 @import './aboutFormat';
 
 // Components
 @import 'components';
-@import 'components/slider';
 
 @import 'utilities';
