@@ -4,16 +4,16 @@ import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 
 
-const LearnInformationRow = () => {
+const AppliancesInformationRow = () => {
   return (
     <div className='row-container container-fluid home-row'>
       <Popup
         trigger={<div className='image-container'>
         <div className='image shopping' />
-        <div className='title'>Cloud Pak for Data</div>
-        <div className='text'>
+        <div className='title'>Guardium Appliances</div>
+        {/* <div className='text'>
         Learn how shopping affects the environment.
-        </div>
+        </div> */}
       </div>}
         modal
         nested
@@ -52,13 +52,13 @@ const LearnInformationRow = () => {
           </div>
         )}
       </Popup>
-      {/* <Popup
+      <Popup
         trigger={<div className='image-container'>
         <div className='image clothing' />
-        <div className='title'>Clothing</div>
-        <div className='text'>
+        <div className='title'>Sterling Appliances</div>
+        {/* <div className='text'>
         Learn how apparel production affects the environment.
-        </div>
+        </div> */}
       </div>}
         modal
         nested
@@ -93,9 +93,9 @@ const LearnInformationRow = () => {
             </div>
           </div>
         )}
-      </Popup> */}
+      </Popup>
       </div>
   );
 };
 
-export default LearnInformationRow;
+export default AppliancesInformationRow;

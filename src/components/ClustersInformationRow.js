@@ -3,16 +3,59 @@ import { Link } from 'react-router-dom';
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 
-const LearnInformationRow = () => {
+const ClustersInformationRow = () => {
   return (
     <div className='row-container container-fluid home-row'>
+      <Popup
+        trigger={<div className='image-container'>
+        <div className='image household' />
+        <div className='title'>Cloud Pak for Data</div>
+        {/* <div className='text'>
+        Learn how much energy is being used and lower your emissions.
+        </div> */}
+      </div>}
+        modal
+        nested
+      >
+        {close => (
+          <div className="modal" style={{position:"inherit", display:"inherit"}} >
+            <button className="close" onClick={close}>
+              &times;
+            </button>
+            <div className="display-4 font-weight-bold text-center mb-3"> Household Tips </div>
+            <div className="content font-weight-bold">
+              🍃 Consider using LED lightbulbs instead of regular lightbulbs. 
+			  LED bulbs may cost more but they use a quarter of the energy compared to the regular ones and last up to 25 times longer<br>
+              </br>
+              <br />
+              🍃 Make sure you turn off all electronic devices when not in use and dont forget to turn off the light when leaving your room<br>
+              </br>
+              <br />
+              🍃 If you use the water heater often, try turning down the heater to 120˚F. Doing this can save you roughly 500 pounds of CO2.<br>
+              </br>
+              <br />
+            </div>
+            <div className="actions">
+              <button
+                className="button"
+                onClick={() => {
+                  console.log('modal closed ');
+                  close();
+                }}
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        )}
+      </Popup>
             <Popup
         trigger={<div className='image-container'>
         <div className='image transportation' />
         <div className='title'>Cloud Pak for Integration</div>
-        <div className='text'>
+        {/* <div className='text'>
           Learn how your choice of travel can affect the environment.
-        </div>
+        </div> */}
       </div>}
         modal
         nested
@@ -55,10 +98,10 @@ const LearnInformationRow = () => {
       <Popup
         trigger={<div className='image-container'>
         <div className='image household' />
-        <div className='title'>Household</div>
-        <div className='text'>
+        <div className='title'>Cloud Pak for Security</div>
+        {/* <div className='text'>
         Learn how much energy is being used and lower your emissions.
-        </div>
+        </div> */}
       </div>}
         modal
         nested
@@ -98,10 +141,10 @@ const LearnInformationRow = () => {
       <Popup
         trigger={<div className='image-container'>
         <div className='image food' />
-        <div className='title'>Sterling Appliances</div>
-        <div className='text'>
+        <div className='title'>Guardium Insights</div>
+        {/* <div className='text'>
         Learn how the foods you consume can affect the environment.
-        </div>
+        </div> */}
       </div>}
         modal
         nested
@@ -145,4 +188,4 @@ const LearnInformationRow = () => {
   );
 };
 
-export default LearnInformationRow;
+export default ClustersInformationRow;
