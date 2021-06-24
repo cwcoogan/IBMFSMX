@@ -134,7 +134,7 @@ const ClustersInformationRow = () => {
       </Popup>
       <Popup
         trigger={<div className='image-container'>
-        <div className='image food' />
+        <div className='image insights' />
         <div className='title'>Guardium Insights</div>
         {/* <div className='text'>
         Learn how the foods you consume can affect the environment.
