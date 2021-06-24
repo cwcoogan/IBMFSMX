@@ -22,16 +22,15 @@ const ClustersInformationRow = () => {
             <button className="close" onClick={close}>
               &times;
             </button>
-            <div className="display-4 font-weight-bold text-center mb-3"> Household Tips </div>
+            <div className="display-4 font-weight-bold text-center mb-3"> Cloud Pak for Data </div>
             <div className="content font-weight-bold">
-              🍃 Consider using LED lightbulbs instead of regular lightbulbs. 
-			  LED bulbs may cost more but they use a quarter of the energy compared to the regular ones and last up to 25 times longer<br>
+              🍃 Information to be updated<br>
               </br>
               <br />
-              🍃 Make sure you turn off all electronic devices when not in use and dont forget to turn off the light when leaving your room<br>
+              ● TBD<br>
               </br>
-              <br />
-              🍃 If you use the water heater often, try turning down the heater to 120˚F. Doing this can save you roughly 500 pounds of CO2.<br>
+              {/* <br /> */}
+              ● TBD<br>
               </br>
               <br />
             </div>
@@ -67,19 +66,15 @@ const ClustersInformationRow = () => {
             </button>
             <div className="display-4 font-weight-bold text-center mb-3"> Cloud Pak for Integration </div>
             <div className="content font-weight-bold">
-            Hybrid integration solution that provides an automated and closed-loop lifecycle across
-            multiple styles of enterprise intergration.<br>
+            🍃 Information to be updated<br>
               </br>
               <br />
-              ● Installer: Eric Lowery<br>
+              ● TBD<br>
               </br>
               {/* <br /> */}
-              ● Install Completed<br>
+              ● TBD<br>
               </br>
-              {/* <br /> */}
-              ● CP4I CoreOS: 4.6
-              <br>
-              </br>
+              <br />
             </div>
             <div className="actions">
               <button
@@ -111,16 +106,15 @@ const ClustersInformationRow = () => {
             <button className="close" onClick={close}>
               &times;
             </button>
-            <div className="display-4 font-weight-bold text-center mb-3"> Household Tips </div>
+            <div className="display-4 font-weight-bold text-center mb-3"> Cloud Pak for Security </div>
             <div className="content font-weight-bold">
-              🍃 Consider using LED lightbulbs instead of regular lightbulbs. 
-			  LED bulbs may cost more but they use a quarter of the energy compared to the regular ones and last up to 25 times longer<br>
+            🍃 Information to be updated<br>
               </br>
               <br />
-              🍃 Make sure you turn off all electronic devices when not in use and dont forget to turn off the light when leaving your room<br>
+              ● TBD<br>
               </br>
-              <br />
-              🍃 If you use the water heater often, try turning down the heater to 120˚F. Doing this can save you roughly 500 pounds of CO2.<br>
+              {/* <br /> */}
+              ● TBD<br>
               </br>
               <br />
             </div>
@@ -154,20 +148,17 @@ const ClustersInformationRow = () => {
             <button className="close" onClick={close}>
               &times;
             </button>
-            <div className="display-4 font-weight-bold text-center mb-3"> Sterling Appliances </div>
+            <div className="display-4 font-weight-bold text-center mb-3"> Guardium Insights </div>
             <div className="content font-weight-bold">
-            🍃 Reduce the amount of food you waste by planning your meals ahead of time, freezing any leftovers, and reusing any leftovers that could be left behind.<br>
-            </br>
+            🍃 Information to be updated<br>
+              </br>
               <br />
-              ● Installer: Jerry Steward<br>
+              ● TBD<br>
               </br>
               {/* <br /> */}
-              ● Install Completed<br>
+              ● TBD<br>
               </br>
-              {/* <br /> */}
-              ● OS: RHEL 8.2
-              <br>
-              </br>
+              <br />
             </div>
             <div className="actions">
               <button
