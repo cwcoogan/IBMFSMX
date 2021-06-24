@@ -8,7 +8,7 @@ const ClustersInformationRow = () => {
     <div className='row-container container-fluid home-row'>
       <Popup
         trigger={<div className='image-container'>
-        <div className='image household' />
+        <div className='image security' />
         <div className='title'>Cloud Pak for Data</div>
         {/* <div className='text'>
         Learn how much energy is being used and lower your emissions.
@@ -92,7 +92,7 @@ const ClustersInformationRow = () => {
       </Popup>
       <Popup
         trigger={<div className='image-container'>
-        <div className='image household' />
+        <div className='image security' />
         <div className='title'>Cloud Pak for Security</div>
         {/* <div className='text'>
         Learn how much energy is being used and lower your emissions.
