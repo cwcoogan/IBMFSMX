@@ -35,7 +35,48 @@
 
   }
 
+  .image-container {
+    width: 200px;
+    
+
+
+    @include media-breakpoint-down(sm) {
+        &:not(:last-child) {
+            margin-bottom: 5rem;
+        }
+    }
+
+    .image {
+        width: 200px;
+        height: 170px;
+        float: left;
+        background-repeat: no-repeat;
+        background-position: center center;
+        
+        &.profilepic {
+            background-image: url('/images/pictureIconTeam.png');
+        }
+    }
+
+    .title {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 36px;
+        text-align: center;
+       
+    }
+
+    .text {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+  }  
+
 }
+
+
 
 
 .hr-purple {
@@ -50,14 +91,16 @@
 
 .team-image {
   width: 100px;
-  height: 100px;
   float: left;
+  position: sticky;
   margin: 0em 0;
 }
 
+
 .second-team-image {
+  float: right;
+  text-align: center;
   width: 100px;
-  height: 100px;
   margin: 0em 0;
   position: relative;
   left: -185px;
@@ -84,12 +127,13 @@
 }
 
 .second-text-margin {
+  float: right;
   margin: 1em 0;
   font-weight: lead;
   font-size: 20px;
   line-height: 20px;
   position: relative;
-  left: -600px;
+  left: -605px;
   top: 20px;
 }
 

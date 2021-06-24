@@ -25,38 +25,26 @@ const Team = () => {
           </div>
         </div>
 
-        {/* project leads name changes will be located here and style in utilities.scss*/}
+        {/*project leads*/}
         <div className='team-row-container'>
-            <img
-              src={teamImgCircle}
-              className='team-image'
-              alt='Cicle Icons'
-            />
-            <p className='text-margin bold'>
-              Chase Coogan<br></br>
-              -
-            </p>
-            <img
-              src={teamImgCircle}
-              className='team-image'
-              alt='Cicle Icons'
-            />
-            <p className='text-margin bold'>
-              John Lucas<br></br>
-              -
-            </p>
-            <img
-              src={teamImgCircle}
-              className='team-image'
-              alt='Cicle Icons'
-            />
-            <p className='text-margin bold'>
-              Matt Konwiser<br></br>
-              -
-            </p>
-            
-
+          <div className='image-container'>
+          <div className='image profilepic'/>
+            <div className='title'>Chase Coogan</div>
+          
           </div>
+
+          <div className='image-container'>
+          <div className='image profilepic'/>
+            <div className='title'>John Lucas</div>
+          
+          </div>
+
+          <div className='image-container'>
+          <div className='image profilepic'/>
+            <div className='title'>Matt Konwiser</div>
+          
+          </div>
+        </div>
         
 
         <div className='row mt-5 hero-row-reverse-mobile home-row '>
@@ -109,6 +97,7 @@ const Team = () => {
               src={teamImgCircle}
               className='second-team-image'
               alt='Cicle Icons'
+            
             />
             <p className='second-text-margin bold'>
               New Column<br></br>
@@ -160,7 +149,66 @@ const Team = () => {
               -
             </p>
           </div>
-          {/* second row with different classes for now*/}
+          {/* second row*/}
+          <div className='team-row-container'>
+            <img
+              src={teamImgCircle}
+              className='team-image'
+              alt='Cicle Icons'
+            />
+            <p className='text-margin bold'>
+              Douglas Freeby<br></br>
+              -
+            </p>
+            <img
+              src={teamImgCircle}
+              className='team-image'
+              alt='Cicle Icons'
+            />
+            <p className='text-margin bold'>
+              Christopher Liccardi<br></br>
+              -
+            </p>
+            <img
+              src={teamImgCircle}
+              className='team-image'
+              alt='Cicle Icons'
+            />
+            <p className='text-margin bold'>
+              Jerry Steward<br></br>
+              -
+            </p>
+          </div>
+          {/* third row*/}
+          <div className='team-row-container'>
+            <img
+              src={teamImgCircle}
+              className='team-image'
+              alt='Cicle Icons'
+            />
+            <p className='text-margin bold'>
+              Rajesh Kartha<br></br>
+              -
+            </p>
+            <img
+              src={teamImgCircle}
+              className='team-image'
+              alt='Cicle Icons'
+            />
+            <p className='text-margin bold'>
+            Jonathan Tomasulo<br></br>
+              -
+            </p>
+            <img
+              src={teamImgCircle}
+              className='team-image'
+              alt='Cicle Icons'
+            />
+            <p className='text-margin bold'>
+              Robert Pugh<br></br>
+              -
+            </p>
+          </div>
 
         <div className='row mt-5 hero-row-reverse-mobile home-row '>
           <div className='col-lg-12 txt-md-left'>
@@ -175,69 +223,37 @@ const Team = () => {
             </div>
           </div>
         </div>
+
+        {/* interns/webdev*/}
+        <div className='team-row-container'>
+          <div className='image-container'>
+          <div className='image profilepic'/>
+            <div className='title'>Eduardo Gomez</div>
+          
+          </div>
+
+          <div className='image-container'>
+          <div className='image profilepic'/>
+            <div className='title'>Emily Placet</div>
+          
+          </div>
+
+          <div className='image-container'>
+          <div className='image profilepic'/>
+            <div className='title'>Alejandro Obrador</div>
+          
+          </div>
+        </div>
         
-        <div className="container">
-        <div className='row hero-row-reverse mobile home-row'>
-          <div className='col-lg-6 txt-md-left'>
-            <div className='row mb-3'></div>
-            <img
-              src={teamImgCircle}
-              className='team-image'
-              alt='Cicle Icons'
-            />
-            <p className='text-margin bold'>
-              Chase Coogan<br></br>
-              -
-            </p>
-            
-          </div>    
-        </div>
-      </div>
+        <div className='team-row-container'>
+          <div className='image-container'>
+          <div className='image profilepic'/>
+            <div className='title'>Bharath Kaimal</div>
+          
+          </div>
 
-      <div className="container">
-        <div className='row hero-row-reverse mobile home-row'>
-          <div className='col-lg-6 txt-md-left'>
-            <div className='row mb-3'></div>
-            <img
-              src={teamImgCircle}
-              className='team-image'
-              alt='Cicle Icons'
-            />
-            <p className='text-margin bold'>
-              John Lucas<br></br>
-              -
-            </p>
-            
-            
-          </div>    
+          
         </div>
-      </div>
-
-      <div className="container">
-        <div className='row hero-row-reverse mobile home-row'>
-          <div className='col-lg-6 txt-md-left'>
-            <div className='row mb-3'></div>
-            <img
-              src={teamImgCircle}
-              className='team-image'
-              alt='Cicle Icons'
-            />
-            <p className='text-margin bold'>
-              Matt Konwiser<br></br>
-              -
-            </p>
-          </div> 
-          <div className='col-lg-4'>
-            <div className='team-image-hat'>
-              <img
-                src={teamImgHat}
-                className='fluid-img'
-                alt='Contact Page Image'
-              />
-            </div>
-          </div>    
-        </div>
-      </div>
 
       </div>
       
