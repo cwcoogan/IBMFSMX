@@ -46,21 +46,31 @@ const Home = () => {
          src={homeImgThird}
                 className='fluid-img'
                 alt='Sitting on questionnaire'></img>
-      <div className='row-container'>
-      <h1 className='homePageTitle'>Highmark Health expedites AI in urgent times</h1>
-        <img 
+ 
+</div>
+
+<div class="row">
+  <div class="homePageTitle">
+    <h2>Highmark Health expedites AI in urgent times</h2>
+    
+  </div>
+  <div class="homePageTitle">
+  <img 
          src={homeImgFourth}
                 className='img'
                 alt='Sitting on questionnaire'> 
                 </img>
-        <p className='homePageText'>
+  </div>
+  <div class="homePageTitle">
+  <p className='homePageText'>
               Get insights into application to identify high-rish patients for sepsis, cuts AI lifecycle from one year to six weeks. 
               <a href="https://www.ibm.com/blogs/journey-to-ai/2021/01/highmark-health-teams-with-ibm-advancing-data-science-to-stem-a-growing-tide-of-sepsis-and-covid-19-hospital-admissions/">Read More</a>
             </p>
-      </div>
+  </div>
+</div>
       
       </div>
-    </div>
+ 
   );
 };
 
