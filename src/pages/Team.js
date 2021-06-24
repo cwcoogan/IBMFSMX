@@ -21,8 +21,43 @@ const Team = () => {
               </h1>
   
             </div>
+            
           </div>
         </div>
+
+        {/* project leads name changes will be located here and style in utilities.scss*/}
+        <div className='team-row-container'>
+            <img
+              src={teamImgCircle}
+              className='team-image'
+              alt='Cicle Icons'
+            />
+            <p className='text-margin bold'>
+              Chase Coogan<br></br>
+              -
+            </p>
+            <img
+              src={teamImgCircle}
+              className='team-image'
+              alt='Cicle Icons'
+            />
+            <p className='text-margin bold'>
+              John Lucas<br></br>
+              -
+            </p>
+            <img
+              src={teamImgCircle}
+              className='team-image'
+              alt='Cicle Icons'
+            />
+            <p className='text-margin bold'>
+              Matt Konwiser<br></br>
+              -
+            </p>
+            
+
+          </div>
+        
 
         <div className='row mt-5 hero-row-reverse-mobile home-row '>
           <div className='col-lg-12 txt-md-left'>
@@ -38,6 +73,49 @@ const Team = () => {
           </div>
         </div>
 
+        {/* environment configuration name changes will be located here and style in utilities.scss*/}
+        <div className='team-row-container'>
+            <img
+              src={teamImgCircle}
+              className='team-image'
+              alt='Cicle Icons'
+            />
+            <p className='text-margin bold'>
+              Duane Almeter<br></br>
+              -
+            </p>
+            <img
+              src={teamImgCircle}
+              className='team-image'
+              alt='Cicle Icons'
+            />
+            <p className='text-margin bold'>
+              Rich Russo<br></br>
+              -
+            </p>
+            <img
+              src={teamImgCircle}
+              className='team-image'
+              alt='Cicle Icons'
+            />
+            <p className='text-margin bold'>
+              Anon Person<br></br>
+              -
+            </p>
+          </div>
+          {/* second row with different classes for now*/}
+          <div className='team-row-container'>
+            <img
+              src={teamImgCircle}
+              className='second-team-image'
+              alt='Cicle Icons'
+            />
+            <p className='second-text-margin bold'>
+              New Column<br></br>
+              -
+            </p>
+          </div>
+
         <div className='row mt-5 hero-row-reverse-mobile home-row '>
           <div className='col-lg-12 txt-md-left'>
             <div className='row mb-3'>
@@ -51,6 +129,38 @@ const Team = () => {
             </div>
           </div>
         </div>
+
+        {/* environment configuration name changes will be located here and style in utilities.scss*/}
+        <div className='team-row-container'>
+            <img
+              src={teamImgCircle}
+              className='team-image'
+              alt='Cicle Icons'
+            />
+            <p className='text-margin bold'>
+              Chris Cardran<br></br>
+              -
+            </p>
+            <img
+              src={teamImgCircle}
+              className='team-image'
+              alt='Cicle Icons'
+            />
+            <p className='text-margin bold'>
+              Christopher Suman<br></br>
+              -
+            </p>
+            <img
+              src={teamImgCircle}
+              className='team-image'
+              alt='Cicle Icons'
+            />
+            <p className='text-margin bold'>
+              David Gibson<br></br>
+              -
+            </p>
+          </div>
+          {/* second row with different classes for now*/}
 
         <div className='row mt-5 hero-row-reverse-mobile home-row '>
           <div className='col-lg-12 txt-md-left'>
@@ -97,6 +207,7 @@ const Team = () => {
               John Lucas<br></br>
               -
             </p>
+            
             
           </div>    
         </div>

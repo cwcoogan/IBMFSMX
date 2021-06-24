@@ -14,6 +14,30 @@
   padding: 0;
 }
 
+.team-row-container {
+  display: flex;
+  flex-direction: column;
+  
+
+
+  @include media-breakpoint-down(sm) {
+      align-items: center;
+  }
+
+  @include media-breakpoint-up(md) {
+    margin: 4em 0;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .image-container:hover {
+      box-shadow: 0 0 20px rgba(33,33,33,.2);
+
+  }
+
+}
+
+
 .hr-purple {
   display: block;
   height: 2px;
@@ -29,6 +53,14 @@
   height: 100px;
   float: left;
   margin: 0em 0;
+}
+
+.second-team-image {
+  width: 100px;
+  height: 100px;
+  margin: 0em 0;
+  position: relative;
+  left: -185px;
 }
 
 .team-image-hat {
@@ -47,8 +79,18 @@
   font-size: 20px;
   line-height: 20px;
   position: relative;
-  left: 80px;
-  top: 35px;
+  left: -50px;
+  top: 20px;
+}
+
+.second-text-margin {
+  margin: 1em 0;
+  font-weight: lead;
+  font-size: 20px;
+  line-height: 20px;
+  position: relative;
+  left: -600px;
+  top: 20px;
 }
 
 .darkgreen-bg {
