@@ -128,13 +128,17 @@
             //background-color: rgb(118, 64, 187);
             background-position: center center;
             //navigation bar photos
-            &.transportation {
-                background-image: url('/images/learn_transportation.svg');
+            &.integration {
+                background-image: url('/images/integration.png');
             }
 
             &.security {
                 background-image: url('/images/security.png');
             }
+
+            &.data {
+              background-image: url('/images/data.png');
+          }
 
             &.shopping {
                 background-image: url('/images/learn_shopping.svg');
