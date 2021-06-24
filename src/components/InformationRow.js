@@ -9,7 +9,7 @@ const InformationRow = () => {
           <Popup
         trigger={<div className='image-container-home'>
         <div className='image monitor' />
-        <div className='homePageText'>What are Cloud Paks?</div>
+        <div className='homePageText text-center'>What are Cloud Paks?</div>
       </div>}
         modal
         nested
@@ -18,7 +18,7 @@ const InformationRow = () => {
           <div className="modal" style={{position:"inherit", display:"inherit"}} >
             <button className="close" onClick={close}>
               &times;
-            </button>
+            </button >
             <div className="display-4 font-weight-bold text-center mb-3"> What are Cloud Paks?</div>
             <div className="content font-weight-bold">
             <br></br>
@@ -52,7 +52,7 @@ const InformationRow = () => {
       <Popup
         trigger={<div className='image-container-home'>
         <div className='image learn' />
-        <div className='homePageText'>Cloud Paks Benefits</div>
+        <div className='homePageText text-center'>Cloud Paks Benefits</div>
       </div>}
         modal
         nested
@@ -93,7 +93,7 @@ const InformationRow = () => {
       <Popup
         trigger={<div className='image-container-home'>
         <div className='image improve' />
-        <div className='homePageText'>Impacts of Cloud Paks</div>
+        <div className='homePageText text-center'>Impacts of Cloud Paks</div>
       </div>}
         modal
         nested
@@ -134,7 +134,7 @@ const InformationRow = () => {
       <Popup
         trigger={<div className='image-container-home'>
         <div className='image learn2' />
-        <div className='homePageText'>How Cloud Paks Help</div>
+        <div className='homePageText text-center'>How Cloud Paks Help</div>
       </div>}
         modal
         nested
