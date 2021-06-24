@@ -2,6 +2,7 @@ import React from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 import LearnInformationRow from '../components/LearnInformationRow';
 import ClustersInformationRow from '../components/ClustersInformationRow';
+import ClustersInformationSecondRow from '../components/ClustersInformationSecondRow';
 import AppliancesInformationRow from '../components/AppliancesInformationRow';
 import LearnInformationSecondRow from '../components/LearnInformationSecondRow';
 import Card from 'react-bootstrap/Card';
@@ -43,6 +44,7 @@ const Installations = () => {
       </div> 
 
       <ClustersInformationRow />
+      <ClustersInformationSecondRow />
 
       {/* appliances */}
       <div className='container'>

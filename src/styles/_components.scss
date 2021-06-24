@@ -140,17 +140,29 @@
               background-image: url('/images/data.png');
           }
 
+            &.insights {
+              background-image: url('/images/guardium_insights.png');
+          }
+
             &.shopping {
                 background-image: url('/images/learn_shopping.svg');
             }
 
-            &.insights {
-                background-image: url('/images/guardium_insights.png');
-            }
+            &.food {
+              background-image: url('/images/learn_food.svg');
+          }
 
             &.clothing {
                 background-image: url('/images/learn_clothing.svg')
             }
+
+            &.household {
+              background-image: url('/images/learn_household.svg');
+          }
+
+          &.transportation {
+            background-image: url('/images/learn_transportation.svg');
+        }
         }
 
         .title {
