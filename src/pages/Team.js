@@ -25,9 +25,9 @@ const Team = () => {
         </div>
         
         <div className="container">
-        <div className='row mt-5 hero-row-reverse mobile home-row'>
+        <div className='row hero-row-reverse mobile home-row'>
           <div className='col-lg-6 txt-md-left'>
-            <div className='row mb-2'></div>
+            <div className='row mb-3'></div>
             <img
               src={teamImgCircle}
               className='team-image'
@@ -60,7 +60,7 @@ const Team = () => {
       </div>
 
       <div className="container">
-        <div className='row mt-5 hero-row-reverse mobile home-row'>
+        <div className='row hero-row-reverse mobile home-row'>
           <div className='col-lg-6 txt-md-left'>
             <div className='row mb-3'></div>
             <img
