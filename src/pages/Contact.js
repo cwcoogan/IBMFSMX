@@ -2,7 +2,7 @@ import React from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';
 import 'reactjs-popup/dist/index.css';
-import contactImgFir from '../images/ContactVisual.png';
+import contactImgFir from '../images/contact.png';
 
 const Contact = () => {
   return (

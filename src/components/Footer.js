@@ -14,7 +14,7 @@ const Footer = () => {
             className='footer__logo'
           />
         </Link>
-        <p>Made by IBM FSMX Experience</p>
+        <p>© IBM FSM Experience 2021 </p>
       </div>
     </footer>
   );
