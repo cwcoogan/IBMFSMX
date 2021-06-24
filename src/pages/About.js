@@ -70,9 +70,9 @@ const Tips = () => {
     <div class="timeline">
       <ul> 
         <li>
-          <div class=".timeline-content">
-            <h2 class="date">May 3rd, 1999</h2>
-            <h1>Heading 1</h1>
+          <div class="timeline-content">
+            <h1>Environment Initalization</h1>
+            <h2 class="date">Q1</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, 
               corrupti labore quae quasi blanditiis maiores totam excepturi dicta.
               Dolorem architecto fugiat culpa, maiores neque similique asperiores sunt soluta ab ratione.</p>
@@ -80,8 +80,8 @@ const Tips = () => {
         </li>
         <li>
           <div class="timeline-content">
-            <h1>Heading 2</h1>
-            <h2 class="date">May 3rd, 1999</h2>
+            <h1>Product Installation</h1>
+            <h2 class="date">Q2</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, 
               corrupti labore quae quasi blanditiis maiores totam excepturi dicta.
               Dolorem architecto fugiat culpa, maiores neque similique asperiores sunt soluta ab ratione.</p>
@@ -89,8 +89,8 @@ const Tips = () => {
         </li>
         <li>
           <div class="timeline-content">
-            <h1>Heading 3</h1>
-            <h2 class="date">May 3rd, 1999</h2>
+            <h1>Data Implementation</h1>
+            <h2 class="date">Q3</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, 
               corrupti labore quae quasi blanditiis maiores totam excepturi dicta.
               Dolorem architecto fugiat culpa, maiores neque similique asperiores sunt soluta ab ratione.</p>
@@ -98,7 +98,8 @@ const Tips = () => {
         </li>
         <li>
           <div class="timeline-content">
-            <h1>Heading 4</h1>
+            <h1>Environment Training</h1>
+            <h2 class="date">Q4</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, 
               corrupti labore quae quasi blanditiis maiores totam excepturi dicta.
               Dolorem architecto fugiat culpa, maiores neque similique asperiores sunt soluta ab ratione.</p>
@@ -108,7 +109,6 @@ const Tips = () => {
   </div>
 </div>
 
-      
     </div>
 
   );
