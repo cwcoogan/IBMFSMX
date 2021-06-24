@@ -47,16 +47,15 @@ const Home = () => {
                 className='fluid-img'
                 alt='Sitting on questionnaire'></img>
       <div className='row-container'>
-      <h1 className='homePageTitle'>Case 1 </h1>
+      <h1 className='homePageTitle'>Highmark Health expedites AI in urgent times</h1>
         <img 
          src={homeImgFourth}
                 className='img'
                 alt='Sitting on questionnaire'> 
                 </img>
         <p className='homePageText'>
-              Deutsche Bank As a leading bank serving private, corporate, and fiduciary clients, Deutsche Bank has 
-        embraced digital transformation. The bank wanted to improve the experience of both its 
-        banking customers and users of its back-end technology, including employees
+              Get insights into application to identify high-rish patients for sepsis, cuts AI lifecycle from one year to six weeks. 
+              <a href="https://www.ibm.com/blogs/journey-to-ai/2021/01/highmark-health-teams-with-ibm-advancing-data-science-to-stem-a-growing-tide-of-sepsis-and-covid-19-hospital-admissions/">Read More</a>
             </p>
       </div>
       
