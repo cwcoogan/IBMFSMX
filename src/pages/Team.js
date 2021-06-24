@@ -61,49 +61,36 @@ const Team = () => {
           </div>
         </div>
 
-        {/* environment configuration name changes will be located here and style in utilities.scss*/}
+        {/* environment configuration*/}
         <div className='team-row-container'>
-            <img
-              src={teamImgCircle}
-              className='team-image'
-              alt='Cicle Icons'
-            />
-            <p className='text-margin bold'>
-              Duane Almeter<br></br>
-              -
-            </p>
-            <img
-              src={teamImgCircle}
-              className='team-image'
-              alt='Cicle Icons'
-            />
-            <p className='text-margin bold'>
-              Rich Russo<br></br>
-              -
-            </p>
-            <img
-              src={teamImgCircle}
-              className='team-image'
-              alt='Cicle Icons'
-            />
-            <p className='text-margin bold'>
-              Anon Person<br></br>
-              -
-            </p>
+          <div className='image-container'>
+          <div className='image profilepic'/>
+            <div className='title'>Duane Almeter</div>
+          
           </div>
-          {/* second row with different classes for now*/}
-          <div className='team-row-container'>
-            <img
-              src={teamImgCircle}
-              className='second-team-image'
-              alt='Cicle Icons'
-            
-            />
-            <p className='second-text-margin bold'>
-              New Column<br></br>
-              -
-            </p>
+
+          <div className='image-container'>
+          <div className='image profilepic'/>
+            <div className='title'>Rich Russo</div>
+          
           </div>
+
+          <div className='image-container'>
+          <div className='image profilepic'/>
+            <div className='title'>?</div>
+          
+          </div>
+        </div>
+        
+        <div className='team-row-container'>
+          <div className='image-container'>
+          <div className='image profilepic'/>
+            <div className='title'>?</div>
+          
+          </div>
+
+          
+        </div>
 
         <div className='row mt-5 hero-row-reverse-mobile home-row '>
           <div className='col-lg-12 txt-md-left'>
@@ -119,96 +106,67 @@ const Team = () => {
           </div>
         </div>
 
-        {/* environment configuration name changes will be located here and style in utilities.scss*/}
+        {/* architect/installers*/}
         <div className='team-row-container'>
-            <img
-              src={teamImgCircle}
-              className='team-image'
-              alt='Cicle Icons'
-            />
-            <p className='text-margin bold'>
-              Chris Cardran<br></br>
-              -
-            </p>
-            <img
-              src={teamImgCircle}
-              className='team-image'
-              alt='Cicle Icons'
-            />
-            <p className='text-margin bold'>
-              Christopher Suman<br></br>
-              -
-            </p>
-            <img
-              src={teamImgCircle}
-              className='team-image'
-              alt='Cicle Icons'
-            />
-            <p className='text-margin bold'>
-              David Gibson<br></br>
-              -
-            </p>
+          <div className='image-container'>
+          <div className='image profilepic'/>
+            <div className='title'>Chris Cardran</div>
+          
           </div>
+
+          <div className='image-container'>
+          <div className='image profilepic'/>
+            <div className='title'>Christopher Liccardi</div>
+          
+          </div>
+
+          <div className='image-container'>
+          <div className='image profilepic'/>
+            <div className='title'>Christopher Suman</div>
+          
+          </div>
+        </div>
+
           {/* second row*/}
           <div className='team-row-container'>
-            <img
-              src={teamImgCircle}
-              className='team-image'
-              alt='Cicle Icons'
-            />
-            <p className='text-margin bold'>
-              Douglas Freeby<br></br>
-              -
-            </p>
-            <img
-              src={teamImgCircle}
-              className='team-image'
-              alt='Cicle Icons'
-            />
-            <p className='text-margin bold'>
-              Christopher Liccardi<br></br>
-              -
-            </p>
-            <img
-              src={teamImgCircle}
-              className='team-image'
-              alt='Cicle Icons'
-            />
-            <p className='text-margin bold'>
-              Jerry Steward<br></br>
-              -
-            </p>
+          <div className='image-container'>
+          <div className='image profilepic'/>
+            <div className='title'>David Gibson</div>
+          
           </div>
+
+          <div className='image-container'>
+          <div className='image profilepic'/>
+            <div className='title'>Douglas Freeby</div>
+          
+          </div>
+
+          <div className='image-container'>
+          <div className='image profilepic'/>
+            <div className='title'>Jerry Steward</div>
+          
+          </div>
+        </div>
           {/* third row*/}
           <div className='team-row-container'>
-            <img
-              src={teamImgCircle}
-              className='team-image'
-              alt='Cicle Icons'
-            />
-            <p className='text-margin bold'>
-              Rajesh Kartha<br></br>
-              -
-            </p>
-            <img
-              src={teamImgCircle}
-              className='team-image'
-              alt='Cicle Icons'
-            />
-            <p className='text-margin bold'>
-            Jonathan Tomasulo<br></br>
-              -
-            </p>
-            <img
-              src={teamImgCircle}
-              className='team-image'
-              alt='Cicle Icons'
-            />
-            <p className='text-margin bold'>
-              Robert Pugh<br></br>
-              -
-            </p>
+          <div className='image-container'>
+          <div className='image profilepic'/>
+            <div className='title'>Jonathan Tomasulo</div>
+          
           </div>
+
+          <div className='image-container'>
+          <div className='image profilepic'/>
+            <div className='title'>Rajesh Kartha</div>
+          
+          </div>
+
+          <div className='image-container'>
+          <div className='image profilepic'/>
+            <div className='title'>Robert Pugh</div>
+          
+          </div>
+        </div>
 
         <div className='row mt-5 hero-row-reverse-mobile home-row '>
           <div className='col-lg-12 txt-md-left'>
