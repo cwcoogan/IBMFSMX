@@ -52,8 +52,9 @@ const Home = () => {
 <div class="row">
   
   <div class="homePageTitle left">
-    <h2>Highmark Health</h2>
-    <h2>expedites AI in urgent times</h2>
+    <h2>Highmark Health </h2>
+    <h2>expedites AI </h2>
+    <h2>urgent times</h2>
     
   </div>
   <div class="homePageTitle middle">
