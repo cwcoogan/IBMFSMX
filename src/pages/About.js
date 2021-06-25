@@ -25,7 +25,7 @@ const Tips = () => {
           </div>
         </div>
       </div> 
-
+      
       <div className="container">
         <div className='row mt-5 hero-row-reverse mobile home-row'>
           <div className='col-lg-6 txt-md-left'>
@@ -39,7 +39,7 @@ const Tips = () => {
               </ul>
             </p>
           </div> 
-          <div className='col-lg-4'>
+          <div className='col-lg-5'>
             <div className='hero-img-right'>
               <img
                 src={aboutFirst}
