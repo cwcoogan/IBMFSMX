@@ -59,7 +59,7 @@ const Team = () => {
         {/* environment configuration*/}
         <div className='team-row-container'>
           <div className='image-container'>
-          <div className='image profilepic'/>
+          <div className='image duane'/>
             <div className='title'>Duane Almeter</div>
           
           </div>
@@ -79,7 +79,7 @@ const Team = () => {
         
         <div className='team-row-container'>
           <div className='image-container'>
-          <div className='image profilepic'/>
+          <div className='image rich'/>
             <div className='title'>Rich Russo</div>
           
           </div>
@@ -167,7 +167,7 @@ const Team = () => {
           <div className='col-lg-12 txt-md-left'>
             <div className='row mb-3'>
               <h1 className='display-5 font-weight-bold'>
-                Interns
+                Web Developers/Interns
               </h1>
               <h1 className='hr-purple'>
                 
@@ -180,19 +180,19 @@ const Team = () => {
         {/* interns/webdev*/}
         <div className='team-row-container'>
           <div className='image-container'>
-          <div className='image profilepic'/>
+          <div className='image eduardo'/>
             <div className='title'>Eduardo Gomez</div>
           
           </div>
 
           <div className='image-container'>
-          <div className='image profilepic'/>
+          <div className='image emily'/>
             <div className='title'>Emily Placet</div>
           
           </div>
 
           <div className='image-container'>
-          <div className='image profilepic'/>
+          <div className='image alejandro'/>
             <div className='title'>Alejandro Obrador</div>
           
           </div>
@@ -200,7 +200,7 @@ const Team = () => {
         
         <div className='team-row-container'>
           <div className='image-container'>
-          <div className='image profilepic'/>
+          <div className='image bharath'/>
             <div className='title'>Bharath Kaimal</div>
           
           </div>
