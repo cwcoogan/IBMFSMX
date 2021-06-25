@@ -40,18 +40,21 @@
         font-size: 36px;
         line-height: 36px;
         float:right;
-        text-align: left;
        color:white;
 }
 .left {
   width: 30%;
+  padding: auto;
+  text-align: right;
 }
 .right{
   width: 60%;
+  text-align: left;
+  padding: auto;
 }
 
 .middle {
-  width: 10%;
+  width: 2%;
 }
 .row-container {
     display: flex;

@@ -65,9 +65,9 @@ const Home = () => {
   </div>
   <div class="homePageTitle right">
   <p className='homePageText'>
-              Get insights into application to identify high-rish patients for sepsis, cuts AI lifecycle from one year to six weeks. 
-              <a href="https://www.ibm.com/blogs/journey-to-ai/2021/01/highmark-health-teams-with-ibm-advancing-data-science-to-stem-a-growing-tide-of-sepsis-and-covid-19-hospital-admissions/">Read More</a>
+              Get insights into application to identify high-rish patients for sepsis, cuts AI lifecycle from one year to six weeks.
             </p>
+  <p className='homePageText'><a href="https://www.ibm.com/blogs/journey-to-ai/2021/01/highmark-health-teams-with-ibm-advancing-data-science-to-stem-a-growing-tide-of-sepsis-and-covid-19-hospital-admissions/">Read More</a></p>
   </div>
 </div>
       
