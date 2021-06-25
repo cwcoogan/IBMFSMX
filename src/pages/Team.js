@@ -1,10 +1,5 @@
 import React from 'react';
-import Accordion from 'react-bootstrap/Accordion';
-import TeamInfoRow from '../components/TeamInfoRow';
-import Card from 'react-bootstrap/Card';
 import 'reactjs-popup/dist/index.css';
-import teamImgHat from '../images/TeamHatIcon.png';
-import teamImgCircle from '../images/pictureIconTeam.png';
 
 const Team = () => {
   return (
@@ -71,13 +66,13 @@ const Team = () => {
 
           <div className='image-container'>
           <div className='image profilepic'/>
-            <div className='title'>Rich Russo</div>
+            <div className='title'>Mitchell Odum</div>
           
           </div>
 
           <div className='image-container'>
           <div className='image profilepic'/>
-            <div className='title'>?</div>
+            <div className='title'>Mohammed Alvi</div>
           
           </div>
         </div>
@@ -85,7 +80,7 @@ const Team = () => {
         <div className='team-row-container'>
           <div className='image-container'>
           <div className='image profilepic'/>
-            <div className='title'>?</div>
+            <div className='title'>Rich Russo</div>
           
           </div>
 
