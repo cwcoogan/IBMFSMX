@@ -9,7 +9,7 @@ const AppliancesInformationRow = () => {
     <div className='row-container container-fluid home-row'>
       <Popup
         trigger={<div className='image-container'>
-        <div className='image shopping' />
+        <div className='image guardiumapp' />
         <div className='title'>Guardium Appliances</div>
         {/* <div className='text'>
         Learn how shopping affects the environment.
@@ -51,7 +51,7 @@ const AppliancesInformationRow = () => {
       </Popup>
       <Popup
         trigger={<div className='image-container'>
-        <div className='image clothing' />
+        <div className='image sterling' />
         <div className='title'>Sterling Appliances</div>
         {/* <div className='text'>
         Learn how apparel production affects the environment.

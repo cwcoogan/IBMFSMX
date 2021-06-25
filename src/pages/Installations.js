@@ -64,7 +64,7 @@ const Installations = () => {
 
       <AppliancesInformationRow />
       
-      <div className='tips-text'>
+      {/* <div className='tips-text'>
         <h1 className='display-4 font-weight-bold mb-3'>Check out these Tips</h1>
       </div>
       <Accordion className='pt-0 pb-0'>
@@ -178,7 +178,7 @@ const Installations = () => {
             </Card.Body>
           </Accordion.Collapse>
         </Card>
-      </Accordion>
+      </Accordion> */}
     </div>
 
   );
