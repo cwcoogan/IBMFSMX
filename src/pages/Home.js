@@ -50,18 +50,20 @@ const Home = () => {
 </div>
 
 <div class="row">
-  <div class="homePageTitle">
-    <h2>Highmark Health expedites AI in urgent times</h2>
+  
+  <div class="homePageTitle left">
+    <h2>Highmark Health</h2>
+    <h2>expedites AI in urgent times</h2>
     
   </div>
-  <div class="homePageTitle">
+  <div class="homePageTitle middle">
   <img 
          src={homeImgFourth}
                 className='img'
                 alt='Sitting on questionnaire'> 
                 </img>
   </div>
-  <div class="homePageTitle">
+  <div class="homePageTitle right">
   <p className='homePageText'>
               Get insights into application to identify high-rish patients for sepsis, cuts AI lifecycle from one year to six weeks. 
               <a href="https://www.ibm.com/blogs/journey-to-ai/2021/01/highmark-health-teams-with-ibm-advancing-data-science-to-stem-a-growing-tide-of-sepsis-and-covid-19-hospital-admissions/">Read More</a>

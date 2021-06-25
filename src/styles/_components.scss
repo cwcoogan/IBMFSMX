@@ -39,8 +39,19 @@
   font-weight: bold;
         font-size: 36px;
         line-height: 36px;
+        float:right;
         text-align: left;
        color:white;
+}
+.left {
+  width: 30%;
+}
+.right{
+  width: 60%;
+}
+
+.middle {
+  width: 10%;
 }
 .row-container {
     display: flex;
