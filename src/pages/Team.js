@@ -23,19 +23,19 @@ const Team = () => {
         {/*project leads*/}
         <div className='team-row-container'>
           <div className='image-container'>
-          <div className='image profilepic'/>
+          <div className='image chase'/>
             <div className='title'>Chase Coogan</div>
           
           </div>
 
           <div className='image-container'>
-          <div className='image profilepic'/>
+          <div className='image john'/>
             <div className='title'>John Lucas</div>
           
           </div>
 
           <div className='image-container'>
-          <div className='image profilepic'/>
+          <div className='image matt'/>
             <div className='title'>Matt Konwiser</div>
           
           </div>
