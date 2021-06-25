@@ -12,7 +12,7 @@ import 'reactjs-popup/dist/index.css';
 const Installations = () => {
   return (
     <div>
-      <div className='container'>
+      {/* <div className='container'>
         <div className='row mt-5 hero-row-reverse-mobile home-row '>
           <div className='col-lg-12 txt-md-left'>
             <div className='row mb-3'>
@@ -25,7 +25,7 @@ const Installations = () => {
             </div>
           </div>
         </div>
-      </div> 
+      </div>  */}
 
       {/* clusters */}
       <div className='container'>
