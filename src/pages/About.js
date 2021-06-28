@@ -57,9 +57,10 @@ const Tips = () => {
             <h1>Environment Initalization</h1>
             <h2 class="date">Q1</h2>
             <p> In the first quarter, we initiated the launch of the IBM Financial Service Market Experience
-              (FSMX). The first multi-cluster environment, dedicated to the Financial Market to help Tech Reps and Architects
-              host demonstrations to shorten PoC windows. The FSMX Environment will allow tech reps to learn
-              about different products, integrations, as well as learn about OpenShift concepts.
+              (FSMX). The first multi-cluster environment, dedicated to the Financial Market to help train 
+              Tech Reps and Architects on OpenShift concepts, cross-brand training, and product integrations.
+              Tech Reps and Architects will be able to use the IBM FSMX Environment as a dedicated server for hosting
+              product demonstrations and to shorten PoC windows.
             </p>
           </div>
         </li>
@@ -94,8 +95,8 @@ const Tips = () => {
               IBM product integration and feasability. We want to show how the security components are a necessity, and 
               what will happen when you turn on/off different components. <br></br><br></br>
               
-              This FSMX will also hold a magnitude of use-cases, that technical rep's can spin up in an instance to
-              demonstrate off to clients, and to shorten PoC windows. We will use this environment as an area to promote
+              The FSMX will also hold a magnitude of use-cases, that technical rep's can spin up in an instance to
+              demonstrate to clients, and to shorten PoC windows. We will use this environment as an area to promote
               cross-brand training on products, as well as OpenShift concepts, the underlying technology behind IBM Cloud Paks.
            </p>
           </div>
