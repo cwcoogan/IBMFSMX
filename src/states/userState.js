@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
 import { auth, firestore } from '../assets/firebase';
-import defaultProfileImage from '../images/default-profile-img.jpg';
+import defaultProfileImage from '../images/IBM_logo_pos_RGB.png';
 import firebase from 'firebase/app';
 import 'firebase/storage';
 import imageCompression from 'browser-image-compression';

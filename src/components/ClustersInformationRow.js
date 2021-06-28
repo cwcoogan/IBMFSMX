@@ -1,11 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 
 const ClustersInformationRow = () => {
   return (
-    <div className='row-container container-fluid home-row'>
+    <div className='row-container container-fluid installations-row'>
       <Popup
         trigger={<div className='image-container'>
         <div className='image data' />
