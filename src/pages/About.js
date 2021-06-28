@@ -78,18 +78,26 @@ const Tips = () => {
           <div class="timeline-content">
             <h1>Data Implementation</h1>
             <h2 class="date">Q3</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, 
-              corrupti labore quae quasi blanditiis maiores totam excepturi dicta.
-              Dolorem architecto fugiat culpa, maiores neque similique asperiores sunt soluta ab ratione.</p>
+            <p> The first component we want to show off to customers is the easibility in product integration. 
+              We went ahead and loaded up data into our DB2 database and set up its Management Console. During this phase, 
+              we connected all components to one another, CP4D to CP4S, Guardium S-Tap to CP4D (DB2), and to
+              it's own Guardium Insights UI to run audit analysis. Now we are ready to input use-cases and get this shown 
+              to clients.
+              </p>
           </div>
         </li>
         <li>
           <div class="timeline-content">
             <h1>Environment Training</h1>
             <h2 class="date">Q4</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, 
-              corrupti labore quae quasi blanditiis maiores totam excepturi dicta.
-              Dolorem architecto fugiat culpa, maiores neque similique asperiores sunt soluta ab ratione.</p>
+            <p> in Q4, we are ready to input use-cases. The IBM FSMX will be shown off the Financial Market to demonstrate
+              IBM product integration and feasability. We want to show how the security components are a necessity, and 
+              what will happen when you turn on/off different components. <br></br><br></br>
+              
+              This FSMX will also hold a magnitude of use-cases, that technical rep's can spin up in an instance to
+              demonstrate off to clients, and to shorten PoC windows. We will use this environment as an area to promote
+              cross-brand training on products, as well as OpenShift concepts, the underlying technology behind IBM Cloud Paks.
+           </p>
           </div>
         </li>
       </ul>
