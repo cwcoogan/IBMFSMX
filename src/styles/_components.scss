@@ -32,29 +32,49 @@
   font-weight: normal;
         font-size: 16px;
         line-height: 24px;
-        text-align: left;
         color:white;
 }
+.businessCaseText{
+  font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color:white;
+        line-height: 60%;
+        padding-bottom: 10px;
+
+}
 .homePageTitle{
-  font-weight: bold;
-        font-size: 36px;
+        font-size: 24px;
         line-height: 36px;
-        float:right;
        color:white;
 }
 .left {
-  width: 30%;
+  width: 20%;
   padding: auto;
   text-align: right;
 }
-.right{
-  width: 60%;
+.middle{
+  width:30%;
   text-align: left;
-  padding: auto;
 }
-
-.middle {
-  width: 2%;
+.right{
+  width:65;
+  text-align: left;
+  padding-left: 20px;
+}
+.top-border{
+  border-top:2px solid #be95ff;
+  padding-top: 20px;
+}
+.left-border{
+  border-left:2px solid #be95ff;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.right-border{
+  border-right:2px solid #be95ff;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .row-container {
     display: flex;
