@@ -5,7 +5,7 @@ import 'reactjs-popup/dist/index.css';
 
 const InformationRow = () => {
   return (
-    <div className='row-container container-fluid home-row'>
+    <div className='row-container fluid-container home-row'>
           <Popup
         trigger={<div className='image-container-home'>
         <div className='image monitor' />
