@@ -134,7 +134,7 @@
   width: 50%;
   height: 100;
   max-width: 300px;
-  margin: 0 auto;
+  margin: 0 80px;
   position: relative;
 }
 .box ul {
@@ -165,9 +165,9 @@
 .box:hover h2 {
   color: #be95ff;
 }
-.box:hover h2 span {
-  color: white;
-}
+//.box:hover h2 span {
+  //color: red;
+//}
 .box:hover p {
   color: #999;
 }

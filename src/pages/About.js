@@ -1,7 +1,4 @@
 import React from 'react';
-import Accordion from 'react-bootstrap/Accordion';
-import CurrentAboutRow from '../components/CurrentAboutRow';
-import LearnInformationSecondRow from '../components/LearnInformationSecondRow';
 import Card from 'react-bootstrap/Card';
 import Popup from 'reactjs-popup';
 import aboutFirst from '../images/about1.png';
