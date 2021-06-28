@@ -134,21 +134,21 @@ const Team = () => {
           {/* second row*/}
           <div className='team-row-container'>
           <div className='image-container'>
-          <div className='image profilepic'/>
+          <div className='image david'/>
             <div className='title'>David Gibson</div>
             <div className='text'>Executive Advisor Cybersecurity</div>
           
           </div>
 
           <div className='image-container'>
-          <div className='image profilepic'/>
+          <div className='image douglas'/>
             <div className='title'>Douglas Freeby</div>
             <div className='text'>Cybersecurity Specialist</div>
           
           </div>
 
           <div className='image-container'>
-          <div className='image profilepic'/>
+          <div className='image jerry'/>
             <div className='title'>Jerry Steward</div>
             <div className='text'>Solutions Engineer</div>
           
@@ -157,21 +157,21 @@ const Team = () => {
           {/* third row*/}
           <div className='team-row-container'>
           <div className='image-container'>
-          <div className='image profilepic'/>
+          <div className='image jonathan'/>
             <div className='title'>Jonathan Tomasulo</div>
             <div className='text'>Cybersecurity Technical Specialist</div>
           
           </div>
 
           <div className='image-container'>
-          <div className='image profilepic'/>
+          <div className='image rajesh'/>
             <div className='title'>Rajesh Kartha</div>
             <div className='text'>Big Data Enablement</div>
           
           </div>
 
           <div className='image-container'>
-          <div className='image profilepic'/>
+          <div className='image robert'/>
             <div className='title'>Robert Pugh</div>
             <div className='text'>Cybersecurity Specialist</div>
           
