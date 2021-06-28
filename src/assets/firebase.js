@@ -5,14 +5,12 @@ import 'firebase/firestore';
 // Your web app's Firebase configuration
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDjMv0ujFxY0Cfei8vM3czVFPPy4f0QQQo",
-  authDomain: "sparkdev-app.firebaseapp.com",
-  projectId: "sparkdev-app",
-  databaseURL: "https://sparkdev-app-default-rtdb.firebaseio.com/",
-  storageBucket: "sparkdev-app.appspot.com",
-  messagingSenderId: "1064506679967",
-  appId: "1:1064506679967:web:08407ff09b1c208cc2f8aa",
-  measurementId: "G-8G9ZBF1FD8"
+  apiKey: "AIzaSyAW797B2aM7PgLp5J_dIFm2Q1Z0ts5xgJc",
+  authDomain: "fsmx-app.firebaseapp.com",
+  projectId: "fsmx-app",
+  storageBucket: "fsmx-app.appspot.com",
+  messagingSenderId: "244693470283",
+  appId: "1:244693470283:web:ddf6b985528c5d8f8791ce"
 };
 // Initialize Firebase
 
