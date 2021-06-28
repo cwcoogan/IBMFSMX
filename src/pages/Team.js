@@ -25,19 +25,21 @@ const Team = () => {
           <div className='image-container'>
           <div className='image chase'/>
             <div className='title'>Chase Coogan</div>
-          
+            <div className='text'>Cloud Pak Technical Leader</div>
           </div>
 
           <div className='image-container'>
           <div className='image john'/>
             <div className='title'>John Lucas</div>
-          
+            <div className='text'>Cloud Pak Technical Leader</div>
+
           </div>
 
           <div className='image-container'>
           <div className='image matt'/>
             <div className='title'>Matt Konwiser</div>
-          
+            <div className='text'>Technical Sales Manager</div>
+
           </div>
         </div>
         
@@ -61,18 +63,21 @@ const Team = () => {
           <div className='image-container'>
           <div className='image duane'/>
             <div className='title'>Duane Almeter</div>
-          
+            <div className='text'>Technical Sales Leader</div>
+
           </div>
 
           <div className='image-container'>
           <div className='image mitchell'/>
             <div className='title'>Mitchell Odum</div>
-          
+            <div className='text'>Cloud Platform Sales</div>
+
           </div>
 
           <div className='image-container'>
           <div className='image profilepic'/>
             <div className='title'>Mohammed Alvi</div>
+            <div className='text'>Cloud Platform Sales</div>
           
           </div>
         </div>
@@ -81,6 +86,7 @@ const Team = () => {
           <div className='image-container'>
           <div className='image rich'/>
             <div className='title'>Rich Russo</div>
+            <div className='text'>Chief Architect</div>
           
           </div>
 
@@ -106,18 +112,21 @@ const Team = () => {
           <div className='image-container'>
           <div className='image profilepic'/>
             <div className='title'>Chris Cardran</div>
+            <div className='text'>Cybersecurity Architect</div>
           
           </div>
 
           <div className='image-container'>
           <div className='image profilepic'/>
             <div className='title'>Christopher Liccardi</div>
+            <div className='text'>Cybersecurity Architect</div>
           
           </div>
 
           <div className='image-container'>
           <div className='image profilepic'/>
             <div className='title'>Christopher Suman</div>
+            <div className='text'>Technical Sales</div>
           
           </div>
         </div>
@@ -127,18 +136,21 @@ const Team = () => {
           <div className='image-container'>
           <div className='image profilepic'/>
             <div className='title'>David Gibson</div>
+            <div className='text'>Executive Advisor Cybersecurity</div>
           
           </div>
 
           <div className='image-container'>
           <div className='image profilepic'/>
             <div className='title'>Douglas Freeby</div>
+            <div className='text'>Cybersecurity Specialist</div>
           
           </div>
 
           <div className='image-container'>
           <div className='image profilepic'/>
             <div className='title'>Jerry Steward</div>
+            <div className='text'>Solutions Engineer</div>
           
           </div>
         </div>
@@ -147,18 +159,21 @@ const Team = () => {
           <div className='image-container'>
           <div className='image profilepic'/>
             <div className='title'>Jonathan Tomasulo</div>
+            <div className='text'>Cybersecurity Technical Specialist</div>
           
           </div>
 
           <div className='image-container'>
           <div className='image profilepic'/>
             <div className='title'>Rajesh Kartha</div>
+            <div className='text'>Big Data Enablement</div>
           
           </div>
 
           <div className='image-container'>
           <div className='image profilepic'/>
             <div className='title'>Robert Pugh</div>
+            <div className='text'>Cybersecurity Specialist</div>
           
           </div>
         </div>
@@ -182,19 +197,22 @@ const Team = () => {
           <div className='image-container'>
           <div className='image eduardo'/>
             <div className='title'>Eduardo Gomez</div>
+            <div className='text'>Technical Solutions Specialist Intern</div>
           
           </div>
 
           <div className='image-container'>
           <div className='image emily'/>
             <div className='title'>Emily Placet</div>
-          
+            <div className='text'>Technical Solutions Specialist Intern</div>
+
           </div>
 
           <div className='image-container'>
           <div className='image alejandro'/>
             <div className='title'>Alejandro Obrador</div>
-          
+            <div className='text'>Technical Solutions Specialist Intern</div>
+
           </div>
         </div>
         
@@ -202,7 +220,8 @@ const Team = () => {
           <div className='image-container'>
           <div className='image bharath'/>
             <div className='title'>Bharath Kaimal</div>
-          
+            <div className='text'>Technical Solutions Specialist Intern</div>
+
           </div>
 
           
