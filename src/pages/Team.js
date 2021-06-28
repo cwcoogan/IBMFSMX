@@ -70,14 +70,14 @@ const Team = () => {
           <div className='image-container'>
           <div className='image mitchell'/>
             <div className='title'>Mitchell Odum</div>
-            <div className='text'>Cloud Platform Sales</div>
+            <div className='text'>Technical Architect</div>
 
           </div>
 
           <div className='image-container'>
-          <div className='image profilepic'/>
+          <div className='image mo'/>
             <div className='title'>Mohammed Alvi</div>
-            <div className='text'>Cloud Platform Sales</div>
+            <div className='text'>System Administrator</div>
           
           </div>
         </div>
@@ -110,21 +110,21 @@ const Team = () => {
         {/* architect/installers*/}
         <div className='team-row-container'>
           <div className='image-container'>
-          <div className='image profilepic'/>
+          <div className='image chrisc'/>
             <div className='title'>Chris Cardran</div>
             <div className='text'>Cybersecurity Architect</div>
           
           </div>
 
           <div className='image-container'>
-          <div className='image profilepic'/>
+          <div className='image chrisl'/>
             <div className='title'>Christopher Liccardi</div>
             <div className='text'>Cybersecurity Architect</div>
           
           </div>
 
           <div className='image-container'>
-          <div className='image profilepic'/>
+          <div className='image chriss'/>
             <div className='title'>Christopher Suman</div>
             <div className='text'>Technical Sales</div>
           
