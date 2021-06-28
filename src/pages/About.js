@@ -56,18 +56,22 @@ const Tips = () => {
           <div class="timeline-content">
             <h1>Environment Initalization</h1>
             <h2 class="date">Q1</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, 
-              corrupti labore quae quasi blanditiis maiores totam excepturi dicta.
-              Dolorem architecto fugiat culpa, maiores neque similique asperiores sunt soluta ab ratione.</p>
+            <p> In the first quarter, we initiated the launch of the IBM Financial Service Market Experience
+              (FSMX). The first multi-cluster environment, dedicated to the Financial Market to help Tech Reps and Architects
+              host demonstrations to shorten PoC windows. The FSMX Environment will allow tech reps to learn
+              about different products, integrations, as well as learn about OpenShift concepts.
+            </p>
           </div>
         </li>
         <li>
           <div class="timeline-content">
             <h1>Product Installation</h1>
             <h2 class="date">Q2</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, 
-              corrupti labore quae quasi blanditiis maiores totam excepturi dicta.
-              Dolorem architecto fugiat culpa, maiores neque similique asperiores sunt soluta ab ratione.</p>
+            <p> In Q2, we began carving out space on the HCCX infrastructure used to host our servers. Four
+              clusters and two appliances were identified as necessities in the environment. The first products 
+              to be integrated were Cloud Pak for Data, Cloud Pak for Security, Cloud Pak for Integration, and 
+              Gaurdium Insights. We also included Gaurdium Data Protection, and Sterling File Gateway and Secure Proxy. 
+            </p>
           </div>
         </li>
         <li>
