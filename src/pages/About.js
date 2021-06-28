@@ -1,8 +1,6 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Popup from 'reactjs-popup';
-import aboutFirst from '../images/about1.png';
-import aboutTwo from '../images/about3.png';
 import 'reactjs-popup/dist/index.css';
 
 const Tips = () => {
