@@ -3,7 +3,7 @@ import { Bubble } from 'react-chartjs-2';
 import { Link } from 'react-router-dom';
 import InformationRow from '../components/InformationRow';
 import homeImgFir from '../images/home1.jpg';
-//import homeImgSec from '../images/home2.png';
+import highmarkHealth from '../images/highmarkHealth.png';
 import homeImgThird from '../images/home3.png';
 import homeImgFourth from '../images/home4.png';
 
@@ -39,37 +39,30 @@ const Home = () => {
           </div>
         </div>
         <InformationRow/>
-      <div className= 'row-container'>
-      <h1 className='homePageTitle'>Business Cases</h1>
-      </div>
-      <img 
-         src={homeImgThird}
-                className='fluid-img'
-                alt='Sitting on questionnaire'></img>
- 
+      
 </div>
-
-<div class="row">
+<div class="row top-border">
+  <div class="column left right-border">
+  <h2 className="homePageTitle"> Business Cases </h2>
+  </div>
+  <div class="column right">
+<p className="businessCaseText">
+  <h2 className= "homePageTitle">Highmark Health expedites AI in urgent times</h2>
+  Get insights into application to identify
+  high-rish patients for sepsis, cuts AI 
+  lifecycle from one year to six weeks. <a href="https://www.ibm.com/blogs/journey-to-ai/2021/01/highmark-health-teams-with-ibm-advancing-data-science-to-stem-a-growing-tide-of-sepsis-and-covid-19-hospital-admissions/"> Read →</a> </p>
+  <p className="businessCaseText">
+  <h2 className= "homePageTitle">Tabadul ushers in a new era when it migrates to microservices.</h2>
+  The technology firm's move to microservices architecture cuts new feature development time by two-thirds. 
+  <a href="https://www.ibm.com/case-studies/tabadul/"> Read →</a>
+  </p>
+  <p className="businessCaseText">
+  <h2 className= "homePageTitle">ENN takes the leap into AI automation. </h2>
+  ENN, an energy giant, tapped into hyperautomation and reduced processing time by 60%.
+   <a href="https://www.ibm.com/case-studies/enn-group/"> Read →</a>
+  </p>
+  </div>
   
-  <div class="homePageTitle left">
-    <h2>Highmark Health </h2>
-    <h2>expedites AI </h2>
-    <h2>urgent times</h2>
-    
-  </div>
-  <div class="homePageTitle middle">
-  <img 
-         src={homeImgFourth}
-                className='img'
-                alt='Sitting on questionnaire'> 
-                </img>
-  </div>
-  <div class="homePageTitle right">
-  <p className='homePageText'>
-              Get insights into application to identify high-rish patients for sepsis, cuts AI lifecycle from one year to six weeks.
-            </p>
-  <p className='homePageText'><a href="https://www.ibm.com/blogs/journey-to-ai/2021/01/highmark-health-teams-with-ibm-advancing-data-science-to-stem-a-growing-tide-of-sepsis-and-covid-19-hospital-admissions/">Read More</a></p>
-  </div>
 </div>
       
       </div>
