@@ -40,6 +40,7 @@ const Home = () => {
         </div>
         <InformationRow/>
       
+      
 </div>
 <div class="row top-border">
   <div class="column left right-border">

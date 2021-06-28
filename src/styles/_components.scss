@@ -95,6 +95,9 @@
         box-shadow: 0 0 20px rgba(33,33,33,.2);
   
     }
+    .image-container-home:hover{
+      transform: scale(1.1);
+    }
 
     //images for the home page
     .image-container-home {
@@ -104,15 +107,21 @@
         &:not(:last-child) {
             margin-bottom: 5rem;
         }
-        
       }
-      
+
+  
       .image {
         width: 90%;
+        align-items: center;
+        padding-left: 5%;
+        padding-right: 5%;
+        border-left: black;
+        border-right:black;
         height: 120px;
         background-repeat: no-repeat;
         background-color: #be95ff;
         background-position: center center;
+       
         //navigation bar photos
         &.monitor {
             background-image: url('/images/Picture1.png');
