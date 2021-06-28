@@ -15,7 +15,7 @@ const Tips = () => {
         <li>
           <div class="box-content">
             <h2 class="date">About</h2>
-            <p>An awesome webiste to show off environment </p>
+            <p>The IBM FSMX Environment is an internal multi-cluster environment, running CP4S, CP4D, CP4I and Guardium Insights. The environment also hosts, Guardium Data Protection and Sterling Appliances, under Sterling File Gateway and Secure Proxy.<br></br><br></br><br></br><br></br>  </p>
           </div>
         </li>
 
@@ -26,7 +26,7 @@ const Tips = () => {
         <li>
           <div class="box-content">
             <h2 class="date">Mission</h2>
-            <p>To sell a lot and make a lot of money </p>
+            <p>Our mission is to use this environment to create a 'use-case library' for the Financial Market to show off the integration between product sets to shorten PoC Windows. Tech Reps, and Architects will have full access to this environment to host their product demonstrations for clients, and allow them to learn more about other product sets and OpenShift.</p>
           </div>
         </li>
 
