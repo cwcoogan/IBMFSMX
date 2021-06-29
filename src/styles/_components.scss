@@ -1,0 +1,302 @@
+// Bootstrap components
+.display-4 {
+  line-height: 0.98;
+  
+
+  @include media-breakpoint-down(md) {
+    font-size: 2.25rem;
+  }
+}
+.homePage{
+  //Making the background both white and grey
+  background: linear-gradient(to top, rgb(24, 22, 22) 65%,white 35%);
+  width:100%;
+  height: 100%;
+}
+
+.contactPage{
+  //making background grey
+  background-color:rgb(24, 22, 22);
+  width: 100%;
+  height: 100%;
+}
+
+.financialServicesMarket{
+  font-weight: bold;
+        font-size: 36px;
+        line-height: 36px;
+        text-align: left;
+       color:blue;
+}
+.homePageText{
+  font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color:white;
+}
+.businessCaseText{
+  font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color:white;
+        line-height: 60%;
+        padding-bottom: 10px;
+
+}
+.homePageTitle{
+        font-size: 24px;
+        line-height: 36px;
+       color:white;
+}
+.left {
+  width: 20%;
+  padding: auto;
+  text-align: right;
+}
+.middle{
+  width:30%;
+  text-align: left;
+}
+.right{
+  width:65;
+  text-align: left;
+  padding-left: 20px;
+}
+.top-border{
+  border-top:2px solid #be95ff;
+  padding-top: 20px;
+}
+.left-border{
+  border-left:2px solid #be95ff;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.right-border{
+  border-right:2px solid #be95ff;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.row-container {
+    display: flex;
+    flex-direction: column;
+    
+  
+
+    @include media-breakpoint-down(sm) {
+        align-items: center;
+    }
+
+    @include media-breakpoint-up(md) {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .image-container:hover {
+        box-shadow: 0 0 20px rgba(33,33,33,.2);
+  
+    }
+    .image-container-home:hover{
+      transform: scale(1.1);
+    }
+
+    //images for the home page
+    .image-container-home {
+      width: 100%;
+
+      @include media-breakpoint-down(sm) {
+        &:not(:last-child) {
+            margin-bottom: 5rem;
+        }
+      }
+
+  
+      .image {
+        width: 90%;
+        align-items: center;
+        padding-left: 5%;
+        padding-right: 5%;
+        border-left: black;
+        border-right:black;
+        height: 120px;
+        background-repeat: no-repeat;
+        background-color: #be95ff;
+        background-position: center center;
+       
+        //navigation bar photos
+        &.monitor {
+            background-image: url('/images/Picture1.png');
+        }
+        &.learn {
+          background-image: url('/images/Picture2.png');
+        }
+        &.improve {
+          background-image: url('/images/Picture3.png');
+        }
+        &.learn2 {
+        background-image: url('/images/Picture4.png');
+        }
+      }  
+
+      .title {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+       
+      }
+
+      .text {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+      }
+
+    }
+
+    .image-container {
+        width: 225px;
+        height: 250px;
+        margin: 50px;
+        border:3px solid #be95ff;
+        
+
+        @include media-breakpoint-down(sm) {
+            &:not(:last-child) {
+                margin-bottom: 5rem;
+            }
+        }
+
+        .image {
+            width: 220px;
+            height: 150px;
+            background-repeat: no-repeat;
+            //background-color: rgb(118, 64, 187);
+            background-position: center center;
+            //navigation bar photos
+            &.integration {
+                background-image: url('/images/integration.png');
+            }
+
+            &.security {
+                background-image: url('/images/security.png');
+            }
+
+            &.data {
+              background-image: url('/images/data.png');
+            }
+
+            &.insights {
+              background-image: url('/images/guardium_insights.png');
+            }
+
+            &.guardiumapp {
+              background-image: url('/images/guardium_appliances.png');
+            }
+
+            &.sterling {
+              background-image: url('/images/sterling_appliances.png');
+            }    
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 36px;
+            text-align: center;
+           
+        }
+
+        .text {
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+        }
+    }
+}
+
+// Custom Components
+.home-row {
+  margin-bottom: 5rem;
+  
+}
+
+.installations-row {
+  margin-top: -6rem;
+  margin-bottom: 4rem;
+}
+
+.hero-img-right {
+  @include media-breakpoint-down(lg) {
+    margin-bottom: 3rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding-left: 80px;
+  }
+}
+
+.faq-right {
+  @include media-breakpoint-down(lg) {
+    margin-bottom: 3rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding-left: 330px;
+  }
+}
+
+.hero-img-left {
+  @include media-breakpoint-down(lg) {
+    margin-bottom: 3rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding-right: 80px;
+  }
+}
+
+.navbar-collapse {
+  text-align: center;
+}
+
+.footer {
+  background-color: #f2f2f2;
+  width: 100%;
+  color: theme-color('primary');
+  p {
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+}
+
+
+
+.footer__logo {
+  width: 100px;
+}
+
+.accordion {
+  background-color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 80%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin-bottom: 3rem;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.table th,
+.table td {
+  padding: 0.5rem;
+}

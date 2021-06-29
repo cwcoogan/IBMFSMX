@@ -1,0 +1,215 @@
+.hero-row-reverse-mobile {
+  @include media-breakpoint-down(md) {
+    flex-direction: column-reverse;
+  }
+}
+
+.hr {
+  display: block;
+  height: 2px;
+  width: 100%;
+  border-top: 2px solid #0043ce;
+  margin: 0em 0;
+  content: " ";
+  padding: 0;
+}
+
+.team-row-container {
+  display: flex;
+  flex-direction: column;
+  
+
+
+  @include media-breakpoint-down(sm) {
+      align-items: center;
+  }
+
+  @include media-breakpoint-up(md) {
+    margin: 4em 0;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+
+  .image-container {
+    width: 200px;
+    
+
+
+    @include media-breakpoint-down(sm) {
+        &:not(:last-child) {
+            margin-bottom: 5rem;
+        }
+    }
+
+    .image {
+        width: 200px;
+        height: 170px;
+        float: left;
+        background-repeat: no-repeat;
+        background-position: center center;
+        
+        &.profilepic {
+            background-image: url('/images/pictureIconTeam.png');
+        }
+
+        &.chase {
+          background-image: url('/images/profile-pic/chase-coogan.png');
+        }
+
+        &.john {
+          background-image: url('/images/profile-pic/john-lucas.png');
+        }
+
+        &.matt {
+          background-image: url('/images/profile-pic/matt-konwiser.png');
+        }
+
+        &.duane {
+          background-image: url('/images/profile-pic/duane-almeter.png');
+        }
+
+        &.mitchell {
+          background-image: url('/images/profile-pic/mitchell-odum.png');
+        }
+
+        &.mo {
+          background-image: url('/images/profile-pic/mohammad-alvi.png');
+        }
+
+        &.rich {
+          background-image: url('/images/profile-pic/rich-russo.png');
+        }
+
+        &.chrisc {
+          background-image: url('/images/profile-pic/chris-cardran.png');
+        }
+
+        &.chrisl {
+          background-image: url('/images/profile-pic/christopher-liccardi.png');
+        }
+
+        &.chriss {
+          background-image: url('/images/profile-pic/christopher-suman.png');
+        }
+
+        &.david {
+          background-image: url('/images/profile-pic/david-gibson.png');
+        }
+
+        &.douglas{
+          background-image: url('/images/profile-pic/douglas-freeby.png');
+        }
+
+        &.jerry {
+          background-image: url('/images/profile-pic/jerry-steward.png');
+        }
+
+        &.jonathan {
+          background-image: url('/images/profile-pic/jonathan-tomasulo.png');
+        }
+
+        &.rajesh {
+          background-image: url('/images/profile-pic/rajesh-kartha.png');
+        }
+
+        &.robert {
+          background-image: url('/images/profile-pic/robert-pugh.png');
+        }
+
+        &.eduardo {
+          background-image: url('/images/profile-pic/eduardo-gomez.png');
+        }
+
+        &.emily {
+          background-image: url('/images/profile-pic/emily-placet.png');
+        }
+
+        &.alejandro {
+          background-image: url('/images/profile-pic/alejandro-obrador.png');
+        }
+
+        &.bharath {
+          background-image: url('/images/profile-pic/bharath-kaimal.png');
+        }
+
+    }
+
+    .title {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 36px;
+        text-align: center;
+       
+    }
+
+    .text {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+  }  
+
+}
+
+
+
+
+.hr-purple {
+  display: block;
+  height: 2px;
+  width: 100%;
+  border-top: 2px solid #be95ff;
+  margin: 0em 0;
+  content: " ";
+  padding: 0;
+}
+
+.team-image-hat {
+  width: 300px;
+  height: 300px;
+  float: right;
+  margin: 0em 0;
+  position: relative;
+  top: -300px;
+  left: 100px;
+}
+
+.text-margin {
+  margin: 1em 0;
+  font-weight: lead;
+  font-size: 20px;
+  line-height: 20px;
+  position: relative;
+  left: -50px;
+  top: 20px;
+}
+
+.second-text-margin {
+  float: right;
+  margin: 1em 0;
+  font-weight: lead;
+  font-size: 20px;
+  line-height: 20px;
+  position: relative;
+  left: -605px;
+  top: 20px;
+}
+
+.darkgreen-bg {
+  background-color: #3d9e67;
+  background-size: 400% 400%;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 100% 0%;
+  }
+  50% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}
