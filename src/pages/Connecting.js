@@ -13,7 +13,7 @@ import 'reactjs-popup/dist/index.css';
 const Connecting = () => {
   return (
     <div>
-      <div className='container'>
+      <div className='connectboxcontainer'>
         <div className='row mt-5 hero-row-reverse-mobile home-row '>
           <div className='col-lg-12 txt-md-left'>
             <div className='row mb-3'>
@@ -28,13 +28,13 @@ const Connecting = () => {
         </div>
         </div>
 
-    <div class="boxcontainer">
+    <div class="connectboxcontainer">
   
-    <div class="box">  
+    <div class="connectbox">  
       <ul> 
         <li>
-          <div class="box-content">
-          <div class="box img">
+          <div class="connectbox-content">
+          <div class="connectbox img">
           <img
                 src={ConImgFir}
               />
@@ -47,11 +47,11 @@ const Connecting = () => {
       </ul>
     </div>
    
-    <div class="box">
+    <div class="connectbox">
       <ul> 
         <li>
-          <div class="box-content">
-          <div class="box img">
+          <div class="connectbox-content">
+          <div class="connectbox img">
           <img
                 src={ConImgSec}
               />
@@ -64,11 +64,11 @@ const Connecting = () => {
       </ul>
     </div>
    
-    <div class="box">
+    <div class="connectbox">
       <ul> 
         <li>
-          <div class="box-content">
-          <div class="box img">
+          <div class="connectbox-content">
+          <div class="connectbox img">
           <img
                 src={ConImgThi}
               />
@@ -83,13 +83,13 @@ const Connecting = () => {
 
     </div>
 
-    <div class="boxcontainer">
+    <div class="connectboxcontainer">
   
-  <div class="box">  
+  <div class="connectbox">  
     <ul> 
       <li>
-        <div class="box-content">
-        <div class="box img">
+        <div class="connectbox-content">
+        <div class="connectbox img">
           <img
                 src={ConImgFou}
               />
@@ -102,11 +102,11 @@ const Connecting = () => {
     </ul>
   </div>
  
-  <div class="box">
+  <div class="connectbox">
     <ul> 
       <li>
-        <div class="box-content">
-        <div class="box img">
+        <div class="connectbox-content">
+        <div class="connectbox img">
           <img
                 src={ConImgFiv}
               />
@@ -119,11 +119,11 @@ const Connecting = () => {
     </ul>
   </div>
  
-  <div class="box">
+  <div class="connectbox">
     <ul> 
       <li>
-        <div class="box-content">
-        <div class="box img">
+        <div class="connectbox-content">
+        <div class="connectbox img">
           <img
                 src={ConImgSix}
               />

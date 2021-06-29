@@ -4,7 +4,7 @@
     box-sizing: border-box;
   }
   // Size of white space (background)
-  .boxcontainer{
+  .connectboxcontainer{
     min-height: auto;
     width: 100%;
     display: flex;
@@ -16,49 +16,49 @@
   }
   
   //Sizing for boxes
-  .box{
+  .connectbox{
     width: 50%;
     height: 100;
     max-width: 300px;
     margin: 0 60px;
     position: relative;
   }
-  .box ul {
+  .connectbox ul {
     list-style: none;
   }
-  .box ul li{
+  .connectbox ul li{
     padding: 20px;
     border: 3px solid #be95ff;
     color: black;
     border-radius: 10px;
     margin-bottom: 5px;
   }
-  .box-content h1{
+  .connectbox-content h1{
     font-size: 25px;
     font-weight: 500;
     line-height: 30px;
     margin-bottom: 10px;
   }
-  .box-content p {
+  .connectbox-content p {
     font-size: 16px;
     line-height: 30px;
     font-weight: 300;
     margin-bottom: -75px;
   }
-  .box:hover {
+  .connectbox:hover {
     background-position: 100% 100%;
     animation: up-bump 0.4s ease;
   }
-  .box:hover h2 {
+  .connectbox:hover h2 {
     color: #be95ff;
   }
   //.box:hover h2 span {
     //color: red;
   //}
-  .box:hover p {
+  .connectbox:hover p {
     color: #999;
   }
-  .box ul li:hover {
+  .connectbox ul li:hover {
     transform: scale(1.2);
     padding: 20px;
     border: 3px solid #be95ff;
@@ -68,7 +68,7 @@
     background-color: white;
     border: 3px solid #B8B5B2;
   }
-  .box img {
+  .connectbox img {
     display: block;
     margin-left: 25;
     margin-right: auto;
