@@ -1,7 +1,4 @@
 import React from 'react';
-import Accordion from 'react-bootstrap/Accordion';
-import Card from 'react-bootstrap/Card';
-import Popup from 'reactjs-popup';
 import ConImgFir from '../images/Connect1.png';
 import ConImgSec from '../images/Connect2.png';
 import ConImgThi from '../images/Connect3.png';
