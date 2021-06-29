@@ -1,11 +1,6 @@
 import React from 'react';
-import { Bubble } from 'react-chartjs-2';
-import { Link } from 'react-router-dom';
 import InformationRow from '../components/InformationRow';
 import homeImgFir from '../images/home1.jpg';
-import highmarkHealth from '../images/highmarkHealth.png';
-import homeImgThird from '../images/home3.png';
-import homeImgFourth from '../images/home4.png';
 
 
 const Home = () => {
