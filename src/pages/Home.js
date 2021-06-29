@@ -14,7 +14,7 @@ const Home = () => {
               Welcome to the
             </p>
               <h1 className='financialServicesMarket'>
-                Financial Services Market <br></br>
+                Financial Services Market
                 Experience
               </h1>
               <p className='lead font-weight-bold'>
