@@ -2,4 +2,7 @@ node_modules
 .cache
 dist
 .DS_Store
-
+.netlify
+node_modules
+node_modules
+node_modules
