@@ -182,7 +182,7 @@ const Team = () => {
           <div className='col-lg-12 txt-md-left'>
             <div className='row mb-3'>
               <h1 className='display-5 font-weight-bold'>
-                Web Developers/Interns
+                Web Developers
               </h1>
               <h1 className='hr-purple'>
                 

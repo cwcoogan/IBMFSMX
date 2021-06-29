@@ -222,6 +222,11 @@
   
 }
 
+.contact-row {
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+
 .installations-row {
   margin-top: -6rem;
   margin-bottom: 4rem;
@@ -243,7 +248,9 @@
   }
 
   @include media-breakpoint-up(lg) {
-    padding-left: 330px;
+    position: sticky;
+    margin-left: 100px;
+    
   }
 }
 
@@ -286,7 +293,6 @@
   border: none;
   outline: none;
   transition: 0.4s;
-  margin-bottom: 3rem;
 }
 
 .panel {
