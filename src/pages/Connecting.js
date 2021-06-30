@@ -10,19 +10,19 @@ import 'reactjs-popup/dist/index.css';
 const Connecting = () => {
   return (
     <div>
-      <div className='container'>
-        <div className='row mt-5 hero-row-reverse-mobile home-row '>
-          <div className='col-lg-12 txt-md-left'>
-            <div className='row mb-3'>
-              <h1 className='display-5 font-weight-bold'>
-              Connecting to the Environment
-              </h1>
-              <h1 className='hr-purple'>
-              </h1>
+        <div className='container'>
+          <div className='row mt-5 hero-row-reverse-mobile home-row '>
+            <div className='col-lg-12 txt-md-left'>
+              <div className='row mb-3'>
+                <h1 className='display-5 font-weight-bold'>
+                Connecting to the Environment
+                </h1>
+                <h1 className='hr-purple'>
+                </h1>
+              </div>
             </div>
           </div>
-        </div>
-        </div>
+       </div>
 
     <div class="connectboxcontainer">
     <div class="connectbox">  
@@ -37,16 +37,6 @@ const Connecting = () => {
             <h2 class="date">Step 1</h2>
             <p>The IBM FSMX Environment is an internal multi-cluster environment, running CP4S, CP4D, CP4I and Guardium Insights. The environment also hosts, Guardium Data Protection and Sterling Appliances, under Sterling File Gateway and Secure Proxy.<br></br><br></br><br></br><br></br>
             </p>
-            <div id="stepProgressBar">
-              <div class="bulletformat">
-                <div class="bullet"></div>
-                <div class="bullet"></div>
-                <div class="bullet"></div>
-                <div class="bullet"></div>
-                <div class="bullet"></div>
-                <div class="bullet"></div>
-              </div>
-            </div>
           </div>
         </li>
 
@@ -64,16 +54,6 @@ const Connecting = () => {
           </div>
             <h2 class="date">Step 2</h2>
             <p>The IBM FSMX Environment is an internal multi-cluster environment, running CP4S, CP4D, CP4I and Guardium Insights. The environment also hosts, Guardium Data Protection and Sterling Appliances, under Sterling File Gateway and Secure Proxy.<br></br><br></br><br></br><br></br>  </p>
-            <div id="stepProgressBar">
-              <div class="bulletformat">
-                <div class="bullet"></div>
-                <div class="bullet"></div>
-                <div class="bullet"></div>
-                <div class="bullet"></div>
-                <div class="bullet"></div>
-                <div class="bullet"></div>
-              </div>
-            </div>
           </div>
         </li>
 
@@ -91,7 +71,6 @@ const Connecting = () => {
           </div>
             <h2 class="date">Step 3</h2>
             <p>The IBM FSMX Environment is an internal multi-cluster environment, running CP4S, CP4D, CP4I and Guardium Insights. The environment also hosts, Guardium Data Protection and Sterling Appliances, under Sterling File Gateway and Secure Proxy.<br></br><br></br><br></br><br></br>  </p>
-            <div id="stepProgressBar">
               <div class="bulletformat">
                 <div class="bullet"></div>
                 <div class="bullet"></div>
@@ -100,7 +79,6 @@ const Connecting = () => {
                 <div class="bullet"></div>
                 <div class="bullet"></div>
               </div>
-            </div>
           </div>
         </li>
 
@@ -122,16 +100,7 @@ const Connecting = () => {
           </div>
           <h2 class="date">Step 4</h2>
           <p>The IBM FSMX Environment is an internal multi-cluster environment, running CP4S, CP4D, CP4I and Guardium Insights. The environment also hosts, Guardium Data Protection and Sterling Appliances, under Sterling File Gateway and Secure Proxy.<br></br><br></br><br></br><br></br>  </p>
-          <div id="stepProgressBar">
-              <div class="bulletformat">
-                <div class="bullet"></div>
-                <div class="bullet"></div>
-                <div class="bullet"></div>
-                <div class="bullet"></div>
-                <div class="bullet"></div>
-                <div class="bullet"></div>
-              </div>
-            </div>
+              
         </div>
       </li>
 
@@ -149,16 +118,7 @@ const Connecting = () => {
           </div>
           <h2 class="date">Step 5</h2>
           <p>The IBM FSMX Environment is an internal multi-cluster environment, running CP4S, CP4D, CP4I and Guardium Insights. The environment also hosts, Guardium Data Protection and Sterling Appliances, under Sterling File Gateway and Secure Proxy.<br></br><br></br><br></br><br></br>  </p>
-          <div id="stepProgressBar">
-              <div class="bulletformat">
-                <div class="bullet"></div>
-                <div class="bullet"></div>
-                <div class="bullet"></div>
-                <div class="bullet"></div>
-                <div class="bullet"></div>
-                <div class="bullet"></div>
-              </div>
-            </div>
+              
         </div>
       </li>
 
@@ -176,16 +136,7 @@ const Connecting = () => {
           </div>
           <h2 class="date">Step 6</h2>
           <p>The IBM FSMX Environment is an internal multi-cluster environment, running CP4S, CP4D, CP4I and Guardium Insights. The environment also hosts, Guardium Data Protection and Sterling Appliances, under Sterling File Gateway and Secure Proxy.<br></br><br></br><br></br><br></br>  </p>
-          <div id="stepProgressBar">
-              <div class="bulletformat">
-                <div class="bullet"></div>
-                <div class="bullet"></div>
-                <div class="bullet"></div>
-                <div class="bullet"></div>
-                <div class="bullet"></div>
-                <div class="bullet"></div>
-              </div>
-            </div>
+              
         </div>
       </li>
 
