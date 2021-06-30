@@ -23,15 +23,20 @@ const ClustersInformationSecondRow = () => {
             </button>
             <div className="display-4 font-weight-bold text-center mb-3"> Cloud Pak for Security </div>
             <div className="content font-weight-bold">
-            🍃 Information to be updated<br>
+            🍃 Cloud Pak 4 Security is running on OpenShift 4.6 🍃<br>
+
               </br>
               <br />
-              ● TBD<br>
-              </br>
+              ● Installer: Jonathan Tomasulo<br></br><br></br>
               {/* <br /> */}
-              ● TBD<br>
-              </br>
-              <br />
+              Installed Services:<br></br>
+                ● Security<br></br>
+                ● Security<br></br>
+                ● Security<br></br>
+                ● Security<br></br>
+              <br></br>
+              Looking for services to be added? -> Contact us<br></br><br></br>
+           
             </div>
             <div className="actions">
               <button
@@ -65,15 +70,20 @@ const ClustersInformationSecondRow = () => {
             </button>
             <div className="display-4 font-weight-bold text-center mb-3"> Guardium Insights </div>
             <div className="content font-weight-bold">
-            🍃 Information to be updated<br>
+            🍃 Guardium Insights is running on OpenShift 4.6 🍃<br>
+
               </br>
               <br />
-              ● TBD<br>
-              </br>
+              ● Installer: Douglas Freeby + Robert Pugh<br></br><br></br>
               {/* <br /> */}
-              ● TBD<br>
-              </br>
-              <br />
+              Installed Services:<br></br>
+                ● Security<br></br>
+                ● Security<br></br>
+                ● Security<br></br>
+                ● Security<br></br>
+              <br></br>
+              Looking for services to be added? -> Contact us<br></br><br></br>
+           
             </div>
             <div className="actions">
               <button
