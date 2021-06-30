@@ -29,16 +29,16 @@ const Contact = () => {
             <p className='lead font-weight-bold'>
               For questions email:
             </p>
-            <p className='lead font-weight bold'>
+            <p className='lead font-weight-bold'>
               ● Chase Coogan: chase.coogan@ibm.com<br></br>
               ● John Lucas: john.lucas@ibm.com
             </p>
           </div> 
-          <div className='col-lg-4'>
+          <div className='col-lg-5'>
             <div className='hero-img-right'>
               <img
                 src={contactImgFir}
-                className='fluid-img'
+                className='contact-page-img'
                 alt='Contact Page Image'
               />
             </div>
