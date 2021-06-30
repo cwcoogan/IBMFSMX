@@ -14,17 +14,22 @@ const NavBar = () => {
 
   //the home page contact form picture col needs to be set col-lg-6 so that it wraps correctly
   useEffect(() => {
-    if (location.pathname.startsWith('/home')) {
+    if (location.pathname == '/about') {
       setActiveKey(1);
-    } else if (location.pathname.startsWith('/about')) {
+    } 
+    if (location.pathname == ('/installations')) {
+      setActiveKey(2);
+    } 
+    if (location.pathname == ('/connecting')) {
       setActiveKey(3);
-    } else if (location.pathname.startsWith('/installations')) {
-      setActiveKey(3);
-    } else if (location.pathname == '/') {
-      setActiveKey(0);
-    } else {
-      setActiveKey(-1);
-    }
+    } 
+    if (location.pathname.startsWith('/team')) {
+      setActiveKey(4);
+    } 
+    if (location.pathname.startsWith('/contact')) {
+      setActiveKey(5);
+    } 
+
   }, [location]);
 
   return (
@@ -47,19 +52,19 @@ const NavBar = () => {
             <Nav.Link as={Link} to='/' eventKey={0}>
               Home
             </Nav.Link>
-            <Nav.Link as={Link} to='/about' eventKey={2}>
+            <Nav.Link as={Link} to='/about' eventKey={1}>
               About
             </Nav.Link>
             <Nav.Link as={Link} to='/installations' eventKey={2}>
               Installations
             </Nav.Link>
-            <Nav.Link as={Link} to='/connecting' eventKey={2}>
+            <Nav.Link as={Link} to='/connecting' eventKey={3}>
               Connecting
             </Nav.Link>
-            <Nav.Link as={Link} to='/team' eventKey={2}>
+            <Nav.Link as={Link} to='/team' eventKey={4}>
               Team
             </Nav.Link>
-            <Nav.Link as={Link} to='/contact' eventKey={2}>
+            <Nav.Link as={Link} to='/contact' eventKey={5}>
               Contact
             </Nav.Link>
             
