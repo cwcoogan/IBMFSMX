@@ -24,16 +24,17 @@ const ClustersInformationSecondRow = () => {
             <div className="display-4 font-weight-bold text-center mb-3"> Cloud Pak for Security </div>
             <div className="content font-weight-bold">
             🍃 Cloud Pak 4 Security is running on OpenShift 4.6 🍃<br>
-
+          
               </br>
               <br />
               ● Installer: Jonathan Tomasulo<br></br><br></br>
               {/* <br /> */}
               Installed Services:<br></br>
-                ● Security<br></br>
-                ● Security<br></br>
-                ● Security<br></br>
-                ● Security<br></br>
+                ● Threat Intelligence Insights<br></br>
+                ● Data Explorer<br></br>
+                ● SOAR<br></br>
+                ● Risk Manager<br></br>
+                ● Guardium Insights S-Tap<br></br>
               <br></br>
               Looking for services to be added? -> Contact us<br></br><br></br>
            
@@ -77,10 +78,10 @@ const ClustersInformationSecondRow = () => {
               ● Installer: Douglas Freeby + Robert Pugh<br></br><br></br>
               {/* <br /> */}
               Installed Services:<br></br>
-                ● Security<br></br>
-                ● Security<br></br>
-                ● Security<br></br>
-                ● Security<br></br>
+                ● Guardium S-Tap<br></br>
+                ● TBD<br></br>
+                ● TBD<br></br>
+                ● TBD<br></br>
               <br></br>
               Looking for services to be added? -> Contact us<br></br><br></br>
            

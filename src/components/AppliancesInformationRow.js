@@ -24,15 +24,20 @@ const AppliancesInformationRow = () => {
             </button>
             <div className="display-4 font-weight-bold text-center mb-3"> Guardium Appliances </div>
             <div className="content font-weight-bold">
-            🍃 Information to be updated<br>
+            🍃 Guardium Appliances is running on X.X.X 🍃<br>
+
               </br>
               <br />
-              ● TBD<br>
-              </br>
+              ● Installer: Douglas Freeby + Robert Pugh<br></br><br></br>
               {/* <br /> */}
-              ● TBD<br>
-              </br>
-              <br />
+              Installed Appliances:<br></br>
+                ● Gaurdium Data Protection<br></br>
+                ● TBD<br></br>
+                ● TBD<br></br>
+                ● TBD<br></br>
+              <br></br>
+              Looking for services to be added? -> Contact us<br></br><br></br>
+           
             </div>
             <div className="actions">
               <button
@@ -66,15 +71,17 @@ const AppliancesInformationRow = () => {
             </button>
             <div className="display-4 font-weight-bold text-center mb-3"> Sterling Appliances </div>
             <div className="content font-weight-bold">
-            🍃 Information to be updated<br>
+            🍃 Sterling Appliances is running on X.X.X 🍃<br>
+
               </br>
               <br />
-              ● TBD<br>
-              </br>
+              ● Installer: Jerry Steward<br></br><br></br>
               {/* <br /> */}
-              ● TBD<br>
-              </br>
-              <br />
+              Installed Appliances:<br></br>
+                ● Sterling File Gateway<br></br>
+                ● Sterling Secure Proxy<br></br>
+              <br></br>
+              Looking for services to be added? -> Contact us<br></br><br></br>
             </div>
             <div className="actions">
               <button
