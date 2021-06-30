@@ -1,0 +1,46 @@
+{
+  "name": "ibmfsmx",
+  "version": "1.0.0",
+  "description": "IBM FSM X Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cwcoogan/IBMFSMX.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cwcoogan/IBMFSMX/issues"
+  },
+  "homepage": "https://github.com/cwcoogan/IBMFSMX#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.9.4",
+    "sass": "^1.27.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "browser-image-compression": "^1.0.14",
+    "chart.js": "^2.9.4",
+    "emailjs-com": "^2.6.4",
+    "firebase": "^8.6.8",
+    "rc-slider": "^9.6.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.3.0",
+    "react-chartjs-2": "^2.11.1",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
+    "reactjs-popup": "^2.0.4",
+    "src": "^1.1.2"
+  },
+  "browserslist": [
+    "last 3 Chrome versions"
+  ]
+}
