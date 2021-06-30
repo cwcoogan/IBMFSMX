@@ -23,15 +23,18 @@ const ClustersInformationRow = () => {
             </button>
             <div className="display-4 font-weight-bold text-center mb-3"> Cloud Pak for Data </div>
             <div className="content font-weight-bold">
-              🍃 Information to be updated<br>
+              🍃 Cloud Pak 4 Data is running on OpenShift 4.6 🍃<br>
               </br>
               <br />
-              ● TBD<br>
-              </br>
+              ● Installer: Rajesh Kartha<br></br><br></br>
               {/* <br /> */}
-              ● TBD<br>
-              </br>
+              Installed Services:<br></br>
+                ● DB2 <br></br>
+                ● MongoDB<br></br>
+                ● Guardium S-Tap<br></br>
               <br />
+              Looking for services to be added? -> Contact us<br></br><br></br>
+              
             </div>
             <div className="actions">
               <button
@@ -65,15 +68,17 @@ const ClustersInformationRow = () => {
             </button>
             <div className="display-4 font-weight-bold text-center mb-3"> Cloud Pak for Integration </div>
             <div className="content font-weight-bold">
-            🍃 Information to be updated<br>
+            🍃 Cloud Pak 4 Integration is running on OpenShift 4.6 🍃<br>
               </br>
               <br />
-              ● TBD<br>
-              </br>
+              ● Installer: Eric Lowery<br></br><br></br>
               {/* <br /> */}
-              ● TBD<br>
-              </br>
-              <br />
+              Installed Services:<br></br>
+                ● API Connect <br></br>
+                ● Data Power Gateway<br></br><br></br>
+                
+              Looking for services to be added? -> Contact us<br></br><br></br>
+           
             </div>
             <div className="actions">
               <button
