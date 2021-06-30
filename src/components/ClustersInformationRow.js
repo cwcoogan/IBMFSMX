@@ -21,8 +21,10 @@ const ClustersInformationRow = () => {
             <button className="close" onClick={close}>
               &times;
             </button>
-            <div className="display-4 font-weight-bold text-center mb-3"> Cloud Pak for Data </div>
-            <div className="content font-weight-bold">
+            {/* <div className="display-4 font-weight-bold text-center mb-3"> Cloud Pak for Data </div> */}
+            <div className="modalTitle"> Cloud Pak for Data </div>
+            <div className="content modalText">
+            {/* <div className="content font-weight-bold"> */}
               🍃 Cloud Pak 4 Data is running on OpenShift 4.6 🍃<br>
               </br><br></br>
               [ABOUT]
