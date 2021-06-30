@@ -22,9 +22,9 @@ const AppliancesInformationRow = () => {
             <button className="close" onClick={close}>
               &times;
             </button>
-            <div className="display-4 font-weight-bold text-center mb-3"> Guardium Appliances </div>
-            <div className="content font-weight-bold">
-            🍃 Guardium Appliances is running on X.X.X 🍃<br>
+            <div className="modalTitle"> Guardium Appliances </div>
+            <div className="content modalText">
+             Guardium Appliances is running on X.X.X <br>
 
             </br><br></br>
               [ABOUT]
@@ -70,9 +70,9 @@ const AppliancesInformationRow = () => {
             <button className="close" onClick={close}>
               &times;
             </button>
-            <div className="display-4 font-weight-bold text-center mb-3"> Sterling Appliances </div>
-            <div className="content font-weight-bold">
-            🍃 Sterling Appliances is running on X.X.X 🍃<br>
+            <div className="modalTitle"> Sterling Appliances </div>
+            <div className="content modalText">
+             Sterling Appliances is running on X.X.X <br>
 
               </br><br></br>
               [ABOUT]

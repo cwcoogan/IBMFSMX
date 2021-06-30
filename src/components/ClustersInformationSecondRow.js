@@ -21,9 +21,9 @@ const ClustersInformationSecondRow = () => {
             <button className="close" onClick={close}>
               &times;
             </button>
-            <div className="display-4 font-weight-bold text-center mb-3"> Cloud Pak for Security </div>
-            <div className="content font-weight-bold">
-            🍃 Cloud Pak 4 Security is running on OpenShift 4.6 🍃<br>
+            <div className="modalTitle"> Cloud Pak for Security </div>
+            <div className="content modalText">
+             Cloud Pak 4 Security is running on OpenShift 4.6 <br>
           
             </br><br></br>
               [ABOUT]
@@ -70,9 +70,9 @@ const ClustersInformationSecondRow = () => {
             <button className="close" onClick={close}>
               &times;
             </button>
-            <div className="display-4 font-weight-bold text-center mb-3"> Guardium Insights </div>
-            <div className="content font-weight-bold">
-            🍃 Guardium Insights is running on OpenShift 4.6 🍃<br>
+            <div className="modalTitle"> Guardium Insights </div>
+            <div className="content modalText">
+             Guardium Insights is running on OpenShift 4.6 <br>
 
             </br><br></br>
               [ABOUT]
