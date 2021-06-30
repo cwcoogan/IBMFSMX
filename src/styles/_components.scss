@@ -13,7 +13,32 @@
   width:100%;
   height: 100%;
 }
-
+.modal {
+  position: fixed;
+  background-color: white;
+  padding:3%;
+  max-height: 80%;
+  overflow: scroll;
+}
+.modalTitle{
+  font-weight: bold;
+  line-height: 36px;
+  text-align: center;
+  font-size: 24px;
+}
+.modalText{
+  font-size: 20px;
+  overflow: scroll;
+}
+.modalText2{
+  font-size: 20px;
+  overflow: scroll;
+  font-weight: bold;
+}
+.modal .modalText {
+  overflow:scroll;
+  max-height:350px;
+}
 .contactPage{
   //making background grey
   background-color:rgb(24, 22, 22);
@@ -26,7 +51,7 @@
         font-size: 36px;
         line-height: 36px;
         text-align: left;
-       color:blue;
+      
 }
 .homePageText{
   font-weight: normal;

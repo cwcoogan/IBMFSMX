@@ -19,18 +19,18 @@ const InformationRow = () => {
             <button className="close" onClick={close}>
               &times;
             </button >
-            <div className="display-4 font-weight-bold text-center mb-3"> What are Cloud Paks?</div>
-            <div className="content font-weight-bold">
+            <div className="modalTitle"> What are Cloud Paks?</div>
+            <div className="content modalText">
             <br></br>
               <br />
 
-              IBM Cloud Paks are AI powered software that can help organizations build, modernize, <br></br>
+              IBM Cloud Paks are AI powered software that can help organizations build, modernize, 
               and manage applications securely across any cloud. 
               <br></br>
               <br></br>
-              They include pre-certified containerized software and foundational services that provide <br></br>
-              customers with a common operations and integration framework. Built on Red Hat OpenShift, <br></br>
-              the market leader for open source, hybrid cloud platform, they provide a consistent <br></br>
+              They include pre-certified containerized software and foundational services that provide
+              customers with a common operations and integration framework. Built on Red Hat OpenShift, 
+              the market leader for open source, hybrid cloud platform, they provide a consistent 
               experience for an infrastructure management control plane that includes, AI, Automation and security.
               <br></br>
               <br />
@@ -62,17 +62,25 @@ const InformationRow = () => {
             <button className="close" onClick={close}>
               &times;
             </button>
-            <div className="display-4 font-weight-bold text-center mb-3"> Cloud Paks Benefits</div>
-            <div className="content font-weight-bold">
-            • Gain agility and flexibility:<br></br>
+            <div className="modalTitle"> Cloud Paks Benefits</div>
+           <br></br><br></br>
+            <div className="content modalText2">
+            Gain agility and flexibility:<br></br></div>
+            <div className="content modalText">
             Make your data, applicattions and workflows work your you, wherever you are. <br></br>
-
+            </div>
+            <div className="conent modalText2">
               <br />
-              • Accelerate AI and automation:<br></br>
+              Accelerate AI and automation:<br></br>
+              </div>
+              <div className="conent modalText">
               Deliver software and insights faster with an intelligent control plane powered by AI. <br></br>
               <br />
-              
-              • Innovate with condifence<br></br>
+              </div>
+              <div className="content modalText2">
+              Innovate with condifence:<br></br>
+              </div>
+              <div className="content modalText">
               Co-innovate with thousands of IBM industry and technical experts. <br></br>
               <br></br>
             </div>
@@ -103,16 +111,20 @@ const InformationRow = () => {
             <button className="close" onClick={close}>
               &times;
             </button>
-            <div className="display-4 font-weight-bold text-center mb-3"> Impacts of Cloud Paks</div>
-            <div className="content font-weight-bold">
-            • 66%<br></br>
+            <div className="modalTitle"> Impacts of Cloud Paks</div>
+            <br></br><br></br>
+            <div className="content modalText">
+            <div className="content modalText2">
+            66%<br></br></div>
             Accelerate development by up to 66% using IBM and Red Hat solutions together. <br></br>
               
               <br />
-              • 60%<br></br>
+              <div className="content modalText2">
+              60%<br></br></div>
               Reduce processing time by 60% by leveraging hyperautomation to boost productivity. <br></br>
               <br></br>
-              • 6x<br></br>
+              <div className="content modalText2">
+              6x<br></br></div>
               Release 6x more innovations in market with IBM Garage. <br></br>
               <br></br>
               <br />
@@ -144,29 +156,32 @@ const InformationRow = () => {
             <button className="close" onClick={close}>
               &times;
             </button>
-            <div className="display-4 font-weight-bold text-center mb-3"> How Cloud Paks Help</div>
-            <div className="content font-weight-bold">
-              • Modernize with ease<br></br><br></br>
-              Our pre-integrated containerized software and solutions simplify modernization from <br></br> 
-              the data center all the way to the edge. Take advantage of enterprise-grade, cloud native technologies <br></br>
-              from IBM and our rich ecosystem of software and SaaS Partners offering access to over 70 ISV tools in Red Hat <br></br>
+            <div className="modalTitle"> How Cloud Paks Help</div>
+            <br></br><br></br>
+            <div className="content modalText ">
+             <div className="content modalText2">
+              Modernize with ease:<br></br>
+              </div>
+              Our pre-integrated containerized software and solutions simplify modernization from 
+              the data center all the way to the edge. Take advantage of enterprise-grade, cloud native technologies 
+              from IBM and our rich ecosystem of software and SaaS Partners offering access to over 70 ISV tools in Red Hat 
               Marketplace for easy deployment. <br></br><br></br>
-
-              • Predict Outcomes<br></br><br></br>
-
-              Become a more predictive enterprise by collecting, organizing, and analyzing data regardless of its type or location. <br></br>
-              Our data and AI capabilities with cross-industry and vertical AI applications use the power of IBM® Watson® to simplify and <br></br>
+              <div className="content modalText2">
+              Predict Outcomes:<br></br>
+              </div>
+              Become a more predictive enterprise by collecting, organizing, and analyzing data regardless of its type or location. 
+              Our data and AI capabilities with cross-industry and vertical AI applications use the power of IBM® Watson® to simplify and 
               accelerate your AI journey. <br></br><br></br>
-
-              • Automate at scale <br></br><br></br>
-
+              <div className="content modalText2">
+              Automate at scale: <br></br>
+           </div>
               Whether it’s automating repetitive tasks or more complex operations, we can help you implement a variety of intelligent workflows
               into your business through machine learning and AI. This helps improve productivity and quality of outcomes for employees and customers alike. <br></br><br></br>
-
-              • Secure everything <br></br><br></br>
-
+              <div className="content modalText2">
+              Secure everything: <br></br>
+              </div>
               We make security an integral part of our software. Mitigate threats while managing risk and compliance throughout your enterprise all without
-              moving your data. We can help you more quickly integrate your existing security tools to gain a deeper understanding of the risks facing your environment, <br></br>
+              moving your data. We can help you more quickly integrate your existing security tools to gain a deeper understanding of the risks facing your environment,
               orchestrate actions and automate responses. <br></br>
 
                <br></br>
