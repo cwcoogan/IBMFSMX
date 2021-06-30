@@ -26,8 +26,9 @@ const AppliancesInformationRow = () => {
             <div className="content font-weight-bold">
             🍃 Guardium Appliances is running on X.X.X 🍃<br>
 
-              </br>
-              <br />
+            </br><br></br>
+              [ABOUT]
+              <br /><br></br>
               ● Installer: Douglas Freeby + Robert Pugh<br></br><br></br>
               {/* <br /> */}
               Installed Appliances:<br></br>
@@ -73,8 +74,9 @@ const AppliancesInformationRow = () => {
             <div className="content font-weight-bold">
             🍃 Sterling Appliances is running on X.X.X 🍃<br>
 
-              </br>
-              <br />
+              </br><br></br>
+              [ABOUT]
+              <br /><br></br>
               ● Installer: Jerry Steward<br></br><br></br>
               {/* <br /> */}
               Installed Appliances:<br></br>

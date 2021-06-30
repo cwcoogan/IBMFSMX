@@ -25,8 +25,9 @@ const ClustersInformationSecondRow = () => {
             <div className="content font-weight-bold">
             🍃 Cloud Pak 4 Security is running on OpenShift 4.6 🍃<br>
           
-              </br>
-              <br />
+            </br><br></br>
+              [ABOUT]
+              <br /><br></br>
               ● Installer: Jonathan Tomasulo<br></br><br></br>
               {/* <br /> */}
               Installed Services:<br></br>
@@ -73,8 +74,9 @@ const ClustersInformationSecondRow = () => {
             <div className="content font-weight-bold">
             🍃 Guardium Insights is running on OpenShift 4.6 🍃<br>
 
-              </br>
-              <br />
+            </br><br></br>
+              [ABOUT]
+              <br /><br></br>
               ● Installer: Douglas Freeby + Robert Pugh<br></br><br></br>
               {/* <br /> */}
               Installed Services:<br></br>
