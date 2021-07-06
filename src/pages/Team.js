@@ -192,7 +192,7 @@ const Team = () => {
           </div>
         </div>
 
-        {/* interns/webdev*/}
+        {/* interns/webdev team*/}
         <div className='team-row-container'>
           <div className='image-container'>
           <div className='image eduardo'/>
