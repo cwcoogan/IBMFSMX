@@ -5,6 +5,7 @@ import About from './pages/About';
 import Installations from './pages/Installations';
 import Connecting from './pages/Connecting';
 import Team from './pages/Team';
+import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 import NavBar from './components/Navbar';
 import Footer from './components/Footer';
@@ -30,6 +31,9 @@ const App = () => {
           </Route>
           <Route path='/team'>
             <Team />
+          </Route>
+          <Route path='/blog'>
+            <Blog />
           </Route>
           <Route path='/contact'>
             <Contact />

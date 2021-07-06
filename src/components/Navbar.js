@@ -26,8 +26,11 @@ const NavBar = () => {
     if (location.pathname.startsWith('/team')) {
       setActiveKey(4);
     } 
-    if (location.pathname.startsWith('/contact')) {
+    if (location.pathname.startsWith('/blog')) {
       setActiveKey(5);
+    } 
+    if (location.pathname.startsWith('/contact')) {
+      setActiveKey(6);
     } 
 
   }, [location]);
@@ -64,7 +67,10 @@ const NavBar = () => {
             <Nav.Link as={Link} to='/team' eventKey={4}>
               Team
             </Nav.Link>
-            <Nav.Link as={Link} to='/contact' eventKey={5}>
+            <Nav.Link as={Link} to='/blog' eventKey={5}>
+              Blog
+            </Nav.Link>
+            <Nav.Link as={Link} to='/contact' eventKey={6}>
               Contact
             </Nav.Link>
             

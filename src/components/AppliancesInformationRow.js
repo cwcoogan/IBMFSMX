@@ -37,7 +37,7 @@ const AppliancesInformationRow = () => {
                 ● TBD<br></br>
                 ● TBD<br></br>
               <br></br>
-              Looking for services to be added? -> Contact us<br></br><br></br>
+              Looking for services to be added? - Contact us<br></br><br></br>
            
             </div>
             <div className="actions">
@@ -83,7 +83,7 @@ const AppliancesInformationRow = () => {
                 ● Sterling File Gateway<br></br>
                 ● Sterling Secure Proxy<br></br>
               <br></br>
-              Looking for services to be added? -> Contact us<br></br><br></br>
+              Looking for services to be added? - Contact us<br></br><br></br>
             </div>
             <div className="actions">
               <button
