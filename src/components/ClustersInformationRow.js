@@ -36,7 +36,9 @@ const ClustersInformationRow = () => {
                 ● MongoDB<br></br>
                 ● Guardium S-Tap<br></br>
               <br />
-              Looking for services to be added? -> Contact us<br></br><br></br>
+              Looking for services to be added? -> 
+              <a href='/contact'> Contact Us </a>
+              <br></br>
               
             </div>
             <div className="actions">
@@ -82,7 +84,9 @@ const ClustersInformationRow = () => {
                 ● API Connect <br></br>
                 ● Data Power Gateway<br></br><br></br>
                 
-              Looking for services to be added? -> Contact us<br></br><br></br>
+                Looking for services to be added? -> 
+              <a href='/contact'> Contact Us </a>
+              <br></br>
            
             </div>
             <div className="actions">
