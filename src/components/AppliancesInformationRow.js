@@ -37,7 +37,9 @@ const AppliancesInformationRow = () => {
                 ● TBD<br></br>
                 ● TBD<br></br>
               <br></br>
-              Looking for services to be added? -> Contact us<br></br><br></br>
+              Looking for services to be added? -> 
+              <a href='/contact'> Contact Us </a>
+              <br></br>
            
             </div>
             <div className="actions">
