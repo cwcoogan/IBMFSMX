@@ -19,11 +19,10 @@ const InformationRow = () => {
             <button className="close" onClick={close}>
               &times;
             </button >
-            <div className="modalTitle"> What are Cloud Paks?</div>
+            <div className="header"> What are Cloud Paks?</div>
+            <br></br><br></br>
             <div className="content modalText">
-            <br></br>
-              <br />
-
+            
               IBM Cloud Paks are AI powered software that can help organizations build, modernize, 
               and manage applications securely across any cloud. 
               <br></br>
@@ -37,7 +36,7 @@ const InformationRow = () => {
             </div>
             <div className="actions">
               <button
-                className="button"
+                className="popup-button"
                 onClick={() => {
                   console.log('modal closed ');
                   close();
@@ -62,7 +61,7 @@ const InformationRow = () => {
             <button className="close" onClick={close}>
               &times;
             </button>
-            <div className="modalTitle"> Cloud Paks Benefits</div>
+            <div className="header"> Cloud Paks Benefits</div>
            <br></br><br></br>
             <div className="content modalText2">
             Gain agility and flexibility:<br></br></div>
@@ -70,23 +69,23 @@ const InformationRow = () => {
             Make your data, applicattions and workflows work your you, wherever you are. <br></br>
             </div>
             <div className="conent modalText2">
-              <br />
-              Accelerate AI and automation:<br></br>
-              </div>
-              <div className="conent modalText">
-              Deliver software and insights faster with an intelligent control plane powered by AI. <br></br>
-              <br />
-              </div>
-              <div className="content modalText2">
-              Innovate with condifence:<br></br>
-              </div>
-              <div className="content modalText">
-              Co-innovate with thousands of IBM industry and technical experts. <br></br>
-              <br></br>
+            <br />
+            Accelerate AI and automation:<br></br>
+            </div>
+            <div className="conent modalText">
+            Deliver software and insights faster with an intelligent control plane powered by AI. <br></br>
+            <br />
+            </div>
+            <div className="content modalText2">
+            Innovate with condifence:<br></br>
+            </div>
+            <div className="content modalText">
+            Co-innovate with thousands of IBM industry and technical experts. <br></br>
+            <br></br>
             </div>
             <div className="actions">
               <button
-                className="button"
+                className="popup-button"
                 onClick={() => {
                   console.log('modal closed ');
                   close();
@@ -111,7 +110,7 @@ const InformationRow = () => {
             <button className="close" onClick={close}>
               &times;
             </button>
-            <div className="modalTitle"> Impacts of Cloud Paks</div>
+            <div className="header"> Impacts of Cloud Paks</div>
             <br></br><br></br>
             <div className="content modalText">
             <div className="content modalText2">
@@ -131,7 +130,7 @@ const InformationRow = () => {
             </div>
             <div className="actions">
               <button
-                className="button"
+                className="popup-button"
                 onClick={() => {
                   console.log('modal closed ');
                   close();
@@ -156,9 +155,9 @@ const InformationRow = () => {
             <button className="close" onClick={close}>
               &times;
             </button>
-            <div className="modalTitle"> How Cloud Paks Help</div>
+            <div className="header"> How Cloud Paks Help</div>
             <br></br><br></br>
-            <div className="content modalText ">
+            <div className="content modalText">
              <div className="content modalText2">
               Modernize with ease:<br></br>
               </div>
@@ -188,7 +187,7 @@ const InformationRow = () => {
             </div>
             <div className="actions">
               <button
-                className="button"
+                className="popup-button"
                 onClick={() => {
                   console.log('modal closed ');
                   close();

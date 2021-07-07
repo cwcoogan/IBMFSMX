@@ -22,7 +22,7 @@ const AppliancesInformationRow = () => {
             <button className="close" onClick={close}>
               &times;
             </button>
-            <div className="modalTitle"> Guardium Appliances </div>
+            <div className="header"> Guardium Appliances </div>
             <div className="content modalText">
              Guardium Appliances is running on X.X.X <br>
 
@@ -37,14 +37,26 @@ const AppliancesInformationRow = () => {
                 ● TBD<br></br>
                 ● TBD<br></br>
               <br></br>
-              Looking for services to be added? -> 
-              <a href='/contact'> Contact Us </a>
+              Looking for services to be added? 
+            
               <br></br>
            
             </div>
             <div className="actions">
               <button
-                className="button"
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal transferred to contact ');
+                  window.location.href='/contact';
+                }}
+              >
+                Contact Us 
+              </button>
+                
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+              <button
+                className="popup-button"
                 onClick={() => {
                   console.log('modal closed ');
                   close();
@@ -72,7 +84,7 @@ const AppliancesInformationRow = () => {
             <button className="close" onClick={close}>
               &times;
             </button>
-            <div className="modalTitle"> Sterling Appliances </div>
+            <div className="header"> Sterling Appliances </div>
             <div className="content modalText">
              Sterling Appliances is running on X.X.X <br>
 
@@ -85,13 +97,25 @@ const AppliancesInformationRow = () => {
                 ● Sterling File Gateway<br></br>
                 ● Sterling Secure Proxy<br></br>
               <br></br>
-              Looking for services to be added? -> 
-              <a href='/contact'> Contact Us </a>
+              Looking for services to be added?
+              
               <br></br>
             </div>
             <div className="actions">
               <button
-                className="button"
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal transferred to contact ');
+                  window.location.href='/contact';
+                }}
+              >
+                Contact Us 
+              </button>
+                
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+              <button
+                className="popup-button"
                 onClick={() => {
                   console.log('modal closed ');
                   close();

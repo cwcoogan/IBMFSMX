@@ -22,8 +22,8 @@ const ClustersInformationRow = () => {
               &times;
             </button>
             {/* <div className="display-4 font-weight-bold text-center mb-3"> Cloud Pak for Data </div> */}
-            <div className="modalTitle"> Cloud Pak for Data </div>
-            <div className="content modalText">
+            <div className="header"> Cloud Pak for Data </div>
+            <div className="content">
             {/* <div className="content font-weight-bold"> */}
                Cloud Pak 4 Data is running on OpenShift 4.6 <br>
               </br><br></br>
@@ -36,14 +36,26 @@ const ClustersInformationRow = () => {
                 ● MongoDB<br></br>
                 ● Guardium S-Tap<br></br>
               <br />
-              Looking for services to be added? -> 
-              <a href='/contact'> Contact Us </a>
+              Looking for services to be added?
+              
               <br></br>
               
             </div>
             <div className="actions">
               <button
-                className="button"
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal transferred to contact ');
+                  window.location.href='/contact';
+                }}
+              >
+                Contact Us 
+              </button>
+                
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+              <button
+                className="popup-button"
                 onClick={() => {
                   console.log('modal closed ');
                   close();
@@ -52,6 +64,7 @@ const ClustersInformationRow = () => {
                 Close
               </button>
             </div>
+            
           </div>
         )}
       </Popup>
@@ -71,7 +84,7 @@ const ClustersInformationRow = () => {
             <button className="close" onClick={close}>
               &times;
             </button>
-            <div className="modalTitle"> Cloud Pak for Integration </div>
+            <div className="header"> Cloud Pak for Integration </div>
             <div className="content modalText">
              Cloud Pak 4 Integration is running on OpenShift 4.6 <br>
             
@@ -84,14 +97,26 @@ const ClustersInformationRow = () => {
                 ● API Connect <br></br>
                 ● Data Power Gateway<br></br><br></br>
                 
-                Looking for services to be added? -> 
-              <a href='/contact'> Contact Us </a>
+                Looking for services to be added?
+              
               <br></br>
            
             </div>
             <div className="actions">
               <button
-                className="button"
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal transferred to contact ');
+                  window.location.href='/contact';
+                }}
+              >
+                Contact Us 
+              </button>
+                
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+              <button
+                className="popup-button"
                 onClick={() => {
                   console.log('modal closed ');
                   close();
