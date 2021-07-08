@@ -1,152 +1,108 @@
 import React from 'react';
-import ConImgFir from '../images/Connect1.png';
-import ConImgSec from '../images/Connect2.png';
-import ConImgThi from '../images/Connect3.png';
-import ConImgFou from '../images/Connect4.png';
-import ConImgFiv from '../images/Connect5.png';
-import ConImgSix from '../images/Connect6.png';
+import BloImgFir from '../images/Blog1.png';
+import BloImgSec from '../images/Blog2.png';
+import BloImgThi from '../images/Blog3.png';
 import 'reactjs-popup/dist/index.css';
 
-const Connecting = () => {
+const Blog = () => {
   return (
     <div>
-        <div className='container'>
+    <div className='container'>
           <div className='row mt-5 hero-row-reverse-mobile home-row '>
             <div className='col-lg-12 txt-md-left'>
               <div className='row mb-3'>
                 <h1 className='display-5 font-weight-bold'>
-                Connecting to the Environment
+                  Blog & Use Cases
                 </h1>
                 <h1 className='hr-purple'>
                 </h1>
+                <h4> <br></br> Here you will find industry specific blogs and use cases from fellow IBMers. 
+                  <br></br>Start by selecting an industry: </h4>
               </div>
             </div>
           </div>
-       </div>
+      </div>
 
-    <div class="connectboxcontainer">
-    <div class="connectbox">  
+    <div class="industryboxcontainer">
+    <div class="industrybox">  
       <ul> 
         <li>
-          <div class="connectbox-content">
-          <div class="connectbox img">
+          <div class="industrybox-content">
+          <div class="industrybox img">
           <img
-                src={ConImgFir}
+                src={BloImgFir}
               />
           </div>
-            <h2 class="date">Step 1</h2>
-            <p>The IBM FSMX Environment is an internal multi-cluster environment, running CP4S, CP4D, CP4I and Guardium Insights. The environment also hosts, Guardium Data Protection and Sterling Appliances, under Sterling File Gateway and Secure Proxy.<br></br><br></br><br></br><br></br>
-            </p>
+            <h2 class="date">Banking</h2>
           </div>
         </li>
 
       </ul>
     </div>
-   
-    <div class="connectbox">
+    <div class="industrybox">  
       <ul> 
         <li>
-          <div class="connectbox-content">
-          <div class="connectbox img">
+          <div class="industrybox-content">
+          <div class="industrybox img">
           <img
-                src={ConImgSec}
+                src={BloImgSec}
               />
           </div>
-            <h2 class="date">Step 2</h2>
-            <p>The IBM FSMX Environment is an internal multi-cluster environment, running CP4S, CP4D, CP4I and Guardium Insights. The environment also hosts, Guardium Data Protection and Sterling Appliances, under Sterling File Gateway and Secure Proxy.<br></br><br></br><br></br><br></br>  </p>
+            <h2 class="date">Insurance</h2>
           </div>
         </li>
 
       </ul>
     </div>
-   
-    <div class="connectbox">
+    <div class="industrybox">  
       <ul> 
         <li>
-          <div class="connectbox-content">
-          <div class="connectbox img">
+          <div class="industrybox-content">
+          <div class="industrybox img">
           <img
-                src={ConImgThi}
+                src={BloImgThi}
               />
           </div>
-            <h2 class="date">Step 3</h2>
-            <p>The IBM FSMX Environment is an internal multi-cluster environment, running CP4S, CP4D, CP4I and Guardium Insights. The environment also hosts, Guardium Data Protection and Sterling Appliances, under Sterling File Gateway and Secure Proxy.<br></br><br></br><br></br><br></br>  </p>
-              <div class="bulletformat">
-                <div class="bullet"></div>
-                <div class="bullet"></div>
-                <div class="bullet"></div>
-                <div class="bullet"></div>
-                <div class="bullet"></div>
-                <div class="bullet"></div>
-              </div>
+            <h2 class="date">Security</h2>
           </div>
         </li>
 
       </ul>
     </div>
-
     </div>
 
-    <div class="connectboxcontainer">
-  
-  <div class="connectbox">  
-    <ul> 
-      <li>
-        <div class="connectbox-content">
-        <div class="connectbox img">
-          <img
-                src={ConImgFou}
-              />
-          </div>
-          <h2 class="date">Step 4</h2>
-          <p>The IBM FSMX Environment is an internal multi-cluster environment, running CP4S, CP4D, CP4I and Guardium Insights. The environment also hosts, Guardium Data Protection and Sterling Appliances, under Sterling File Gateway and Secure Proxy.<br></br><br></br><br></br><br></br>  </p>
-              
-        </div>
-      </li>
+    <div class = 'container'>
+    <div class = 'industrynames'>
+        <h1>Banking</h1>
+        <h1 className='hr-purple'></h1>
+      </div>
 
-    </ul>
-  </div>
- 
-  <div class="connectbox">
-    <ul> 
-      <li>
-        <div class="connectbox-content">
-        <div class="connectbox img">
-          <img
-                src={ConImgFiv}
-              />
-          </div>
-          <h2 class="date">Step 5</h2>
-          <p>The IBM FSMX Environment is an internal multi-cluster environment, running CP4S, CP4D, CP4I and Guardium Insights. The environment also hosts, Guardium Data Protection and Sterling Appliances, under Sterling File Gateway and Secure Proxy.<br></br><br></br><br></br><br></br>  </p>
-              
-        </div>
-      </li>
+    <div class="specincontainer">
+      <div class="specinbox">  
+        <ul> 
+          <li>
+            <div class="specin-content">
+            
+              <h2 class='alignleft'> Cool Blog One </h2>
+              <h3 class='alignright'>Published: July 7th 2021</h3>
+              <h1> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit 
+                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+                occaecat cupidatat non proident, sunt in culpa qui officia 
+                deserunt mollit anim id est laborum.</h1>
+            </div>
+          </li>
 
-    </ul>
-  </div>
- 
-  <div class="connectbox">
-    <ul> 
-      <li>
-        <div class="connectbox-content">
-        <div class="connectbox img">
-          <img
-                src={ConImgSix}
-              />
-          </div>
-          <h2 class="date">Step 6</h2>
-          <p>The IBM FSMX Environment is an internal multi-cluster environment, running CP4S, CP4D, CP4I and Guardium Insights. The environment also hosts, Guardium Data Protection and Sterling Appliances, under Sterling File Gateway and Secure Proxy.<br></br><br></br><br></br><br></br>  </p>
-              
-        </div>
-      </li>
-
-    </ul>
-  </div>
-
-  </div>
+        </ul>
+      </div>
+    </div>
+    </div>
 
     </div> 
   );
 };
 
-export default Connecting;
+export default Blog;
