@@ -21,7 +21,7 @@ const ClustersInformationSecondRow = () => {
             <button className="close" onClick={close}>
               &times;
             </button>
-            <div className="modalTitle"> Cloud Pak for Security </div>
+            <div className="header"> Cloud Pak for Security </div>
             <div className="content modalText">
              Cloud Pak 4 Security is running on OpenShift 4.6 <br>
           
@@ -37,14 +37,26 @@ const ClustersInformationSecondRow = () => {
                 ● Risk Manager<br></br>
                 ● Guardium Insights S-Tap<br></br>
               <br></br>
-              Looking for services to be added? -> 
-              <a href='/contact'> Contact Us </a>
+              Looking for services to be added?
+              
               <br></br>
            
             </div>
             <div className="actions">
               <button
-                className="button"
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal transferred to contact ');
+                  window.location.href='/contact';
+                }}
+              >
+                Contact Us 
+              </button>
+                
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+              <button
+                className="popup-button"
                 onClick={() => {
                   console.log('modal closed ');
                   close();
@@ -72,7 +84,7 @@ const ClustersInformationSecondRow = () => {
             <button className="close" onClick={close}>
               &times;
             </button>
-            <div className="modalTitle"> Guardium Insights </div>
+            <div className="header"> Guardium Insights </div>
             <div className="content modalText">
              Guardium Insights is running on OpenShift 4.6 <br>
 
@@ -87,14 +99,26 @@ const ClustersInformationSecondRow = () => {
                 ● TBD<br></br>
                 ● TBD<br></br>
               <br></br>
-              Looking for services to be added? -> 
-              <a href='/contact'> Contact Us </a>
+              Looking for services to be added?
+             
               <br></br>
            
             </div>
             <div className="actions">
               <button
-                className="button"
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal transferred to contact ');
+                  window.location.href='/contact';
+                }}
+              >
+                Contact Us 
+              </button>
+                
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+              <button
+                className="popup-button"
                 onClick={() => {
                   console.log('modal closed ');
                   close();

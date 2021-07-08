@@ -14,32 +14,27 @@
   padding-bottom: 50px;
   height: 100%;
 }
-.modal {
-  position: fixed;
-  background-color: white;
-  padding:3%;
-  max-height: 80%;
-  overflow: scroll;
+
+.popup-button{
+    cursor: pointer;
+    padding: 2px 5px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 18px;
+    background: #ffffff;
+    border-radius: 24px;
+    border: 2px solid #cfcece;
 }
-.modalTitle{
-  font-weight: bold;
-  line-height: 36px;
-  text-align: center;
-  font-size: 24px;
-}
+
 .modalText{
   font-size: 20px;
-  overflow: scroll;
+  
 }
 .modalText2{
   font-size: 20px;
-  overflow: scroll;
   font-weight: bold;
 }
-.modal .modalText {
-  overflow:scroll;
-  max-height:350px;
-}
+
 .contactPage{
   //making background grey
   background-color:rgb(24, 22, 22);
