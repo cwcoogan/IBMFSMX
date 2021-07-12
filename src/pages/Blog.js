@@ -63,7 +63,7 @@ const Blog = () => {
                 src={BloImgThi}
               />
           </div>
-            <h2 class="date">Security</h2>
+            <h2 class="date">Misc</h2>
           </div>
         </li>
 
@@ -79,15 +79,109 @@ const Blog = () => {
 
     <div class="specincontainer">
       <div class="specinbox">  
+      <div class ='specin-content'>
         <ul> 
           <li>
-              <h2 class='alignleft'> Cool Blog One </h2>
-              <h3 class='alignright'>Published: July 7th 2021</h3>
-              <h2> Short blog intro here</h2>
+              <h1> Example Blog Title</h1>
+              <h2> Published July 12th 2021</h2>
+              <h3> This will be a short intro to the blog with '...' so people
+                can click on it and read more
+              </h3>
           </li>
-
         </ul>
+        </div>
       </div>
+
+      <div class="specinbox">  
+      <div class ='specin-content'>
+        <ul> 
+          <li>
+              <h1> Example Blog Title</h1>
+              <h2> Published July 12th 2021</h2>
+              <h3> This will be a short intro to the blog with '...' so people
+                can click on it and read more
+              </h3>
+          </li>
+        </ul>
+        </div>
+      </div>
+
+    </div>
+    </div>
+
+    <div class = 'container'>
+    <div class = 'industrynames'>
+        <h1>Insurance</h1>
+        <h1 className='hr-purple'></h1>
+      </div>
+
+    <div class="specincontainer">
+      <div class="specinbox">  
+      <div class ='specin-content'>
+        <ul> 
+          <li>
+              <h1> Example Blog Title</h1>
+              <h2> Published July 12th 2021</h2>
+              <h3> This will be a short intro to the blog with '...' so people
+                can click on it and read more
+              </h3>
+          </li>
+        </ul>
+        </div>
+      </div>
+
+      <div class="specinbox">  
+      <div class ='specin-content'>
+        <ul> 
+          <li>
+              <h1> Example Blog Title</h1>
+              <h2> Published July 12th 2021</h2>
+              <h3> This will be a short intro to the blog with '...' so people
+                can click on it and read more
+              </h3>
+          </li>
+        </ul>
+        </div>
+      </div>
+      
+    </div>
+    </div>
+
+    <div class = 'container'>
+    <div class = 'industrynames'>
+        <h1>Misc</h1>
+        <h1 className='hr-purple'></h1>
+      </div>
+
+    <div class="specincontainer">
+      <div class="specinbox">  
+      <div class ='specin-content'>
+        <ul> 
+          <li>
+              <h1> Example Blog Title</h1>
+              <h2> Published July 12th 2021</h2>
+              <h3> This will be a short intro to the blog with '...' so people
+                can click on it and read more
+              </h3>
+          </li>
+        </ul>
+        </div>
+      </div>
+
+      <div class="specinbox">  
+      <div class ='specin-content'>
+        <ul> 
+          <li>
+              <h1> Example Blog Title</h1>
+              <h2> Published July 12th 2021</h2>
+              <h3> This will be a short intro to the blog with '...' so people
+                can click on it and read more
+              </h3>
+          </li>
+        </ul>
+        </div>
+      </div>
+      
     </div>
     </div>
 

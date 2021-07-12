@@ -11,7 +11,6 @@
     align-items: center;
     justify-content: center;
     padding-bottom: 75px;
-    margin-left: 10px;
     margin-top: -40px;
     clear: both;
     background-color: white ;
@@ -49,15 +48,6 @@
     background-position: 100% 100%;
     animation: up-bump 0.4s ease;
   }
-  .industrybox:hover h2 {
-    color: #be95ff;
-  }
-  //.box:hover h2 span {
-    //color: red;
-  //}
-  .industrybox:hover p {
-    color: black;
-  }
   .industrybox ul li:hover {
     transform: scale(1.2);
     padding: 20px;
@@ -88,6 +78,8 @@
     min-height: auto;
     width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
     padding-bottom: 75px;
     margin-top: -40px;
     clear: both;
@@ -113,51 +105,35 @@
     border-radius: 10px;
     width: 380px;
     height: auto;
+    margin-left: 40px;
   }
+  //Formatting for info inside blog boxes
   .specin-content h1{
-    font-size: 20px;
+    font-size: 28px;
     font-weight: 500;
     line-height: 30px;
   }
   .specin-content h2{
-    font-size: 35px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #B8B5B2;
+  }
+  .specin-content h3{
+    font-size: 20px;
     font-weight: 500;
     line-height: 30px;
   }
-  .specin-content h3{
-    color: #B8B5B2;
-  }
-  .alignleft {
-    float: left;
-  }
-  .alignright {
-    float: right;
-  }
-  .specin:hover {
+  .specin-content:hover {
     background-position: 100% 100%;
     animation: up-bump 0.4s ease;
   }
-  .specin:hover h2 {
-    color: #be95ff;
-  }
-  .specin:hover p {
-    color: black;
-  }
-  .specin ul li:hover {
+  .specin-content ul li:hover {
     transform: scale(1.2);
     padding: 20px;
     border: 3px solid #be95ff;
-    color: #be95ff;
     border-radius: 10px;
     margin-bottom: 20px;
     background-color: white;
     border: 3px solid #B8B5B2;
-  }
-  .specin img {
-    display: block;
-    margin: auto;
-    margin-bottom: 10px;
-    width: 50%;
-    height: 50%;
-
   }
