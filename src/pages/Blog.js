@@ -3,6 +3,7 @@ import BloImgFir from '../images/Blog1.png';
 import BloImgSec from '../images/Blog2.png';
 import BloImgThi from '../images/Blog3.png';
 import 'reactjs-popup/dist/index.css';
+import Popup from 'reactjs-popup';
 
 const Blog = () => {
   return (
@@ -77,23 +78,13 @@ const Blog = () => {
         <h1 className='hr-purple'></h1>
       </div>
 
+    
     <div class="specincontainer">
-      <div class="specinbox">  
-      <div class ='specin-content'>
-        <ul> 
-          <li>
-              <h1> Example Blog Title</h1>
-              <h2> Published July 12th 2021</h2>
-              <h3> This will be a short intro to the blog with '...' so people
-                can click on it and read more
-              </h3>
-          </li>
-        </ul>
-        </div>
-      </div>
 
-      <div class="specinbox">  
-      <div class ='specin-content'>
+    <Popup
+        trigger={<div className='specinbox'>
+        <div className='specin-content' />
+        <div class ='specin-content'>
         <ul> 
           <li>
               <h1> Example Blog Title</h1>
@@ -104,7 +95,115 @@ const Blog = () => {
           </li>
         </ul>
         </div>
-      </div>
+      </div>}
+        modal
+        nested
+      >
+        {close => (
+          <div className="modal" style={{position:"inherit", display:"inherit"}} >
+            <button className="close" onClick={close}>
+              &times;
+            </button>
+            
+            <div className="header"> Example Blog Title </div>
+            <div className="content">
+            
+            Example Blog Title<br></br>
+           
+           Looking for services to be added?
+              
+              <br></br>
+              
+            </div>
+            <div className="actions">
+              <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal transferred to contact ');
+                  window.location.href='/contact';
+                }}
+              >
+                Contact Us 
+              </button>
+                
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+              <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal closed ');
+                  close();
+                }}
+              >
+                Close
+              </button>
+            </div>
+            
+          </div>
+        )}
+      </Popup>
+
+      <Popup
+        trigger={<div className='specinbox'>
+        <div className='specin-content' />
+        <div class ='specin-content'>
+        <ul> 
+          <li>
+              <h1> Example Blog Title</h1>
+              <h2> Published July 12th 2021</h2>
+              <h3> This will be a short intro to the blog with '...' so people
+                can click on it and read more
+              </h3>
+          </li>
+        </ul>
+        </div>
+      </div>}
+        modal
+        nested
+      >
+        {close => (
+          <div className="modal" style={{position:"inherit", display:"inherit"}} >
+            <button className="close" onClick={close}>
+              &times;
+            </button>
+            
+            <div className="header"> Example Blog Title </div>
+            <div className="content">
+            
+            Example Blog Title<br></br>
+           
+           Looking for services to be added?
+              
+              <br></br>
+              
+            </div>
+            <div className="actions">
+              <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal transferred to contact ');
+                  window.location.href='/contact';
+                }}
+              >
+                Contact Us 
+              </button>
+                
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+              <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal closed ');
+                  close();
+                }}
+              >
+                Close
+              </button>
+            </div>
+            
+          </div>
+        )}
+      </Popup>
 
     </div>
     </div>
@@ -116,8 +215,10 @@ const Blog = () => {
       </div>
 
     <div class="specincontainer">
-      <div class="specinbox">  
-      <div class ='specin-content'>
+    <Popup
+        trigger={<div className='specinbox'>
+        <div className='specin-content' />
+        <div class ='specin-content'>
         <ul> 
           <li>
               <h1> Example Blog Title</h1>
@@ -128,10 +229,58 @@ const Blog = () => {
           </li>
         </ul>
         </div>
-      </div>
+      </div>}
+        modal
+        nested
+      >
+        {close => (
+          <div className="modal" style={{position:"inherit", display:"inherit"}} >
+            <button className="close" onClick={close}>
+              &times;
+            </button>
+            
+            <div className="header"> Example Blog Title </div>
+            <div className="content">
+            
+            Example Blog Title<br></br>
+           
+           Looking for services to be added?
+              
+              <br></br>
+              
+            </div>
+            <div className="actions">
+              <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal transferred to contact ');
+                  window.location.href='/contact';
+                }}
+              >
+                Contact Us 
+              </button>
+                
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-      <div class="specinbox">  
-      <div class ='specin-content'>
+              <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal closed ');
+                  close();
+                }}
+              >
+                Close
+              </button>
+            </div>
+            
+          </div>
+        )}
+      </Popup>
+
+      <Popup
+        trigger={<div className='specinbox'>
+        <div className='specin-content' />
+        <div class ='specin-content'>
         <ul> 
           <li>
               <h1> Example Blog Title</h1>
@@ -142,7 +291,53 @@ const Blog = () => {
           </li>
         </ul>
         </div>
-      </div>
+      </div>}
+        modal
+        nested
+      >
+        {close => (
+          <div className="modal" style={{position:"inherit", display:"inherit"}} >
+            <button className="close" onClick={close}>
+              &times;
+            </button>
+            
+            <div className="header"> Example Blog Title </div>
+            <div className="content">
+            
+            Example Blog Title<br></br>
+           
+           Looking for services to be added?
+              
+              <br></br>
+              
+            </div>
+            <div className="actions">
+              <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal transferred to contact ');
+                  window.location.href='/contact';
+                }}
+              >
+                Contact Us 
+              </button>
+                
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+              <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal closed ');
+                  close();
+                }}
+              >
+                Close
+              </button>
+            </div>
+            
+          </div>
+        )}
+      </Popup>
       
     </div>
     </div>
@@ -154,8 +349,10 @@ const Blog = () => {
       </div>
 
     <div class="specincontainer">
-      <div class="specinbox">  
-      <div class ='specin-content'>
+    <Popup
+        trigger={<div className='specinbox'>
+        <div className='specin-content' />
+        <div class ='specin-content'>
         <ul> 
           <li>
               <h1> Example Blog Title</h1>
@@ -166,10 +363,58 @@ const Blog = () => {
           </li>
         </ul>
         </div>
-      </div>
+      </div>}
+        modal
+        nested
+      >
+        {close => (
+          <div className="modal" style={{position:"inherit", display:"inherit"}} >
+            <button className="close" onClick={close}>
+              &times;
+            </button>
+            
+            <div className="header"> Example Blog Title </div>
+            <div className="content">
+            
+            Example Blog Title<br></br>
+           
+           Looking for services to be added?
+              
+              <br></br>
+              
+            </div>
+            <div className="actions">
+              <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal transferred to contact ');
+                  window.location.href='/contact';
+                }}
+              >
+                Contact Us 
+              </button>
+                
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-      <div class="specinbox">  
-      <div class ='specin-content'>
+              <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal closed ');
+                  close();
+                }}
+              >
+                Close
+              </button>
+            </div>
+            
+          </div>
+        )}
+      </Popup>
+
+      <Popup
+        trigger={<div className='specinbox'>
+        <div className='specin-content' />
+        <div class ='specin-content'>
         <ul> 
           <li>
               <h1> Example Blog Title</h1>
@@ -180,7 +425,53 @@ const Blog = () => {
           </li>
         </ul>
         </div>
-      </div>
+      </div>}
+        modal
+        nested
+      >
+        {close => (
+          <div className="modal" style={{position:"inherit", display:"inherit"}} >
+            <button className="close" onClick={close}>
+              &times;
+            </button>
+            
+            <div className="header"> Example Blog Title </div>
+            <div className="content">
+            
+            Example Blog Title<br></br>
+           
+           Looking for services to be added?
+              
+              <br></br>
+              
+            </div>
+            <div className="actions">
+              <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal transferred to contact ');
+                  window.location.href='/contact';
+                }}
+              >
+                Contact Us 
+              </button>
+                
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+              <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal closed ');
+                  close();
+                }}
+              >
+                Close
+              </button>
+            </div>
+            
+          </div>
+        )}
+      </Popup>
       
     </div>
     </div>
