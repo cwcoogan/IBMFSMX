@@ -321,14 +321,9 @@
 }
 
 .accordion {
-  background-color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 80%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .panel {
