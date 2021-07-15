@@ -1,9 +1,12 @@
 {
+  "homepage": "http://cwcoogan.github.io/IBMFSMX",
   "name": "ibmfsmx",
   "version": "1.0.0",
   "description": "IBM FSM X Project",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "parcel index.html",
     "build": "parcel build index.html"
   },
@@ -16,12 +19,13 @@
   "bugs": {
     "url": "https://github.com/cwcoogan/IBMFSMX/issues"
   },
-  "homepage": "https://github.com/cwcoogan/IBMFSMX#readme",
+  
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "gh-pages": "^3.2.3",
     "parcel-bundler": "^1.9.4",
     "sass": "^1.27.0"
   },
