@@ -5,11 +5,11 @@ import 'reactjs-popup/dist/index.css';
 
 const InformationRow = () => {
   return (
-    <div className='home-info-row-container'>
+    <div className='row-container'>
           <Popup
-        trigger={<div className='image-container'>
-        <div className='image monitor' />
-        <p className='text'>What are Cloud Paks?</p>
+        trigger={<div className='image-container-home'>
+        <div className='image-home monitor' />
+        <p className='text font-weight-bold'>What are Cloud Paks?</p>
       </div>}
         modal
         nested
@@ -49,9 +49,9 @@ const InformationRow = () => {
         )}
       </Popup>
       <Popup
-        trigger={<div className='image-container'>
-        <div className='image learn' />
-        <p className='text'>Cloud Paks Benefits</p>
+        trigger={<div className='image-container-home'>
+        <div className='image-home learn' />
+        <p className='text font-weight-bold'>Cloud Paks Benefits</p>
       </div>}
         modal
         nested
@@ -98,9 +98,9 @@ const InformationRow = () => {
         )}
       </Popup>
       <Popup
-        trigger={<div className='image-container'>
-        <div className='image improve' />
-        <p className='text'>Impacts of Cloud Paks</p>
+        trigger={<div className='image-container-home'>
+        <div className='image-home improve' />
+        <p className='text font-weight-bold'>Impacts of Cloud Paks</p>
       </div>}
         modal
         nested
@@ -143,9 +143,9 @@ const InformationRow = () => {
         )}
       </Popup>
       <Popup
-        trigger={<div className='image-container'>
-        <div className='image learn2' />
-        <p className='text'>How Cloud Paks Help</p>
+        trigger={<div className='image-container-home'>
+        <div className='image-home learn2' />
+        <p className='text font-weight-bold'>How Cloud Paks Help</p>
       </div>}
         modal
         nested
