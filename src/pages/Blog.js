@@ -35,7 +35,9 @@ const Blog = () => {
                 src={BloImgFir}
               />
           </div>
-            <h2 class="date">General</h2>
+            <h2 class="date">Q3</h2>
+            <a id="Archive"></a>
+            <a href="#Archive"></a>
           </div>
         </li>
 
@@ -50,7 +52,7 @@ const Blog = () => {
                 src={BloImgSec}
               />
           </div>
-            <h2 class="date">Banking</h2>
+            <h2 class="date">Q4</h2>
           </div>
         </li>
 
@@ -65,7 +67,7 @@ const Blog = () => {
                 src={BloImgThi}
               />
           </div>
-            <h2 class="date">Insurance</h2>
+            <h2 class="date">Archive</h2>
           </div>
         </li>
 
@@ -75,7 +77,7 @@ const Blog = () => {
 
     <div class = 'container'>
     <div class = 'industrynames'>
-        <h1>General</h1>
+        <h1>Q3</h1>
         <h1 className='hr-purple'></h1>
       </div>
 
@@ -88,7 +90,7 @@ const Blog = () => {
         <div class ='specin-content'>
         <ul> 
           <li>
-              <h1> Tech Tuesday Kick-Off!</h1>
+              <h1> Tech Tuesday Kick-Off</h1>
               <h2> Published: 7/13/2021</h2>
               <h3> Check out the very first of many blogs & 
                 hear from our own Technical Leader...
@@ -235,7 +237,7 @@ const Blog = () => {
 
     <div class = 'container'>
     <div class = 'industrynames'>
-        <h1>Banking</h1>
+        <h1>Q4</h1>
         <h1 className='hr-purple'></h1>
       </div>
 
@@ -351,7 +353,7 @@ const Blog = () => {
 
     <div class = 'container'>
     <div class = 'industrynames'>
-        <h1>Insurance</h1>
+        <h1>Archive</h1>
         <h1 className='hr-purple'></h1>
       </div>
 
