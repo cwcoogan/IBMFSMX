@@ -35,7 +35,9 @@ const Connecting = () => {
               />
           </div>
             <h2 class="date">Step 1</h2>
-            <p>The IBM FSMX Environment is an internal multi-cluster environment, running CP4S, CP4D, CP4I and Guardium Insights. The environment also hosts, Guardium Data Protection and Sterling Appliances, under Sterling File Gateway and Secure Proxy.<br></br><br></br><br></br><br></br>
+            <p>First, you will need to request & log in into the TEC VPN. Request access using this <a href="https://w3.ibm.com/w3publisher/ibm-americas-hccx/tecnet" target="_blank">link </a> 
+               (If you already have access, please disregard this step). Follow along the link for instructions on requesting.
+              <br></br><br></br><br></br><br></br>
             </p>
           </div>
         </li>
@@ -53,7 +55,10 @@ const Connecting = () => {
               />
           </div>
             <h2 class="date">Step 2</h2>
-            <p>The IBM FSMX Environment is an internal multi-cluster environment, running CP4S, CP4D, CP4I and Guardium Insights. The environment also hosts, Guardium Data Protection and Sterling Appliances, under Sterling File Gateway and Secure Proxy.<br></br><br></br><br></br><br></br>  </p>
+            <p> You will now access the VPN using AnyConnect. Begin by opening the settings of AnyConnect (Gear on the Bottom Right).
+                Then uncheck the option to "Enable automatic VPN server selection". You are now able to type into the VPN box (Left 
+                of Connect Button). Type in "ralvpn.tec.ihost.com". Now click the connect button and enter username/password when prompted. 
+              <br></br><br></br><br></br><br></br>  </p>
           </div>
         </li>
 
@@ -69,16 +74,18 @@ const Connecting = () => {
                 src={ConImgThi}
               />
           </div>
-            <h2 class="date">Step 3</h2>
-            <p>The IBM FSMX Environment is an internal multi-cluster environment, running CP4S, CP4D, CP4I and Guardium Insights. The environment also hosts, Guardium Data Protection and Sterling Appliances, under Sterling File Gateway and Secure Proxy.<br></br><br></br><br></br><br></br>  </p>
-              <div class="bulletformat">
-                <div class="bullet"></div>
-                <div class="bullet"></div>
-                <div class="bullet"></div>
-                <div class="bullet"></div>
-                <div class="bullet"></div>
-                <div class="bullet"></div>
-              </div>
+            <h2>Step 3</h2>
+            <p> Now you will be connecting to the various Cloud Paks. First, connecting to Cloud Pak for Data (CP4D). Begin by ensuring 
+              you are connected to the TEC NET VPN. Then access CP4D using this <a href="ibm.biz/CP4DFSM" target="_blank">link </a> and the
+              following: 
+              <div class="tap"> 
+                <br></br>
+                Username: IBM<br></br>
+                Password: IBM<br></br>
+                </div>
+              Enjoy hands on experince with CP4D!
+              <br></br><br></br><br></br><br></br>  </p>
+                
           </div>
         </li>
 
@@ -99,7 +106,16 @@ const Connecting = () => {
               />
           </div>
           <h2 class="date">Step 4</h2>
-          <p>The IBM FSMX Environment is an internal multi-cluster environment, running CP4S, CP4D, CP4I and Guardium Insights. The environment also hosts, Guardium Data Protection and Sterling Appliances, under Sterling File Gateway and Secure Proxy.<br></br><br></br><br></br><br></br>  </p>
+          <p> Now connect to Cloud Pak for Security (CP4S). Begin by ensuring 
+              you are connected to the TEC NET VPN. Then access CP4D using this <a href="http://ibm.biz/FSMCP4S" target="_blank">link </a>. Click on "IBM 
+              provided credentials (admin only)". Login using the following: 
+              <div class="tap"> 
+                <br></br>
+                Username: IBM<br></br>
+                Password: IBM<br></br>
+                </div>
+              Enjoy hands on experince with CP4S!
+              <br></br><br></br><br></br><br></br>  </p>
               
         </div>
       </li>
@@ -117,25 +133,18 @@ const Connecting = () => {
               />
           </div>
           <h2 class="date">Step 5</h2>
-          <p>The IBM FSMX Environment is an internal multi-cluster environment, running CP4S, CP4D, CP4I and Guardium Insights. The environment also hosts, Guardium Data Protection and Sterling Appliances, under Sterling File Gateway and Secure Proxy.<br></br><br></br><br></br><br></br>  </p>
-              
-        </div>
-      </li>
-
-    </ul>
-  </div>
- 
-  <div class="connectbox">
-    <ul> 
-      <li>
-        <div class="connectbox-content">
-        <div class="connectbox img">
-          <img
-                src={ConImgSix}
-              />
-          </div>
-          <h2 class="date">Step 6</h2>
-          <p>The IBM FSMX Environment is an internal multi-cluster environment, running CP4S, CP4D, CP4I and Guardium Insights. The environment also hosts, Guardium Data Protection and Sterling Appliances, under Sterling File Gateway and Secure Proxy.<br></br><br></br><br></br><br></br>  </p>
+          <p>
+              Now connect to Guardium Insights. Begin by ensuring you are connected to the TEC NET VPN. Then access Insights using 
+              this <a href="http://ibm.biz/FSMInsights" target="_blank">link </a>. Login using the following: 
+              <div class="tap"> 
+                <br></br>
+                <br></br>
+                <br></br>
+                Username: IBM<br></br>
+                Password: IBM<br></br>
+                </div>
+              Enjoy hands on experince with insights!
+            <br></br><br></br><br></br><br></br>  </p>
               
         </div>
       </li>
