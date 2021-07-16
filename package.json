@@ -5,12 +5,6 @@
   "description": "IBM FSM X Project",
   "main": "index.js",
   "scripts": {
-    "predeploy": "npm run build",
-<<<<<<< HEAD
-    "deploy": "gh-pages -b master",
-=======
-    "deploy": "gh-pages -b master -d build",
->>>>>>> parent of 2c753490 (Updates)
     "start": "parcel index.html",
     "build": "parcel build index.html"
   },
