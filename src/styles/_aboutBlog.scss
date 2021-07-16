@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  // Size of white space (background)
+  .industryboxcontainer{
+    min-height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 75px;
+    margin-top: -40px;
+    clear: both;
+    background-color: white ;
+  }
+  
+  //Spacing for boxes
+  .industrybox{
+    width: auto;
+    height: auto;
+    max-width: 300px;
+    max-height: 250px;
+  }
+  //Text within box
+  .industrybox ul {
+    list-style: none;
+  }
+  //Text within box & border & spacing of whole boxes
+  .industrybox ul li{
+    text-align: center;
+    padding: 20px;
+    border: 3px solid black;
+    color: #be95ff;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 50px;
+    width: 250px;
+    height: 250px;
+  }
+  .industrybox-content h1{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+  .industrybox:hover {
+    background-position: 100% 100%;
+    animation: up-bump 0.4s ease;
+  }
+  .industrybox ul li:hover {
+    transform: scale(1.2);
+    padding: 20px;
+    border: 3px solid #be95ff;
+    color: #be95ff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 3px solid #B8B5B2;
+  }
+  .industrybox img {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 75%;
+    height: 75%;
+  }
+  .industrynames {
+    text-align: left;
+    margin-bottom: 120px;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    color: black;
+  }
+  //FOLLOWING IS ALL FOR INDUSTRY SPECIFIC SECTION FORMATTING
+  .specincontainer{
+    min-height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 75px;
+    margin-top: -40px;
+    clear: both;
+    background-color: white ;
+  }
+  
+  //Spacing for boxes
+  .specinbox{
+    width: auto;
+    height: auto;
+  }
+  
+  //Text within box
+  .specinbox ul {
+    list-style: none;
+  }
+  //Text within box & border & spacing of whole boxes
+  .specinbox ul li{
+    text-align: left;
+    padding: 20px;
+    border: 3px solid #be95ff;
+    color: black;
+    border-radius: 10px;
+    width: 380px;
+    height: 200px;
+    margin-left: 50px;
+  }
+  //Formatting for info inside blog boxes
+  .specin-content h1{
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+  .specin-content h2{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #B8B5B2;
+  }
+  .specin-content h3{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+  .specin-content:hover {
+    background-position: 100% 100%;
+    animation: up-bump 0.4s ease;
+  }
+  .specin-content ul li:hover {
+    transform: scale(1.2);
+    padding: 20px;
+    border: 3px solid #be95ff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 3px solid #B8B5B2;
+  }

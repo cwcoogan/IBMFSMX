@@ -11,6 +11,19 @@ import NavBar from './components/Navbar';
 import Footer from './components/Footer';
 import { UserProvider } from './states/userState';
 
+<<<<<<< HEAD
+=======
+const NoMatchPage = () => {
+  return (
+    <div
+      style={{ textAlign: 'center', minHeight: 'calc(100vh - 87px - 127px)' }}
+    >
+      <h3 style={{ paddingTop: '3rem' }}>404 - Not found</h3>
+    </div>
+  );
+};
+
+>>>>>>> parent of 2c753490 (Updates)
 const App = () => {
   return (
     <UserProvider>
@@ -38,6 +51,10 @@ const App = () => {
           <Route path='/contact'>
             <Contact />
           </Route>
+<<<<<<< HEAD
+=======
+          <Route component={NoMatchPage} />
+>>>>>>> parent of 2c753490 (Updates)
         </Switch>
         <Footer />
       </Router>

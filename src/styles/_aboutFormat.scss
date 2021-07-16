@@ -1,0 +1,183 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.timecontainer{
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 0;
+  padding-bottom: 100px;
+  background-color: white ;
+}
+
+.timeline{
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+.timeline ul {
+  list-style: none;
+}
+.timeline ul li {
+  padding: 20px;
+  background-color: #B8B5B2;
+  color: black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.timeline ul li:last-child{
+  margin-bottom: 0;
+}
+.timeline-content h1{
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.timeline-content p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 300;
+}
+.timeline-content .date{
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+@media only screen and (min-width: 768px){
+  .timeline::before{
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 5px;
+      left: 50%;
+      transform: translate(-50%);
+      background-color: #be95ff;
+  }
+  .timeline ul li {
+      width: 50%;
+      margin-bottom: 50px;
+      position: relative;
+  }
+  .timeline ul li:nth-child(odd){
+      float: left;
+      clear: right;
+      transform: translate(-30px);
+      border-radius: 20px 0px 20px 20px;
+  }
+  .timeline ul li:nth-child(even){
+      float: right;
+      clear: left;
+      transform: translate(30px);
+      border-radius: 0px 20px 20px 20px;
+  }
+  .timeline ul li::after{
+      content: '';
+      position: absolute;
+      height: 30px;
+      width: 30px;
+      background-color: white;
+      border: 3px solid #be95ff;
+      border-radius: 50%;
+      top: 0;
+  }
+  .timeline ul li:nth-child(odd)::after{
+      transform: translate(50%, -50%);
+      right: -30px;
+  }
+  .timeline ul li:nth-child(even)::after{
+      transform: translate(-50%, -50%);
+      left: -30px;
+  }
+ 
+  .timeline ul li:nth-child(odd):hover:after{
+    background-color: #be95ff;
+    background-size: -20%;
+    border-radius: 50%;
+    transform: scale(1.5);
+    right: -45px;
+}
+.timeline ul li:nth-child(even):hover:after{
+  background-color: #be95ff;
+    background-size: -20%;
+    border-radius: 50%;
+    transform: scale(1.5);
+    left: -45px;
+
+}
+.timeline-content .date{
+      position: absolute;
+      top: -60px
+  }
+}
+//Size of white space for entire about & mission area
+.boxcontainer{
+  height: 350px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 80px;
+  background-color: white ;
+}
+
+.box{
+  width: 500px;
+  max-height: 200px;
+  margin: 0px 40px 20px 40px;
+  position: relative;
+}
+.box ul {
+  list-style: none;
+}
+.box ul li{
+  padding: 20px;
+  border: 3px solid #be95ff;
+  color: black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.box-content h1{
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.box-content p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 300;
+}
+.box:hover {
+  background-position: 100% 100%;
+  animation: up-bump 0.4s ease;
+}
+.box:hover h2 {
+  color: #be95ff;
+}
+//.box:hover h2 span {
+  //color: red;
+//}
+.box:hover p {
+  color: #999;
+}
+.box ul li:hover {
+  transform: scale(1.2);
+  padding: 20px;
+  border: 3px solid #be95ff;
+  color: #be95ff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: rgb(49, 49, 49);
+  border: 3px solid #B8B5B2;
+}
