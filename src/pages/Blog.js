@@ -19,7 +19,7 @@ const Blog = () => {
                 <h1 className='hr-purple'>
                 </h1>
                 <h4> <br></br> Here you will find industry specific blogs and use cases from fellow IBMers. 
-                  <br></br>Start by selecting an industry: </h4>
+                  <br></br>Start by selecting a topic: </h4>
               </div>
             </div>
           </div>
@@ -35,7 +35,7 @@ const Blog = () => {
                 src={BloImgFir}
               />
           </div>
-            <h2 class="date">Q3</h2>
+            <h2 class="date">Technical Whitepapers</h2>
             <a id="Archive"></a>
             <a href="#Archive"></a>
           </div>
@@ -52,7 +52,7 @@ const Blog = () => {
                 src={BloImgSec}
               />
           </div>
-            <h2 class="date">Q4</h2>
+            <h2 class="date">Business Value Whitepapers</h2>
           </div>
         </li>
 
@@ -67,7 +67,7 @@ const Blog = () => {
                 src={BloImgThi}
               />
           </div>
-            <h2 class="date">Archive</h2>
+            <h2 class="date">Too Long Didn't Read</h2>
           </div>
         </li>
 
@@ -77,7 +77,7 @@ const Blog = () => {
 
     <div class = 'container'>
     <div class = 'industrynames'>
-        <h1>Q3</h1>
+        <h1>Technical Whitepapers</h1>
         <h1 className='hr-purple'></h1>
       </div>
 
@@ -90,10 +90,10 @@ const Blog = () => {
         <div class ='specin-content'>
         <ul> 
           <li>
-              <h1> Tech Tuesday Kick-Off</h1>
-              <h2> Published: 7/13/2021</h2>
-              <h3> Check out the very first of many blogs & 
-                hear from our own Technical Leader...
+              <h1> The Future of IBM</h1>
+              <h2> Published: 7/20/2021</h2>
+              <h3> Cloud Paks are the future of IBM & the leading
+                   way to modernizing business...
               </h3>
           </li>
         </ul>
@@ -108,7 +108,212 @@ const Blog = () => {
               &times;
             </button>
             
-            <div className="header"> Tech Tuesday Kick-Off </div>
+            <div className="header"> The Future of IBM </div>
+            <div className="content">
+            
+            Team - <br></br>
+            <br></br>
+            Hope everyone is having a great start to the second half.  I have worked 
+            with some of you over the first part of the year but for those who do not
+             know me my name is John Lucas.  I am a cross brand Cloud Pak leader within
+            the FSM Market.  During the start of the new year, we lead an initiative 
+            to build out a sandbox where all within the market could learn about Cloud
+            Paks and take this knowledge to your clients.  While access to this 
+            environment is coming soon, the learning lessons both during this project
+            along with my past experiences will be shared each Tuesday moving forward.  
+            Welcome to Tech Tuesdays! <br></br>
+            <br></br>
+            For the start of this adventure together I would like to answer the question: 
+            Why Cloud Paks?  For some you have worked on Cloud Paks sense they have been 
+            conceptualized, for others you are just now learning about them within your 
+            portfolio. Regardless of where you are in your journey Cloud Paks are the 
+            future of IBM and the leading way to modernize a business.  First let’s start 
+            by consolidating the marketing and give all of you an easy phrase to convey to 
+            clients the importance of Cloud Paks: Cloud Paks are a hybrid cloud platform
+            that provide a consistent experience to help modernize the business needs.  
+            In short you are able to have the experience of AI, automation and tie in 
+            security all in one easy to manage platform as a service. <br></br>
+            <br></br>
+            For me I have been with Cloud Paks sense the beginning, watching them transform 
+            from IBM Cloud to what they are today.  Marketing can be a little optimistic when 
+            it comes to the implementation of Cloud Paks within a customer’s environment.  
+            Speaking from first-hand experience installing and administering workshops/POCs 
+            with Cloud Pak for data I can say installs can be a lot more complex than they appear.  
+            The end result though will indeed transform the client’s business and over my time 
+            covering Cloud Pak for data it has produced massive success stories and transformed 
+            many a client’s business.  The innovation which takes place and the flexibility gained 
+            is unmatched when Cloud Paks have been used to solve business needs. <br></br>
+            <br></br>            
+            In closing Cloud Paks accelerate AI and provide flexibility and confidence while helping
+            clients migrate workloads to the cloud.  Customers everyday are moving workloads to the 
+            cloud and with IBM Cloud Paks they are now able to do this while consolidating everything 
+            to one platform.  Thank you all for your time.  I look forward to passing on my learning 
+            lessons through these conversations.  If you have any questions, feel free to reach out 
+            to me directly through slack/email/phone.  Happy Tech Tuesday! <br></br>
+            <br></br>
+            Regards, <br></br>
+            John Lucas
+
+
+              
+            </div>
+            <div className="actions">
+              <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal closed ');
+                  close();
+                }}
+              >
+                Close
+              </button>
+            </div>
+            
+          </div>
+        )}
+      </Popup>
+
+      <Popup
+        trigger={<div className='specinbox'>
+        <div className='specin-content' />
+        <div class ='specin-content'>
+        <ul> 
+          <li>
+              <h1> Example Blog Title</h1>
+              <h2> Published: MM DD YYYY</h2>
+              <h3> This will be a short intro to the blog with '...' so people
+                can click on it and read more
+              </h3>
+          </li>
+        </ul>
+        </div>
+      </div>}
+        modal
+        nested
+      >
+        {close => (
+          <div className="modal" style={{position:"inherit", display:"inherit"}} >
+            <button className="close" onClick={close}>
+              &times;
+            </button>
+            
+            <div className="header"> Example Blog Title </div>
+            <div className="content">
+            
+            Example Blog Title<br></br>
+           
+           Looking for services to be added?
+              
+              <br></br>
+              
+            </div>
+            <div className="actions">
+                
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+              <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal closed ');
+                  close();
+                }}
+              >
+                Close
+              </button>
+            </div>
+            
+          </div>
+        )}
+      </Popup>
+
+      <Popup
+        trigger={<div className='specinbox'>
+        <div className='specin-content' />
+        <div class ='specin-content'>
+        <ul> 
+          <li>
+              <h1> Example Blog Title</h1>
+              <h2> Published: MM DD YYYY</h2>
+              <h3> This will be a short intro to the blog with '...' so people
+                can click on it and read more
+              </h3>
+          </li>
+        </ul>
+        </div>
+      </div>}
+        modal
+        nested
+      >
+        {close => (
+          <div className="modal" style={{position:"inherit", display:"inherit"}} >
+            <button className="close" onClick={close}>
+              &times;
+            </button>
+            
+            <div className="header"> Example Blog Title </div>
+            <div className="content">
+            
+            Example Blog Title<br></br>
+           
+           Looking for services to be added?
+              
+              <br></br>
+              
+            </div>
+            <div className="actions">
+                
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+              <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal closed ');
+                  close();
+                }}
+              >
+                Close
+              </button>
+            </div>
+            
+          </div>
+        )}
+      </Popup>
+
+    </div>
+    </div>
+
+    <div class = 'container'>
+    <div class = 'industrynames'>
+        <h1>Business Value Whitepapers</h1>
+        <h1 className='hr-purple'></h1>
+      </div>
+
+    <div class="specincontainer">
+    <Popup
+        trigger={<div className='specinbox'>
+        <div className='specin-content' />
+        <div class ='specin-content'>
+        <ul> 
+          <li>
+              <h1> The Business Value</h1>
+              <h2> Published: 7/13/2021</h2>
+              <h3> Shedding light on the business value for our customors 
+                    & the journey to cloud...
+              </h3>
+          </li>
+        </ul>
+        </div>
+      </div>}
+        modal
+        nested
+      >
+        {close => (
+          <div className="modal" style={{position:"inherit", display:"inherit"}} >
+            <button className="close" onClick={close}>
+              &times;
+            </button>
+            
+            <div className="header"> The Business Value </div>
             <div className="content">
             
             Team - <br></br>
@@ -187,69 +392,8 @@ const Blog = () => {
         <div class ='specin-content'>
         <ul> 
           <li>
-              <h1> Cloud Pak One Pager</h1>
-              <h2> Published: 7/13/2021</h2>
-              <h3> Interested in learning more about Cloud Paks? Check out our one pager...
-              </h3>
-          </li>
-        </ul>
-        </div>
-      </div>}
-        modal
-        nested
-      >
-        {close => (
-          <div className="modal" style={{position:"inherit", display:"inherit"}} >
-            <button className="close" onClick={close}>
-              &times;
-            </button>
-            
-            <div className="header"> Cloud Pak One Pager </div>
-            <div className="content">
-            
-            <iframe src={BloDocFir} height='400px' width='600px'>
-            </iframe> 
-              
-              <br></br>
-              
-            </div>
-            <div className="actions">
-                
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-              <button
-                className="popup-button"
-                onClick={() => {
-                  console.log('modal closed ');
-                  close();
-                }}
-              >
-                Close
-              </button>
-            </div>
-            
-          </div>
-        )}
-      </Popup>
-
-    </div>
-    </div>
-
-    <div class = 'container'>
-    <div class = 'industrynames'>
-        <h1>Q4</h1>
-        <h1 className='hr-purple'></h1>
-      </div>
-
-    <div class="specincontainer">
-    <Popup
-        trigger={<div className='specinbox'>
-        <div className='specin-content' />
-        <div class ='specin-content'>
-        <ul> 
-          <li>
               <h1> Example Blog Title</h1>
-              <h2> Published July 12th 2021</h2>
+              <h2> Published MM DD YYYY</h2>
               <h3> This will be a short intro to the blog with '...' so people
                 can click on it and read more
               </h3>
@@ -294,7 +438,6 @@ const Blog = () => {
           </div>
         )}
       </Popup>
-
       <Popup
         trigger={<div className='specinbox'>
         <div className='specin-content' />
@@ -302,7 +445,7 @@ const Blog = () => {
         <ul> 
           <li>
               <h1> Example Blog Title</h1>
-              <h2> Published July 12th 2021</h2>
+              <h2> Published MM DD YYYY</h2>
               <h3> This will be a short intro to the blog with '...' so people
                 can click on it and read more
               </h3>
@@ -353,7 +496,7 @@ const Blog = () => {
 
     <div class = 'container'>
     <div class = 'industrynames'>
-        <h1>Archive</h1>
+        <h1>Too Long Didn't Read</h1>
         <h1 className='hr-purple'></h1>
       </div>
 
@@ -364,8 +507,60 @@ const Blog = () => {
         <div class ='specin-content'>
         <ul> 
           <li>
+              <h1> Cloud Pak Overview</h1>
+              <h2> Published: 7/13/2021</h2>
+              <h3> Hit your clients with the hard numbers, a one pager 
+                   with "easy on the eyes" information & numbers...
+              </h3>
+          </li>
+        </ul>
+        </div>
+      </div>}
+        modal
+        nested
+      >
+        {close => (
+          <div className="modal" style={{position:"inherit", display:"inherit"}} >
+            <button className="close" onClick={close}>
+              &times;
+            </button>
+            
+            <div className="header"> Cloud Pak Overview </div>
+            <div className="content">
+            
+            <iframe src={BloDocFir} height='400px' width='600px'>
+            </iframe> 
+              
+              <br></br>
+              
+            </div>
+            <div className="actions">
+                
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+              <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal closed ');
+                  close();
+                }}
+              >
+                Close
+              </button>
+            </div>
+            
+          </div>
+        )}
+      </Popup>
+
+      <Popup
+        trigger={<div className='specinbox'>
+        <div className='specin-content' />
+        <div class ='specin-content'>
+        <ul> 
+          <li>
               <h1> Example Blog Title</h1>
-              <h2> Published July 12th 2021</h2>
+              <h2> Published MM DD YYYY</h2>
               <h3> This will be a short intro to the blog with '...' so people
                 can click on it and read more
               </h3>
@@ -410,7 +605,6 @@ const Blog = () => {
           </div>
         )}
       </Popup>
-
       <Popup
         trigger={<div className='specinbox'>
         <div className='specin-content' />
@@ -418,7 +612,7 @@ const Blog = () => {
         <ul> 
           <li>
               <h1> Example Blog Title</h1>
-              <h2> Published July 12th 2021</h2>
+              <h2> Published MM DD YYYY</h2>
               <h3> This will be a short intro to the blog with '...' so people
                 can click on it and read more
               </h3>
