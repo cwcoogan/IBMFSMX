@@ -22,7 +22,7 @@ const AppliancesInformationRow = () => {
             <button className="close" onClick={close}>
               &times;
             </button>
-            <div className="header"> Guardium Appliances </div>
+            <div className="header modalText2"> Guardium Appliances </div>
             <div className="content modalText">
              Guardium Appliances is running on X.X.X <br>
 
@@ -84,7 +84,7 @@ const AppliancesInformationRow = () => {
             <button className="close" onClick={close}>
               &times;
             </button>
-            <div className="header"> Sterling Appliances </div>
+            <div className="header modalText2"> Sterling Appliances </div>
             <div className="content modalText">
              Sterling Appliances is running on X.X.X <br>
 

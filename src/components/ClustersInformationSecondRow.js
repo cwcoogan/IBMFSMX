@@ -21,7 +21,7 @@ const ClustersInformationSecondRow = () => {
             <button className="close" onClick={close}>
               &times;
             </button>
-            <div className="header"> Cloud Pak for Security </div>
+            <div className="header modalText2"> Cloud Pak for Security </div>
             <div className="content modalText">
              Cloud Pak 4 Security is running on OpenShift 4.6 <br>
           
@@ -84,7 +84,7 @@ const ClustersInformationSecondRow = () => {
             <button className="close" onClick={close}>
               &times;
             </button>
-            <div className="header"> Guardium Insights </div>
+            <div className="header modalText2"> Guardium Insights </div>
             <div className="content modalText">
              Guardium Insights is running on OpenShift 4.6 <br>
 
