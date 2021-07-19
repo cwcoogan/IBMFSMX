@@ -27,25 +27,25 @@ const App = () => {
       <Router>
         <NavBar />
         <Switch>
-          <Route exact path={["/IBMFSMX","/home"]}>
+          <Route exact path={["/IBMFSMX","/home", "/IBMFSMX/home"]}>
             <Home />
           </Route>
-          <Route path='/about'>
+          <Route path={["/IBMFSMX/about","/about"]}>
             <About />
           </Route>
-          <Route path='/installations'>
+          <Route path={["/IBMFSMX/installations","/installations"]}>
             <Installations />
           </Route>
-          <Route path='/connecting'>
+          <Route path={["/IBMFSMX/connecting","/connecting"]}>
             <Connecting />
           </Route>
-          <Route path='/team'>
+          <Route path={["/IBMFSMX/team","/team"]}>
             <Team />
           </Route>
-          <Route path='/blog'>
+          <Route path={["/IBMFSMX/blog","/blog"]}>
             <Blog />
           </Route>
-          <Route path='/contact'>
+          <Route path={["/IBMFSMX/contact","/contact"]}>
             <Contact />
           </Route>
           <Route component={NoMatchPage} />
