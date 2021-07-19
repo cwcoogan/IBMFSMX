@@ -25,18 +25,20 @@ const ClustersInformationSecondRow = () => {
             <h1 className='hr-purple'></h1>
             <div className="content modalText">
              Cloud Pak 4 Security is running on OpenShift 4.6 <br>
-          
             </br><br></br>
               [ABOUT]
               <br /><br></br>
-              ● Installer: Jonathan Tomasulo<br></br><br></br>
+              Installer: 
+              <h1 className='hr-purple2'></h1> 
+              Jonathan Tomasulo<br></br><br></br>
               {/* <br /> */}
               Installed Services:<br></br>
-                ● Threat Intelligence Insights<br></br>
-                ● Data Explorer<br></br>
-                ● SOAR<br></br>
-                ● Risk Manager<br></br>
-                ● Guardium Insights S-Tap<br></br>
+              <h1 className='hr-purple2'></h1> 
+                Threat Intelligence Insights<br></br>
+                Data Explorer<br></br>
+                SOAR<br></br>
+                Risk Manager<br></br>
+                Guardium Insights S-Tap<br></br>
               <br></br>
               Looking for services to be added?
               
@@ -89,17 +91,19 @@ const ClustersInformationSecondRow = () => {
             <h1 className='hr-purple'></h1>
             <div className="content modalText">
              Guardium Insights is running on OpenShift 4.6 <br>
-
             </br><br></br>
               [ABOUT]
               <br /><br></br>
-              ● Installer: Douglas Freeby + Robert Pugh<br></br><br></br>
+              Installer: 
+              <h1 className='hr-purple2'></h1> 
+              Douglas Freeby + Robert Pugh<br></br><br></br>
               {/* <br /> */}
               Installed Services:<br></br>
-                ● Guardium S-Tap<br></br>
-                ● TBD<br></br>
-                ● TBD<br></br>
-                ● TBD<br></br>
+              <h1 className='hr-purple2'></h1> 
+                Guardium S-Tap<br></br>
+                TBD<br></br>
+                TBD<br></br>
+                TBD<br></br>
               <br></br>
               Looking for services to be added?
              

@@ -92,15 +92,17 @@ const ClustersInformationRow = () => {
             <h1 className='hr-purple'></h1>
             <div className="content modalText">
              Cloud Pak 4 Integration is running on OpenShift 4.6 <br>
-            
             </br><br></br>
               [ABOUT]
               <br /><br></br>
-              ● Installer: Eric Lowery<br></br><br></br>
+              Installer: 
+              <h1 className='hr-purple2'></h1> 
+              Eric Lowery<br></br><br></br>
               {/* <br /> */}
               Installed Services:<br></br>
-                ● API Connect <br></br>
-                ● Data Power Gateway<br></br><br></br>
+              <h1 className='hr-purple2'></h1> 
+                API Connect <br></br>
+                Data Power Gateway<br></br><br></br>
                 
                 Looking for services to be added?
               

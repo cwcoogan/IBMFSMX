@@ -26,17 +26,19 @@ const AppliancesInformationRow = () => {
             <h1 className='hr-purple'></h1>
             <div className="content modalText">
              Guardium Appliances is running on X.X.X <br>
-
             </br><br></br>
               [ABOUT]
               <br /><br></br>
-              ● Installer: Douglas Freeby + Robert Pugh<br></br><br></br>
+              Installer: 
+              <h1 className='hr-purple2'></h1> 
+              Douglas Freeby + Robert Pugh<br></br><br></br>
               {/* <br /> */}
               Installed Appliances:<br></br>
-                ● Gaurdium Data Protection<br></br>
-                ● TBD<br></br>
-                ● TBD<br></br>
-                ● TBD<br></br>
+              <h1 className='hr-purple2'></h1> 
+                Guardium Data Protection<br></br>
+                TBD<br></br>
+                TBD<br></br>
+                TBD<br></br>
               <br></br>
               Looking for services to be added? 
             
@@ -89,15 +91,17 @@ const AppliancesInformationRow = () => {
             <h1 className='hr-purple'></h1>
             <div className="content modalText">
              Sterling Appliances is running on X.X.X <br>
-
               </br><br></br>
               [ABOUT]
               <br /><br></br>
-              ● Installer: Jerry Steward<br></br><br></br>
+              Installer: 
+              <h1 className='hr-purple2'></h1> 
+              Jerry Steward<br></br><br></br>
               {/* <br /> */}
               Installed Appliances:<br></br>
-                ● Sterling File Gateway<br></br>
-                ● Sterling Secure Proxy<br></br>
+              <h1 className='hr-purple2'></h1> 
+                Sterling File Gateway<br></br>
+                Sterling Secure Proxy<br></br>
               <br></br>
               Looking for services to be added?
               
