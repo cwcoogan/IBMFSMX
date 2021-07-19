@@ -27,7 +27,7 @@ const App = () => {
       <Router>
         <NavBar />
         <Switch>
-          <Route exact path={["/IBMFSMX","/home", "/IBMFSMX/home"]}>
+          <Route exact path={["/IBMFSMX","/home","/IBMFSMX/home"]}>
             <Home />
           </Route>
           <Route path={["/IBMFSMX/about","/about"]}>

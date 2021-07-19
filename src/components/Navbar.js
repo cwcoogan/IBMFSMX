@@ -16,21 +16,27 @@ const NavBar = () => {
   useEffect(() => {
     if (location.pathname == '/about') {
       setActiveKey(1);
+      
     } 
     if (location.pathname == ('/installations')) {
       setActiveKey(2);
+  
     } 
     if (location.pathname == ('/connecting')) {
       setActiveKey(3);
+  
     } 
     if (location.pathname.startsWith('/team')) {
       setActiveKey(4);
+     
     } 
     if (location.pathname.startsWith('/blog')) {
       setActiveKey(5);
+      
     } 
     if (location.pathname.startsWith('/contact')) {
       setActiveKey(6);
+      
     } 
 
   }, [location]);
@@ -51,6 +57,7 @@ const NavBar = () => {
             className='mr-auto ml-auto'
             activeKey={activeKey}
             onSelect={(selectedKey) => setActiveKey(selectedKey)}
+            
           >
             <Nav.Link as={Link} to='/IBMFSMX/home' eventKey={0}>
               Home
