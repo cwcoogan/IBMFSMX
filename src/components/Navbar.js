@@ -38,7 +38,7 @@ const NavBar = () => {
   return (
     <Navbar expand='sm' sticky='top'>
       <div className='container'>
-        <Navbar.Brand as={Link} to='/' onClick={() => setActiveKey(0)}>
+        <Navbar.Brand as={Link} to='/home' onClick={() => setActiveKey(0)}>
           <img
             src={logoImg}
             className='nav-bar-logo'
