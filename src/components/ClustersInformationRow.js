@@ -30,12 +30,15 @@ const ClustersInformationRow = () => {
               </br><br></br>
               [ABOUT]
               <br /><br></br>
-              ● Installer: Rajesh Kartha<br></br><br></br>
+              Installer:
+              <h1 className='hr-purple2'></h1> 
+              Rajesh Kartha<br></br><br></br>
               {/* <br /> */}
               Installed Services:<br></br>
-                ● DB2 <br></br>
-                ● MongoDB<br></br>
-                ● Guardium S-Tap<br></br>
+              <h1 className='hr-purple2'></h1> 
+                DB2 <br></br>
+                MongoDB<br></br>
+                Guardium S-Tap<br></br>
               <br />
               Looking for services to be added?
               
