@@ -131,9 +131,12 @@
 }
 
 .box{
-  width: 400px;
-  height: 300px;
-  margin: 40px;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  padding: 40px;
   
 }
 .box ul {

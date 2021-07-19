@@ -13,7 +13,7 @@ const Tips = () => {
         <li>
           <div class="box-content">
             <h2 class="date">About</h2>
-            <p>The IBM FSMX Environment is an internal multi-cluster environment, running CP4S, CP4D, CP4I and Guardium Insights. The environment also hosts, Guardium Data Protection and Sterling Appliances, under Sterling File Gateway and Secure Proxy. <br></br><br></br><br></br> </p>
+            <p>The IBM FSMX Environment is an internal multi-cluster environment, running CP4S, CP4D, CP4I and Guardium Insights. The environment also hosts, Guardium Data Protection and Sterling Appliances, under Sterling File Gateway and Secure Proxy. <br></br><br></br></p>
           </div>
         </li>
 
