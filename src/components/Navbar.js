@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { useAuth } from '../states/userState';
-import logoImg from '../images/ibm_logo_pos_RGB.png';
+import logoImg from '../images/IBM_logo_pos_RGB.png';
 
 const NavBar = () => {
   const [activeKey, setActiveKey] = useState(-1);
@@ -52,7 +52,7 @@ const NavBar = () => {
             activeKey={activeKey}
             onSelect={(selectedKey) => setActiveKey(selectedKey)}
           >
-            <Nav.Link as={Link} to='/' eventKey={0}>
+            <Nav.Link as={Link} to='/home' eventKey={0}>
               Home
             </Nav.Link>
             <Nav.Link as={Link} to='/about' eventKey={1}>
