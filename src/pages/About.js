@@ -7,7 +7,7 @@ const Tips = () => {
   return (
     <div>
 
-  <div class="boxcontainer">
+  <div class="boxcontainer hero-row-reverse-mobile">
     <div class="box">
       <ul> 
         <li>

@@ -121,19 +121,18 @@
 }
 //Size of white space for entire about & mission area
 .boxcontainer{
-  height: 350px;
   width: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
-  margin-bottom: 80px;
+  margin-top: 80px;
+  margin-bottom: 40px;
   background-color: white ;
 }
 
 .box{
   width: 500px;
-  max-height: 200px;
+  height: 300px;
   margin: 0px 40px 20px 40px;
   position: relative;
 }
