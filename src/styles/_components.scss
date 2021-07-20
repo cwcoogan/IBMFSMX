@@ -106,9 +106,19 @@
   padding-left: 20px;
 }
 .right-border{
+  @include media-breakpoint-down(sm) {
+    border-bottom:2px solid #be95ff;
+  padding-left:auto;
+  padding-right: 30px;
+  padding-bottom: 5px;
+}
+
+@include media-breakpoint-up(md) {
   border-right:2px solid #be95ff;
   padding-left:auto;
   padding-right: 30px;
+}
+  
   //padding:auto;
 }
 .row-container {
