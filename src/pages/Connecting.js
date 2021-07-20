@@ -96,7 +96,7 @@ const Connecting = () => {
 
     <div class="connectboxcontainer">
   
-  <div class="connectbox">  
+  <div class="cloudbox">  
     <ul> 
       <li>
         <div class="connectbox-content">
@@ -123,34 +123,6 @@ const Connecting = () => {
     </ul>
   </div>
  
-  <div class="connectbox">
-    <ul> 
-      <li>
-        <div class="connectbox-content">
-        <div class="connectbox img">
-          <img
-                src={ConImgFiv}
-              />
-          </div>
-          <h2 class="date">Step 5</h2>
-          <p>
-              Now connect to Guardium Insights. Begin by ensuring you are connected to the TEC NET VPN. Then access Insights using 
-              this <a href="http://ibm.biz/FSMInsights" target="_blank">link </a>. Login using the following: 
-              <div class="tap"> 
-                <br></br>
-                <br></br>
-                <br></br>
-                Username: IBM<br></br>
-                Password: IBM<br></br>
-                </div>
-              Enjoy hands on experince with insights!
-            <br></br><br></br><br></br><br></br>  </p>
-              
-        </div>
-      </li>
-
-    </ul>
-  </div>
 
   </div>
 

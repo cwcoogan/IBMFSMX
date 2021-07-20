@@ -80,3 +80,63 @@
     width: 100%;
     height: 100%;
   }
+  //Specific cloud 
+  .cloudbox{
+    width: 50%;
+    height: 100;
+    max-width: 300px;
+    margin: 0px 50px 0 50px;
+  }
+  .cloud ul {
+    list-style: none;
+  }
+  .cloud ul li{
+    padding: 20px;
+    border: 3px solid #be95ff;
+    color: black;
+    height: 600px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .tap {
+    margin-left: 30px;
+  }
+  .cloudbox-content h1{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  .cloudbox-content p {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    margin-bottom: -75px;
+  }
+  .cloudbox:hover {
+    background-position: 100% 100%;
+    animation: up-bump 0.4s ease;
+  }
+  .cloudbox:hover h2 {
+    color: #be95ff;
+  }
+  .cloudbox:hover p {
+    color: black;
+  }
+  .cloudbox ul li:hover {
+    transform: scale(1.2);
+    padding: 20px;
+    border: 3px solid #be95ff;
+    color: #be95ff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 3px solid #B8B5B2;
+  }
+  .cloudbox img {
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    width: 100%;
+    height: 100%;
+  }
