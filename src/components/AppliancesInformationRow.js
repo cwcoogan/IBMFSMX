@@ -23,7 +23,7 @@ const AppliancesInformationRow = () => {
               &times;
             </button>
             <div className="header modalText2"> Guardium Appliances </div>
-            <h1 className='hr-purple'></h1>
+            
             <div className="content modalText">
              Guardium Appliances is running on X.X.X <br>
             </br><br></br>
@@ -88,7 +88,7 @@ const AppliancesInformationRow = () => {
               &times;
             </button>
             <div className="header modalText2"> Sterling Appliances </div>
-            <h1 className='hr-purple'></h1>
+            
             <div className="content modalText">
              Sterling Appliances is running on X.X.X <br>
               </br><br></br>
