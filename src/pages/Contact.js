@@ -50,31 +50,19 @@ const Contact = () => {
       <div className='container mobile home-row'>
       <Accordion className='accordion'
         title="How do I access the environment"
-        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        content="To access the environment, you will need to create a TECnet user ID, and login through the VPN. Instructions to do so can be found here. Once you are on the VPN, you will need to decide which Cloud Pak you will want to access- all installed Cloud Paks can be found here. All environments are running off of OpenShift 4.6, and installed services can be found on the installations page."
       />
       <Accordion className='accordion'
         title="What is a Cloud Pak"
-        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        content="IBM Cloud Paks are AI-powered software that can help organizations build, modernize, and manage applications securely across any cloud. <br></br<br></br>They include pre-certified containerized software and foundational services that provide customers with a common operations and integrations framework. Built on Red Hat OpenShift, the market leader for open source, hybrid cloud platform, they provide a consistent experience for an infrastructure management control plane that includes AI, automation, and security."
       />
       <Accordion className='accordion'
         title="Where can I learn more"
-        content="
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        "
+        content="to learn more please visit link."
       />
       <Accordion className='accordion'
         title="How do I add a service"
-        content="
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        "
+        content="Before adding a service, please make sure that it is not already available in the environmnet. A list of installed services can be found on the Installations page.<br></br>To make a request to add additional services, please contact Chase Coogan, or John Lucas at their designated email addresses found on the Contact page."
       />
       
     
