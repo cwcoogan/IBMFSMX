@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className='homePage'>
       <div className='container'>
-        <div className='row mt-5 hero-row-reverse-mobile home-row '>
+        <div className='row mt-5 home-hero-row-reverse-mobile home-row '>
           <div className='col-lg-6 txt-md-left'>
             <div className='row mb-3'>
             <p className='lead font-weight-bold'>

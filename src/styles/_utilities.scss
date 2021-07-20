@@ -4,6 +4,12 @@
   }
 }
 
+.home-hero-row-reverse-mobile {
+  @include media-breakpoint-down(md) {
+    flex-direction: column-reverse;
+  }
+}
+
 .hr {
   display: block;
   height: 2px;
