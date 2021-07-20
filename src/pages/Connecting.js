@@ -24,7 +24,7 @@ const Connecting = () => {
           </div>
        </div>
 
-    <div class="connectboxcontainer">
+    <div class="connectboxcontainer hero-row-reverse-mobile">
     <div class="connectbox">  
       <ul> 
         <li>
@@ -94,7 +94,7 @@ const Connecting = () => {
 
     </div>
 
-    <div class="connectboxcontainer">
+    <div class="connectboxcontainer hero-row-reverse-mobile">
   
   <div class="connectbox">  
     <ul> 

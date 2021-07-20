@@ -1,6 +1,6 @@
 .hero-row-reverse-mobile {
   @include media-breakpoint-down(md) {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 }
 
