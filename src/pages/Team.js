@@ -43,39 +43,6 @@ const Team = () => {
           </div>
         </div>
 
-        <div className='team-row-container'>
-          <div className='image-container'>
-          <div className='image kevin'/>
-            <div className='title'>Kevin Rupp</div>
-            <div className='text'>Solution Engineer Manager</div>
-          
-          </div>
-
-          <div className='image-container'>
-          <div className='image adam-j'/>
-            <div className='title'>Adam J Rodgers</div>
-            <div className='text'>Technical Sales Manager</div>
-          
-          </div>
-
-          <div className='image-container'>
-          <div className='image steve'/>
-            <div className='title'>Steve Farque</div>
-            <div className='text'>Technical Sales Manager</div>
-          
-          </div>
-        </div>  
-
-        <div className='team-row-container'>
-          <div className='image-container'>
-          <div className='image david-w'/>
-            <div className='title'>David Waren</div>
-            <div className='text'>Technical Sales Manager</div>
-          
-          </div>
-        </div>
-        
-
         <div className='row mt-5 hero-row-reverse-mobile home-row '>
           <div className='col-lg-12 txt-md-left'>
             <div className='row mb-3'>
@@ -125,6 +92,54 @@ const Team = () => {
           
         </div>
 
+        <div className='row mt-5 hero-row-reverse-mobile home-row '>
+          <div className='col-lg-12 txt-md-left'>
+            <div className='row mb-3'>
+              <h1 className='display-5 font-weight-bold'>
+                Technical Sales Managers
+              </h1>
+              <h1 className='hr-purple'>
+                
+              </h1>
+  
+            </div>
+          </div>
+        </div>
+
+        {/* technical sales managers*/}
+        <div className='team-row-container'>
+          <div className='image-container'>
+          <div className='image kevin'/>
+            <div className='title'>Kevin Rupp</div>
+            <div className='text'>Solution Engineer Manager</div>
+          
+          </div>
+
+          <div className='image-container'>
+          <div className='image adam-j'/>
+            <div className='title'>Adam J Rodgers</div>
+            <div className='text'>Technical Sales Manager</div>
+          
+          </div>
+
+          <div className='image-container'>
+          <div className='image steve'/>
+            <div className='title'>Steve Farque</div>
+            <div className='text'>Technical Sales Manager</div>
+          
+          </div>
+        </div>  
+
+        <div className='team-row-container'>
+          <div className='image-container'>
+          <div className='image david-w'/>
+            <div className='title'>David Waren</div>
+            <div className='text'>Technical Sales Manager</div>
+          
+          </div>
+        </div>
+
+        
         <div className='row mt-5 hero-row-reverse-mobile home-row '>
           <div className='col-lg-12 txt-md-left'>
             <div className='row mb-3'>
