@@ -9,12 +9,19 @@
 }
 .homePage{
   //Making the background both white and grey
-  background: linear-gradient(to top, rgb(24, 22, 22) 70%,white 30%);
+  background-blend-mode: screen;
   width:100%;
   padding-bottom: 50px;
   height: 100%;
   padding-left: 20px;
   padding-right: 20px;
+  @include media-breakpoint-down(sm) {
+    background: linear-gradient(to top, rgb(24, 22, 22) 75%,white 25%);
+}
+
+@include media-breakpoint-up(md) {
+  background: linear-gradient(to top, rgb(24, 22, 22) 65%,white 35%);
+}
 }
 
 .popup-button{
