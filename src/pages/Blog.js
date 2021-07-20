@@ -2,7 +2,7 @@ import React from 'react';
 import BloImgFir from '../images/Blog1.png';
 import BloImgSec from '../images/Blog2.png';
 import BloImgThi from '../images/Blog3.png';
-import BloDocFir from '../images/CloudPakOne.pdf';
+import BloDocFir from '../images/TLDR1.png';
 import 'reactjs-popup/dist/index.css';
 import Popup from 'reactjs-popup';
 
@@ -528,8 +528,11 @@ const Blog = () => {
             <div className="header"> Cloud Pak Overview </div>
             <div className="content">
             
-            <iframe src={BloDocFir} height='400px' width='600px'>
-            </iframe> 
+            <div class="industrybox img">
+            <img
+                src={BloDocFir}
+              />
+            </div>
               
               <br></br>
               

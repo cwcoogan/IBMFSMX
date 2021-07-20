@@ -75,8 +75,9 @@ const Connecting = () => {
               />
           </div>
             <h2>Step 3</h2>
-            <p> Now you will be connecting to the various Cloud Paks. First, connecting to Cloud Pak for Data (CP4D). Begin by ensuring 
-              you are connected to the TEC NET VPN. Then access CP4D using this <a href="ibm.biz/CP4DFSM" target="_blank">link </a> and the
+            <p> Now you will be connecting to the various Cloud Paks. First, ensure you are connected 
+                to the TEC VPN then click on the links below & use the assocaited information
+                to access the instances. <a href="ibm.biz/CP4DFSM" target="_blank">link </a> and the
               following: 
               <div class="tap"> 
                 <br></br>
@@ -98,31 +99,32 @@ const Connecting = () => {
   
   <div class="cloudbox">  
     <ul> 
-      <li>
-        <div class="connectbox-content">
-        <div class="connectbox img">
+      <li> 
+        <div class="cloudbox-content">
+        <div class="cloudbox img">
           <img
                 src={ConImgFou}
               />
           </div>
-          <h2 class="date">Step 4</h2>
-          <p> Now connect to Cloud Pak for Security (CP4S). Begin by ensuring 
-              you are connected to the TEC NET VPN. Then access CP4D using this <a href="http://ibm.biz/FSMCP4S" target="_blank">link </a>. Click on "IBM 
-              provided credentials (admin only)". Login using the following: 
+          <h1>Cloud Pak for Data</h1>
+          <p> Access using this <a href="http://ibm.biz/FSMCP4S" target="_blank">link </a> and 
+              <br></br>the following information:
               <div class="tap"> 
-                <br></br>
                 Username: IBM<br></br>
                 Password: IBM<br></br>
                 </div>
-              Enjoy hands on experince with CP4S!
+              Enjoy hands on experince <br></br>with CP4S!
               <br></br><br></br><br></br><br></br>  </p>
+                  
               
         </div>
+        
       </li>
 
     </ul>
   </div>
  
+
 
   </div>
 
