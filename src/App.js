@@ -1,5 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Installations from './pages/Installations';
@@ -11,6 +12,7 @@ import NavBar from './components/Navbar';
 import Footer from './components/Footer';
 import { UserProvider } from './states/userState';
 
+
 const NoMatchPage = () => {
   return (
     <div
@@ -21,39 +23,27 @@ const NoMatchPage = () => {
   );
 };
 
-const App = () => {
+class App extends React.Component {
+ render() {
   return (
     <UserProvider>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <NavBar />
         <Switch>
-          <Route exact path={["/IBMFSMX","/home","/IBMFSMX/home"]}>
-            <Home />
-          </Route>
-          <Route path={["/IBMFSMX/about","/about"]}>
-            <About />
-          </Route>
-          <Route path={["/IBMFSMX/installations","/installations"]}>
-            <Installations />
-          </Route>
-          <Route path={["/IBMFSMX/connecting","/connecting"]}>
-            <Connecting />
-          </Route>
-          <Route path={["/IBMFSMX/team","/team"]}>
-            <Team />
-          </Route>
-          <Route path={["/IBMFSMX/blog","/blog"]}>
-            <Blog />
-          </Route>
-          <Route path={["/IBMFSMX/contact","/contact"]}>
-            <Contact />
-          </Route>
+          <Route exact path='/' component={Home}/>
+          <Route exact path='/about' component={About}/>
+          <Route exact path='/installations' component={Installations}/>
+          <Route exact path='/connecting' component={Connecting}/>
+          <Route exact path='/team' component={Team}/>
+          <Route exact path='/blog' component={Blog}/>
+          <Route exact path='/contact' component={Contact}/>
           <Route component={NoMatchPage} />
         </Switch>
         <Footer />
       </Router>
     </UserProvider>
   );
+ }
 };
 
 export default App;
