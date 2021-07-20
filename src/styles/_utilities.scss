@@ -1,5 +1,11 @@
 .hero-row-reverse-mobile {
   @include media-breakpoint-down(md) {
+    flex-direction: column;
+  }
+}
+
+.home-hero-row-reverse-mobile {
+  @include media-breakpoint-down(md) {
     flex-direction: column-reverse;
   }
 }
