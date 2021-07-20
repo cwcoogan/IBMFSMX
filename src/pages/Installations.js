@@ -24,7 +24,7 @@ const Installations = () => {
 
       {/* clusters */}
       <div className='container'>
-        <div className='row mt-5 hero-row-reverse-mobile home-row '>
+        <div className='row mt-5 hero-row-reverse-mobile'>
           <div className='col-lg-12 txt-md-left'>
             <div className='row mb-3'>
               <h1 className='display-5 font-weight-bold'>
@@ -43,7 +43,7 @@ const Installations = () => {
 
       {/* appliances */}
       <div className='container'>
-        <div className='row mt-5 hero-row-reverse-mobile home-row '>
+        <div className='row mt-5 hero-row-reverse-mobile'>
           <div className='col-lg-12 txt-md-left'>
             <div className='row mb-3'>
               <h1 className='display-5 font-weight-bold'>

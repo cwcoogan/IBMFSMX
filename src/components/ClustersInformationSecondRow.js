@@ -4,7 +4,7 @@ import 'reactjs-popup/dist/index.css';
 
 const ClustersInformationSecondRow = () => {
   return (
-    <div className='row-container container-fluid installations-row'>
+    <div className='row-container container-fluid'>
       <Popup
         trigger={<div className='image-container'>
         <div className='image security' />
