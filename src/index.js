@@ -5,7 +5,6 @@ import './styles/style.scss';
 
 import { HashRouter } from 'react-router-dom';
 import App from './App';
-import { UserProvider } from './states/userState';
 
 ReactDOM.render(
     <React.StrictMode>

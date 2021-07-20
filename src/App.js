@@ -10,7 +10,6 @@ import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 import NavBar from './components/Navbar';
 import Footer from './components/Footer';
-import { UserProvider } from './states/userState';
 
 
 const NoMatchPage = () => {
@@ -26,7 +25,6 @@ const NoMatchPage = () => {
 class App extends React.Component {
  render() {
   return (
-    <UserProvider>
       <Router basename={process.env.PUBLIC_URL}>
         <NavBar />
         <Switch>
@@ -41,7 +39,6 @@ class App extends React.Component {
         </Switch>
         <Footer />
       </Router>
-    </UserProvider>
   );
  }
 };

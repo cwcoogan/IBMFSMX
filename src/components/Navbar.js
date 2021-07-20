@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import { useAuth } from '../states/userState';
 import logoImg from '../images/IBM_logo_pos_RGB.png';
 
 const NavBar = () => {
@@ -10,7 +9,6 @@ const NavBar = () => {
 
   const location = useLocation();
 
-  const { user } = useAuth();
 
   //the home page contact form picture col needs to be set col-lg-6 so that it wraps correctly
   useEffect(() => {
