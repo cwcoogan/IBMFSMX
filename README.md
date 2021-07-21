@@ -7,6 +7,8 @@ This site will follow the IBM Carbon Design System Layout
 This website is developed and managed by Chase Coogan + Eduardo Gomez + Emily Placet + Alejandro Obrador + Bharath Kaimal
 Contact Information: Chase.coogan@ibm.com
 
+Project Link: https://cwcoogan.github.io/IBMFSMX/
+
 ### `npm start`
 Runs the app in the development mode.
 ### `npm run build`
