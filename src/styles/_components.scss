@@ -16,11 +16,15 @@
   padding-left: 20px;
   padding-right: 20px;
   @include media-breakpoint-down(sm) {
-    background: linear-gradient(to top, rgb(24, 22, 22) 75%,white 25%);
+    background: linear-gradient(to top, rgb(24, 22, 22) 80%,white 20%);
+    align-items: center;
 }
-
 @include media-breakpoint-up(md) {
+  background: linear-gradient(to top, rgb(24, 22, 22) 73%,white 37%);
+}
+@include media-breakpoint-up(lg) {
   background: linear-gradient(to top, rgb(24, 22, 22) 65%,white 35%);
+
 }
 }
 
