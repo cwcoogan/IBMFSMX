@@ -25,7 +25,7 @@ const NoMatchPage = () => {
 class App extends React.Component {
  render() {
   return (
-      <HashRouter basename={process.env.PUBLIC_URL + '/'}>
+      <HashRouter>
         <NavBar />
         <Switch>
           <Route exact path='/' component={Home}/>
