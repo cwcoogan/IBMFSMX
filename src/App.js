@@ -25,7 +25,7 @@ const NoMatchPage = () => {
 class App extends React.Component {
  render() {
   return (
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router basename={process.env.PUBLIC_URL + '/'}>
         <NavBar />
         <Switch>
           <Route exact path='/' component={Home}/>
