@@ -50,7 +50,7 @@ const ClustersInformationSecondRow = () => {
                 className="popup-button"
                 onClick={() => {
                   console.log('modal transferred to contact ');
-                  window.location.href='/contact';
+                  window.location.href='/IBMFSMX/#/contact';
                 }}
               >
                 Contact Us 
@@ -115,7 +115,7 @@ const ClustersInformationSecondRow = () => {
                 className="popup-button"
                 onClick={() => {
                   console.log('modal transferred to contact ');
-                  window.location.href='/contact';
+                  window.location.href='/IBMFSMX/#/contact';
                 }}
               >
                 Contact Us 
