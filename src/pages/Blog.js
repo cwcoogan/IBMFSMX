@@ -103,7 +103,7 @@ const Blog = () => {
         nested
       >
         {close => (
-          <div className="modal" style={{position:"inherit", display:"inherit"}} >
+          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
             <button className="close" onClick={close}>
               &times;
             </button>
@@ -192,7 +192,7 @@ const Blog = () => {
         nested
       >
         {close => (
-          <div className="modal" style={{position:"inherit", display:"inherit"}} >
+          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
             <button className="close" onClick={close}>
               &times;
             </button>
@@ -245,7 +245,7 @@ const Blog = () => {
         nested
       >
         {close => (
-          <div className="modal" style={{position:"inherit", display:"inherit"}} >
+          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
             <button className="close" onClick={close}>
               &times;
             </button>
@@ -308,7 +308,7 @@ const Blog = () => {
         nested
       >
         {close => (
-          <div className="modal" style={{position:"inherit", display:"inherit"}} >
+          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
             <button className="close" onClick={close}>
               &times;
             </button>
@@ -405,7 +405,7 @@ const Blog = () => {
         nested
       >
         {close => (
-          <div className="modal" style={{position:"inherit", display:"inherit"}} >
+          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
             <button className="close" onClick={close}>
               &times;
             </button>
@@ -457,7 +457,7 @@ const Blog = () => {
         nested
       >
         {close => (
-          <div className="modal" style={{position:"inherit", display:"inherit"}} >
+          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
             <button className="close" onClick={close}>
               &times;
             </button>
@@ -520,7 +520,7 @@ const Blog = () => {
         nested
       >
         {close => (
-          <div className="modal" style={{position:"inherit", display:"inherit"}} >
+          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
             <button className="close" onClick={close}>
               &times;
             </button>
@@ -575,7 +575,7 @@ const Blog = () => {
         nested
       >
         {close => (
-          <div className="modal" style={{position:"inherit", display:"inherit"}} >
+          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
             <button className="close" onClick={close}>
               &times;
             </button>
@@ -627,7 +627,7 @@ const Blog = () => {
         nested
       >
         {close => (
-          <div className="modal" style={{position:"inherit", display:"inherit"}} >
+          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
             <button className="close" onClick={close}>
               &times;
             </button>
