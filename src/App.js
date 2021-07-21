@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import { HashRouter } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -25,7 +25,7 @@ const NoMatchPage = () => {
 class App extends React.Component {
  render() {
   return (
-      <Router basename={process.env.PUBLIC_URL + '/'}>
+      <Router basename="/IBMFSMX">
         <NavBar />
         <Switch>
           <Route exact path='/' component={Home}/>
