@@ -25,64 +25,64 @@ const Blog = () => {
           </div>
       </div>
 
-    <div class="industryboxcontainer">
-    <div class="industrybox">  
-      <ul> 
-        <li>
-          <div class="industrybox-content">
-          <div class="industrybox img">
-          <img
-                src={BloImgFir}
-              />
-          </div>
-            <h2 class="date">Technical Whitepapers</h2>
-            <a id="Archive"></a>
-            <a href="#Archive"></a>
-          </div>
-        </li>
+      <div class="industryboxcontainer hero-row-reverse-mobile">
+      <div class="industrybox">  
+        <ul> 
+          <li>
+            <div class="industrybox-content">
+            <div class="industrybox img">
+            <img
+                  src={BloImgFir}
+                />
+            </div>
+              <h2 class="date">Technical Whitepapers</h2>
+              <a id="Archive"></a>
+              <a href="#Archive"></a>
+            </div>
+          </li>
 
-      </ul>
-    </div>
-    <div class="industrybox">  
-      <ul> 
-        <li>
-          <div class="industrybox-content">
-          <div class="industrybox img">
-          <img
-                src={BloImgSec}
-              />
-          </div>
-            <h2 class="date">Business Value Whitepapers</h2>
-          </div>
-        </li>
+        </ul>
+      </div>
+      <div class="industrybox">  
+        <ul> 
+          <li>
+            <div class="industrybox-content">
+            <div class="industrybox img">
+            <img
+                  src={BloImgSec}
+                />
+            </div>
+              <h2 class="date">Business Value Whitepapers</h2>
+            </div>
+          </li>
 
-      </ul>
-    </div>
-    <div class="industrybox">  
-      <ul> 
-        <li>
-          <div class="industrybox-content">
-          <div class="industrybox img">
-          <img
-                src={BloImgThi}
-              />
-          </div>
-            <h2 class="date">Too Long Didn't Read</h2>
-          </div>
-        </li>
+        </ul>
+      </div>
+      <div class="industrybox">  
+        <ul> 
+          <li>
+            <div class="industrybox-content">
+            <div class="industrybox img">
+            <img
+                  src={BloImgThi}
+                />
+            </div>
+              <h2 class="date">Too Long Didn't Read</h2>
+            </div>
+          </li>
 
-      </ul>
-    </div>
-    </div>
-
-    <div class = 'container'>
-    <div class = 'industrynames'>
-        <h1>Technical Whitepapers</h1>
-        <h1 className='hr-purple'></h1>
+        </ul>
+      </div>
       </div>
 
+      <div class = 'container'>
+      <div class = 'industrynames'>
+          <h1>Technical Whitepapers</h1>
+          <h1 className='hr-purple'></h1>
+        </div>
+
     
-    <div class="specincontainer">
+    <div class="specincontainer hero-row-reverse-mobile">
 
     <Popup
         trigger={<div className='specinbox'>
@@ -282,13 +282,13 @@ const Blog = () => {
     </div>
     </div>
 
-    <div class = 'container'>
+    <div class = 'container hero-row-reverse-mobile'>
     <div class = 'industrynames'>
         <h1>Business Value Whitepapers</h1>
         <h1 className='hr-purple'></h1>
       </div>
 
-    <div class="specincontainer">
+    <div class="specincontainer hero-row-reverse-mobile">
     <Popup
         trigger={<div className='specinbox'>
         <div className='specin-content' />
@@ -494,13 +494,13 @@ const Blog = () => {
     </div>
     </div>
 
-    <div class = 'container'>
+    <div class = 'container hero-row-reverse-mobile'>
     <div class = 'industrynames'>
         <h1>Too Long Didn't Read</h1>
         <h1 className='hr-purple'></h1>
       </div>
 
-    <div class="specincontainer">
+    <div class="specincontainer hero-row-reverse-mobile">
     <Popup
         trigger={<div className='specinbox'>
         <div className='specin-content' />
