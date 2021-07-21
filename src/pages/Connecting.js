@@ -76,16 +76,8 @@ const Connecting = () => {
           </div>
             <h2>Step 3</h2>
             <p> Now you will be connecting to the various Cloud Paks. First, ensure you are connected 
-                to the TEC VPN then click on the links below & use the assocaited information
-                to access the instances. <a href="ibm.biz/CP4DFSM" target="_blank">link </a> and the
-              following: 
-              <div class="tap"> 
-                <br></br>
-                Username: IBM<br></br>
-                Password: IBM<br></br>
-                </div>
-              Enjoy hands on experince with CP4D!
-              <br></br><br></br><br></br><br></br>  </p>
+                to the TEC VPN. Then use the following links & account information
+                to access each instances. </p>
                 
           </div>
         </li>
@@ -97,32 +89,83 @@ const Connecting = () => {
 
     <div class="connectboxcontainer hero-row-reverse-mobile">
   
-  <div class="cloudbox">  
-    <ul> 
-      <li> 
-        <div class="cloudbox-content">
-        <div class="cloudbox img">
-          <img
-                src={ConImgFou}
-              />
-          </div>
-          <h1>Cloud Pak for Data</h1>
-          <p> Access using this <a href="http://ibm.biz/FSMCP4S" target="_blank">link </a> and 
-              <br></br>the following information:
-              <div class="tap"> 
+    <div class="cloudboxcontainer">
+      <div class="cloudbox">  
+        <ul> 
+          <li>
+            <div class="cloudbox-content">
+            <div class="cloudbox img">
+            <img
+                 src={ConImgFou}
+                />
+            </div>
+            <a href="ibm.biz/CP4DFSM">
+              <div class="link">
+                <h2>Cloud Pak for Data</h2>
+              </div>
+            </a>
+              <p> <div class="tap"> 
                 Username: IBM<br></br>
                 Password: IBM<br></br>
                 </div>
-              Enjoy hands on experince <br></br>with CP4S!
+              Enjoy hands on experince with CP4D!
               <br></br><br></br><br></br><br></br>  </p>
-                  
-              
-        </div>
-        
-      </li>
+            </div>
+        </li>
+      </ul>
+    </div>
 
-    </ul>
-  </div>
+    <div class="cloudbox">  
+        <ul> 
+          <li>
+            <div class="cloudbox-content">
+            <div class="cloudbox img">
+            <img
+                 src={ConImgFou}
+                />
+            </div>
+            <a href="http://ibm.biz/FSMCP4S">
+              <div class="link">
+                <h2>Cloud Pak for Secuirty</h2>
+              </div>
+            </a>
+              <p> <div class="tap"> 
+                Username: IBM<br></br>
+                Password: IBM<br></br>
+                </div>
+              Enjoy hands on experince with CP4S!
+              <br></br><br></br><br></br><br></br>  </p>
+            </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="cloudbox">  
+        <ul> 
+          <li>
+            <div class="cloudbox-content">
+            <div class="cloudbox img">
+            <img
+                 src={ConImgFou}
+                />
+            </div>
+            <a href="http://ibm.biz/FSMInsights">
+              <div class="link">
+                <h2>Guardium Insights</h2>
+              </div>
+            </a>
+              <p> <div class="tap"> 
+                Username: IBM<br></br>
+                Password: IBM<br></br>
+                </div>
+              Enjoy hands on experince with Insights!
+              <br></br><br></br><br></br><br></br>  </p>
+            </div>
+        </li>
+      </ul>
+    </div>
+
+    </div>
  
 
 
