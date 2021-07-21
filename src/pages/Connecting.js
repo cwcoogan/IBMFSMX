@@ -87,85 +87,83 @@ const Connecting = () => {
 
     </div>
 
-    <div class="connectboxcontainer hero-row-reverse-mobile">
-  
-    <div class="cloudboxcontainer">
+    <div class="cloudboxcontainer hero-row-reverse-mobile">
+        <div class="cloudbox">  
+          <ul> 
+            <li>
+              <div class="cloudbox-content">
+              <div class="cloudbox img">
+              <img
+                  src={ConImgFou}
+                  />
+              </div>
+              <a href="ibm.biz/CP4DFSM" target="_blank">
+                <div class="link">
+                  <h2>Cloud Pak for Data</h2>
+                </div>
+              </a>
+                <p> <div class="tap"> 
+                  Username: IBM<br></br>
+                  Password: IBM<br></br>
+                  </div>
+                Enjoy hands on experince with CP4D!
+                <br></br><br></br><br></br><br></br>  </p>
+              </div>
+          </li>
+        </ul>
+      </div>
+
       <div class="cloudbox">  
-        <ul> 
-          <li>
-            <div class="cloudbox-content">
-            <div class="cloudbox img">
-            <img
-                 src={ConImgFou}
-                />
-            </div>
-            <a href="ibm.biz/CP4DFSM">
-              <div class="link">
-                <h2>Cloud Pak for Data</h2>
+          <ul> 
+            <li>
+              <div class="cloudbox-content">
+              <div class="cloudbox img">
+              <img
+                  src={ConImgFou}
+                  />
               </div>
-            </a>
-              <p> <div class="tap"> 
-                Username: IBM<br></br>
-                Password: IBM<br></br>
+              <a href="http://ibm.biz/FSMCP4S" target="_blank">
+                <div class="link">
+                  <h2>Cloud Pak for Secuirty</h2>
                 </div>
-              Enjoy hands on experince with CP4D!
-              <br></br><br></br><br></br><br></br>  </p>
-            </div>
-        </li>
-      </ul>
-    </div>
-
-    <div class="cloudbox">  
-        <ul> 
-          <li>
-            <div class="cloudbox-content">
-            <div class="cloudbox img">
-            <img
-                 src={ConImgFou}
-                />
-            </div>
-            <a href="http://ibm.biz/FSMCP4S">
-              <div class="link">
-                <h2>Cloud Pak for Secuirty</h2>
+              </a>
+                <p> <div class="tap"> 
+                  Username: IBM<br></br>
+                  Password: IBM<br></br>
+                  </div>
+                Enjoy hands on experince with CP4S!
+                <br></br><br></br><br></br><br></br>  </p>
               </div>
-            </a>
-              <p> <div class="tap"> 
-                Username: IBM<br></br>
-                Password: IBM<br></br>
-                </div>
-              Enjoy hands on experince with CP4S!
-              <br></br><br></br><br></br><br></br>  </p>
-            </div>
-        </li>
-      </ul>
-    </div>
+          </li>
+        </ul>
+      </div>
 
-    <div class="cloudbox">  
-        <ul> 
-          <li>
-            <div class="cloudbox-content">
-            <div class="cloudbox img">
-            <img
-                 src={ConImgFou}
-                />
-            </div>
-            <a href="http://ibm.biz/FSMInsights">
-              <div class="link">
-                <h2>Guardium Insights</h2>
+      <div class="cloudbox">  
+          <ul> 
+            <li>
+              <div class="cloudbox-content">
+              <div class="cloudbox img">
+              <img
+                  src={ConImgFou}
+                  />
               </div>
-            </a>
-              <p> <div class="tap"> 
-                Username: IBM<br></br>
-                Password: IBM<br></br>
+              <a href="http://ibm.biz/FSMInsights" target="_blank">
+                <div class="link">
+                  <h2>Guardium Insights</h2>
                 </div>
-              Enjoy hands on experince with Insights!
-              <br></br><br></br><br></br><br></br>  </p>
-            </div>
-        </li>
-      </ul>
-    </div>
+              </a>
+                <p> <div class="tap"> 
+                  Username: IBM<br></br>
+                  Password: IBM<br></br>
+                  </div>
+                Enjoy hands on experince with Insights!
+                <br></br><br></br><br></br><br></br>  </p>
+              </div>
+          </li>
+        </ul>
+      </div>
 
-    </div>
+   
  
 
 
