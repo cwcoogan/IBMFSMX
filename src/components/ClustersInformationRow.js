@@ -20,7 +20,7 @@ const ClustersInformationRow = () => {
         nested
       >
         {close => (
-          <div className="modal" style={{position:"inherit", display:"inherit"}} >
+          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
             <button className="close" onClick={close}>
               &times;
             </button>
@@ -87,7 +87,7 @@ const ClustersInformationRow = () => {
         nested
       >
         {close => (
-          <div className="modal" style={{position:"inherit", display:"inherit"}} >
+          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
             <button className="close" onClick={close}>
               &times;
             </button>
