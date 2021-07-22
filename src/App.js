@@ -25,7 +25,7 @@ const NoMatchPage = () => {
 class App extends React.Component {
  render() {
   return (
-      <Router basename={process.env.PUBLIC_URL}>
+      <HashRouter>
         <NavBar />
         <Switch>
           <Route exact path='/' component={Home}/>
@@ -38,7 +38,7 @@ class App extends React.Component {
           <Route component={NoMatchPage} />
         </Switch>
         <Footer />
-      </Router>
+      </HashRouter>
   );
  }
 };

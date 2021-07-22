@@ -18,7 +18,7 @@ const AppliancesInformationRow = () => {
         nested
       >
         {close => (
-          <div className="modal" style={{position:"inherit", display:"inherit"}} >
+          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
             <button className="close" onClick={close}>
               &times;
             </button>
@@ -50,7 +50,7 @@ const AppliancesInformationRow = () => {
                 className="popup-button"
                 onClick={() => {
                   console.log('modal transferred to contact ');
-                  window.location.href='/contact';
+                  window.location.href='/IBMFSMX/#/contact';
                 }}
               >
                 Contact Us 
@@ -83,7 +83,7 @@ const AppliancesInformationRow = () => {
         nested
       >
         {close => (
-          <div className="modal" style={{position:"inherit", display:"inherit"}} >
+          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
             <button className="close" onClick={close}>
               &times;
             </button>
@@ -112,7 +112,7 @@ const AppliancesInformationRow = () => {
                 className="popup-button"
                 onClick={() => {
                   console.log('modal transferred to contact ');
-                  window.location.href='/contact';
+                  window.location.href='/IBMFSMX/#/contact';
                 }}
               >
                 Contact Us 

@@ -1,6 +1,9 @@
 import React from 'react';
+import { Nav } from 'react-bootstrap';
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
+import { Switch, Route, Link } from 'react-router-dom';
+import Contact from '../pages/Contact';
 
 const ClustersInformationRow = () => {
   return (
@@ -17,7 +20,7 @@ const ClustersInformationRow = () => {
         nested
       >
         {close => (
-          <div className="modal" style={{position:"inherit", display:"inherit"}} >
+          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
             <button className="close" onClick={close}>
               &times;
             </button>
@@ -50,7 +53,7 @@ const ClustersInformationRow = () => {
                 className="popup-button"
                 onClick={() => {
                   console.log('modal transferred to contact ');
-                  window.location.href='/contact';
+                  window.location.href='/IBMFSMX/#/contact';
                 }}
               >
                 Contact Us 
@@ -84,7 +87,7 @@ const ClustersInformationRow = () => {
         nested
       >
         {close => (
-          <div className="modal" style={{position:"inherit", display:"inherit"}} >
+          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
             <button className="close" onClick={close}>
               &times;
             </button>
@@ -114,7 +117,7 @@ const ClustersInformationRow = () => {
                 className="popup-button"
                 onClick={() => {
                   console.log('modal transferred to contact ');
-                  window.location.href='/contact';
+                  window.location.href='/IBMFSMX/#/contact';
                 }}
               >
                 Contact Us 

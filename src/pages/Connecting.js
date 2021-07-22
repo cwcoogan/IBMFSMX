@@ -97,7 +97,7 @@ const Connecting = () => {
                   src={ConImgFou}
                   />
               </div>
-              <a href="ibm.biz/CP4DFSM" target="_blank">
+              <a href="https://cpdfsmx-cpd-cpdfsmx.apps.fsmx-cp4d.rtp.tecnet/" target="_blank">
                 <div class="link">
                   <h2>Cloud Pak for Data</h2>
                 </div>
