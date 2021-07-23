@@ -51,7 +51,7 @@ const Blog = () => {
         <div class ='specin-content'>
         <ul> 
           <li>
-              <h1> The Future of IBM</h1>
+              <h1> Why Cloud Paks? </h1>
               <h2> 7/13/2021</h2>
               <h3> Cloud Paks are the future of IBM & the leading
                    way to modernizing business...
@@ -69,7 +69,7 @@ const Blog = () => {
               &times;
             </button>
             
-            <div className="header"> The Future of IBM </div>
+            <div className="header"> Why Cloud Paks? </div>
             <div className="content">
             
             Team - <br></br>
@@ -140,7 +140,7 @@ const Blog = () => {
         <div class ='specin-content'>
         <ul> 
           <li>
-              <h1> The Business Value</h1>
+              <h1>Why Cloud Paks? </h1>
               <h2> 7/13/2021</h2>
               <h3> Shedding light on the business value for our customors 
                     & the journey to cloud...
@@ -158,7 +158,7 @@ const Blog = () => {
               &times;
             </button>
             
-            <div className="header"> The Business Value </div>
+            <div className="header"> Why Cloud Paks? </div>
             <div className="content">
             
             Team - <br></br>
@@ -237,7 +237,7 @@ const Blog = () => {
         <div class ='specin-content'>
         <ul> 
           <li>
-              <h1> Cloud Pak Overview</h1>
+              <h1> Why Cloud Paks? </h1>
               <h2> 7/13/2021</h2>
               <h3> Hit your clients with the hard numbers, a one pager 
                    with "easy on the eyes" information & numbers...
@@ -255,7 +255,7 @@ const Blog = () => {
               &times;
             </button>
             
-            <div className="header"> Cloud Pak Overview </div>
+            <div className="header"> Why Cloud Paks? </div>
             <div className="content">
             
             <div class="industrybox img">
