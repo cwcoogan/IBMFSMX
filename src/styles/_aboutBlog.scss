@@ -7,6 +7,14 @@
   margin-top: -30px;
   background-color: white ;
 }
+
+.testcontainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 //Spacing for titles
 .columnbox{
   width: auto;
