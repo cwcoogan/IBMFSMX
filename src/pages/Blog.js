@@ -1,7 +1,4 @@
 import React from 'react';
-import BloImgFir from '../images/Blog1.png';
-import BloImgSec from '../images/Blog2.png';
-import BloImgThi from '../images/Blog3.png';
 import BloDocFir from '../images/TLDR1.png';
 import 'reactjs-popup/dist/index.css';
 import Popup from 'reactjs-popup';
@@ -9,77 +6,41 @@ import Popup from 'reactjs-popup';
 const Blog = () => {
   return (
     <div>
-    <div className='container'>
-          <div className='row mt-5 hero-row-reverse-mobile home-row '>
-            <div className='col-lg-12 txt-md-left'>
-              <div className='row mb-3'>
-                <h1 className='display-5 font-weight-bold'>
-                  Blog & White Papers
-                </h1>
-                <h1 className='hr-purple'>
-                </h1>
-                <h4> <br></br> Here you will find industry specific blogs and use cases from fellow IBMers. 
-                  <br></br>Start by selecting a topic: </h4>
+      <div className='container'>
+            <div className='row mt-5 hero-row-reverse-mobile home-row '>
+              <div className='col-lg-12 txt-md-left'>
+                  <h1 className='display-5 font-weight-bold'>
+                    Blog & White Papers
+                  </h1>
+                  <h1 className='hr-purple'>
+                  </h1>
+                  <h4> <br></br> Here you will find industry specific blogs and use cases from fellow IBMers: </h4>
               </div>
             </div>
-          </div>
-      </div>
-
-      <div class="industryboxcontainer hero-row-reverse-mobile">
-      <div class="industrybox">  
-        <ul> 
-          <li>
-            <div class="industrybox-content">
-            <div class="industrybox img">
-            <img
-                  src={BloImgFir}
-                />
-            </div>
-              <h2 class="date">Technical Whitepapers</h2>
-              <a id="Archive"></a>
-              <a href="#Archive"></a>
-            </div>
-          </li>
-
-        </ul>
-      </div>
-      <div class="industrybox">  
-        <ul> 
-          <li>
-            <div class="industrybox-content">
-            <div class="industrybox img">
-            <img
-                  src={BloImgSec}
-                />
-            </div>
-              <h2 class="date">Business Value Whitepapers</h2>
-            </div>
-          </li>
-
-        </ul>
-      </div>
-      <div class="industrybox">  
-        <ul> 
-          <li>
-            <div class="industrybox-content">
-            <div class="industrybox img">
-            <img
-                  src={BloImgThi}
-                />
-            </div>
-              <h2 class="date">Too Long Didn't Read</h2>
-            </div>
-          </li>
-
-        </ul>
-      </div>
-      </div>
-
-      <div class = 'container'>
-      <div class = 'industrynames'>
-          <h1>Technical Whitepapers</h1>
-          <h1 className='hr-purple'></h1>
         </div>
+
+
+      <div class="container ">
+        <div class="columncontainer">
+          <div class="columnbox">  
+                <div class="columnbox-content">
+                  <h2>Technical <br></br> Whitepapers</h2>
+                </div>
+          </div>
+
+          <div class="columnbox">  
+                <div class="columnbox-content">
+                  <h2>Business Value <br></br> Whitepapers</h2>
+                </div>
+          </div>
+
+          <div class="columnbox">  
+                <div class="columnbox-content">
+                  <h2>TL;DR </h2>
+                </div>
+          </div>
+
+          </div>
 
     
     <div class="specincontainer hero-row-reverse-mobile">
@@ -91,7 +52,7 @@ const Blog = () => {
         <ul> 
           <li>
               <h1> The Future of IBM</h1>
-              <h2> Published: 7/20/2021</h2>
+              <h2> 7/13/2021</h2>
               <h3> Cloud Paks are the future of IBM & the leading
                    way to modernizing business...
               </h3>
@@ -179,124 +140,8 @@ const Blog = () => {
         <div class ='specin-content'>
         <ul> 
           <li>
-              <h1> Example Blog Title</h1>
-              <h2> Published: MM DD YYYY</h2>
-              <h3> This will be a short intro to the blog with '...' so people
-                can click on it and read more
-              </h3>
-          </li>
-        </ul>
-        </div>
-      </div>}
-        modal
-        nested
-      >
-        {close => (
-          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
-            <button className="close" onClick={close}>
-              &times;
-            </button>
-            
-            <div className="header"> Example Blog Title </div>
-            <div className="content">
-            
-            Example Blog Title<br></br>
-           
-           Looking for services to be added?
-              
-              <br></br>
-              
-            </div>
-            <div className="actions">
-                
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-              <button
-                className="popup-button"
-                onClick={() => {
-                  console.log('modal closed ');
-                  close();
-                }}
-              >
-                Close
-              </button>
-            </div>
-            
-          </div>
-        )}
-      </Popup>
-
-      <Popup
-        trigger={<div className='specinbox'>
-        <div className='specin-content' />
-        <div class ='specin-content'>
-        <ul> 
-          <li>
-              <h1> Example Blog Title</h1>
-              <h2> Published: MM DD YYYY</h2>
-              <h3> This will be a short intro to the blog with '...' so people
-                can click on it and read more
-              </h3>
-          </li>
-        </ul>
-        </div>
-      </div>}
-        modal
-        nested
-      >
-        {close => (
-          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
-            <button className="close" onClick={close}>
-              &times;
-            </button>
-            
-            <div className="header"> Example Blog Title </div>
-            <div className="content">
-            
-            Example Blog Title<br></br>
-           
-           Looking for services to be added?
-              
-              <br></br>
-              
-            </div>
-            <div className="actions">
-                
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-              <button
-                className="popup-button"
-                onClick={() => {
-                  console.log('modal closed ');
-                  close();
-                }}
-              >
-                Close
-              </button>
-            </div>
-            
-          </div>
-        )}
-      </Popup>
-
-    </div>
-    </div>
-
-    <div class = 'container hero-row-reverse-mobile'>
-    <div class = 'industrynames'>
-        <h1>Business Value Whitepapers</h1>
-        <h1 className='hr-purple'></h1>
-      </div>
-
-    <div class="specincontainer hero-row-reverse-mobile">
-    <Popup
-        trigger={<div className='specinbox'>
-        <div className='specin-content' />
-        <div class ='specin-content'>
-        <ul> 
-          <li>
               <h1> The Business Value</h1>
-              <h2> Published: 7/13/2021</h2>
+              <h2> 7/13/2021</h2>
               <h3> Shedding light on the business value for our customors 
                     & the journey to cloud...
               </h3>
@@ -392,8 +237,121 @@ const Blog = () => {
         <div class ='specin-content'>
         <ul> 
           <li>
+              <h1> Cloud Pak Overview</h1>
+              <h2> 7/13/2021</h2>
+              <h3> Hit your clients with the hard numbers, a one pager 
+                   with "easy on the eyes" information & numbers...
+              </h3>
+          </li>
+        </ul>
+        </div>
+      </div>}
+        modal
+        nested
+      >
+        {close => (
+          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
+            <button className="close" onClick={close}>
+              &times;
+            </button>
+            
+            <div className="header"> Cloud Pak Overview </div>
+            <div className="content">
+            
+            <div class="industrybox img">
+            <img
+                src={BloDocFir}
+              />
+            </div>
+              
+              <br></br>
+              
+            </div>
+            <div className="actions">
+                
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+              <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal closed ');
+                  close();
+                }}
+              >
+                Close
+              </button>
+            </div>
+            
+          </div>
+        )}
+      </Popup>
+
+    </div>
+    </div>
+
+    <div class = 'container hero-row-reverse-mobile'>
+    <div class="specincontainer hero-row-reverse-mobile">
+    <Popup
+        trigger={<div className='specinbox'>
+        <div className='specin-content' />
+        <div class ='specin-content'>
+        <ul> 
+          <li>
               <h1> Example Blog Title</h1>
-              <h2> Published MM DD YYYY</h2>
+              <h2> MM DD YYYY</h2>
+              <h3> This will be a short intro to the blog with '...' so people
+                can click on it and read more
+              </h3>
+          </li>
+        </ul>
+        </div>
+      </div>}
+        modal
+        nested
+      >
+        {close => (
+          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
+            <button className="close" onClick={close}>
+              &times;
+            </button>
+            
+            <div className="header"> Example Blog Title </div>
+            <div className="content">
+            
+            Example Blog Title<br></br>
+           
+           Looking for services to be added?
+              
+              <br></br>
+              
+            </div>
+            <div className="actions">
+                
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+              <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal closed ');
+                  close();
+                }}
+              >
+                Close
+              </button>
+            </div>
+            
+          </div>
+        )}
+      </Popup>
+
+      <Popup
+        trigger={<div className='specinbox'>
+        <div className='specin-content' />
+        <div class ='specin-content'>
+        <ul> 
+          <li>
+              <h1> Example Blog Title</h1>
+              <h2> MM DD YYYY</h2>
               <h3> This will be a short intro to the blog with '...' so people
                 can click on it and read more
               </h3>
@@ -445,7 +403,7 @@ const Blog = () => {
         <ul> 
           <li>
               <h1> Example Blog Title</h1>
-              <h2> Published MM DD YYYY</h2>
+              <h2> MM DD YYYY</h2>
               <h3> This will be a short intro to the blog with '...' so people
                 can click on it and read more
               </h3>
@@ -495,11 +453,6 @@ const Blog = () => {
     </div>
 
     <div class = 'container hero-row-reverse-mobile'>
-    <div class = 'industrynames'>
-        <h1>Too Long Didn't Read</h1>
-        <h1 className='hr-purple'></h1>
-      </div>
-
     <div class="specincontainer hero-row-reverse-mobile">
     <Popup
         trigger={<div className='specinbox'>
@@ -507,10 +460,10 @@ const Blog = () => {
         <div class ='specin-content'>
         <ul> 
           <li>
-              <h1> Cloud Pak Overview</h1>
-              <h2> Published: 7/13/2021</h2>
-              <h3> Hit your clients with the hard numbers, a one pager 
-                   with "easy on the eyes" information & numbers...
+              <h1> Example Blog Title</h1>
+              <h2> MM DD YYYY</h2>
+              <h3> This will be a short intro to the blog with '...' so people
+                can click on it and read more
               </h3>
           </li>
         </ul>
@@ -525,14 +478,12 @@ const Blog = () => {
               &times;
             </button>
             
-            <div className="header"> Cloud Pak Overview </div>
+            <div className="header"> Example Blog Title </div>
             <div className="content">
             
-            <div class="industrybox img">
-            <img
-                src={BloDocFir}
-              />
-            </div>
+            Example Blog Title<br></br>
+           
+           Looking for services to be added?
               
               <br></br>
               
@@ -563,7 +514,7 @@ const Blog = () => {
         <ul> 
           <li>
               <h1> Example Blog Title</h1>
-              <h2> Published MM DD YYYY</h2>
+              <h2> MM DD YYYY</h2>
               <h3> This will be a short intro to the blog with '...' so people
                 can click on it and read more
               </h3>
@@ -615,7 +566,7 @@ const Blog = () => {
         <ul> 
           <li>
               <h1> Example Blog Title</h1>
-              <h2> Published MM DD YYYY</h2>
+              <h2> MM DD YYYY</h2>
               <h3> This will be a short intro to the blog with '...' so people
                 can click on it and read more
               </h3>
