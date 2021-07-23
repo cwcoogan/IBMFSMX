@@ -124,7 +124,7 @@ const Connecting = () => {
               </div>
               <a href="http://ibm.biz/FSMCP4S" target="_blank">
                 <div class="link">
-                  <h2>Cloud Pak for Secuirty</h2>
+                  <h2>Cloud Pak for Security</h2>
                 </div>
               </a>
                 <p> <div class="tap"> 
