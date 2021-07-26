@@ -123,6 +123,117 @@ const Blog = () => {
      
       </Popup>
       <Popup
+        trigger={<div className='specinbox'>
+        <div className='specin-content' />
+        <div class ='specin-content'>
+        <ul> 
+          <li>
+              <h1> Example Blog Title</h1>
+              <h2> MM DD YYYY</h2>
+              <h3> This will be a short intro to the blog with '...' so people
+                can click on it and read more
+              </h3>
+          </li>
+        </ul>
+        </div>
+      </div>}
+        modal
+        nested
+      >
+        {close => (
+          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
+            <button className="close" onClick={close}>
+              &times;
+            </button>
+            
+            <div className="header"> Example Blog Title </div>
+            <div className="content">
+            
+            Example Blog Title<br></br>
+           
+           Looking for services to be added?
+              
+              <br></br>
+              
+            </div>
+            <div className="actions">
+                
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+              <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal closed ');
+                  close();
+                }}
+              >
+                Close
+              </button>
+            </div>
+            
+          </div>
+        )}
+      </Popup>
+      <Popup
+        trigger={<div className='specinbox'>
+        <div className='specin-content' />
+        <div class ='specin-content'>
+        <ul> 
+          <li>
+              <h1> Example Blog Title</h1>
+              <h2> MM DD YYYY</h2>
+              <h3> This will be a short intro to the blog with '...' so people
+                can click on it and read more
+              </h3>
+          </li>
+        </ul>
+        </div>
+      </div>}
+        modal
+        nested
+      >
+        {close => (
+          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
+            <button className="close" onClick={close}>
+              &times;
+            </button>
+            
+            <div className="header"> Example Blog Title </div>
+            <div className="content">
+            
+            Example Blog Title<br></br>
+           
+           Looking for services to be added?
+              
+              <br></br>
+              
+            </div>
+            <div className="actions">
+                
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+              <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal closed ');
+                  close();
+                }}
+              >
+                Close
+              </button>
+            </div>
+            
+          </div>
+        )}
+      </Popup>
+      </div>
+
+    <div className="mb-3">
+      <h1 className='font-weight-bold'>
+        Business Value <br></br> Whitepapers
+      </h1>
+    
+      <Popup
        trigger={<div className='specinbox'>
        <div className='specin-content' />
        <div class ='specin-content'>
@@ -218,119 +329,6 @@ const Blog = () => {
          </div>
        )}
      </Popup>
-     <Popup
-       trigger={<div className='specinbox'>
-       <div className='specin-content' />
-       <div class ='specin-content'>
-       <ul> 
-         <li>
-             <h1> Why Cloud Paks? </h1>
-             <h2> 7/13/2021</h2>
-             <h3> Hit your clients with the hard numbers, a one pager 
-                  with "easy on the eyes" information & numbers...
-             </h3>
-         </li>
-       </ul>
-       </div>
-     </div>}
-       modal
-       nested
-     >
-       {close => (
-         <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
-           <button className="close" onClick={close}>
-             &times;
-           </button>
-           
-           <div className="header"> Why Cloud Paks? </div>
-           <div className="content">
-           
-           <div class="industrybox img">
-           <img
-               src={BloDocFir}
-             />
-           </div>
-             
-             <br></br>
-             
-           </div>
-           <div className="actions">
-               
-             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-             <button
-               className="popup-button"
-               onClick={() => {
-                 console.log('modal closed ');
-                 close();
-               }}
-             >
-               Close
-             </button>
-           </div>
-           
-         </div>
-       )}
-     </Popup>
-      </div>
-
-    <div className="mb-3">
-      <h1 className='font-weight-bold'>
-        Business Value <br></br> Whitepapers
-      </h1>
-    
-    <Popup
-        trigger={<div className='specinbox'>
-        <div className='specin-content' />
-        <div class ='specin-content'>
-        <ul> 
-          <li>
-              <h1> Example Blog Title</h1>
-              <h2> MM DD YYYY</h2>
-              <h3> This will be a short intro to the blog with '...' so people
-                can click on it and read more
-              </h3>
-          </li>
-        </ul>
-        </div>
-      </div>}
-        modal
-        nested
-      >
-        {close => (
-          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
-            <button className="close" onClick={close}>
-              &times;
-            </button>
-            
-            <div className="header"> Example Blog Title </div>
-            <div className="content">
-            
-            Example Blog Title<br></br>
-           
-           Looking for services to be added?
-              
-              <br></br>
-              
-            </div>
-            <div className="actions">
-                
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-              <button
-                className="popup-button"
-                onClick={() => {
-                  console.log('modal closed ');
-                  close();
-                }}
-              >
-                Close
-              </button>
-            </div>
-            
-          </div>
-        )}
-      </Popup>
 
       <Popup
         trigger={<div className='specinbox'>
@@ -446,57 +444,59 @@ const Blog = () => {
        
       </h1>
       <Popup
-        trigger={<div className='specinbox'>
-        <div className='specin-content' />
-        <div class ='specin-content'>
-        <ul> 
-          <li>
-              <h1> Example Blog Title</h1>
-              <h2> MM DD YYYY</h2>
-              <h3> This will be a short intro to the blog with '...' so people
-                can click on it and read more
-              </h3>
-          </li>
-        </ul>
-        </div>
-      </div>}
-        modal
-        nested
-      >
-        {close => (
-          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
-            <button className="close" onClick={close}>
-              &times;
-            </button>
-            
-            <div className="header"> Example Blog Title </div>
-            <div className="content">
-            
-            Example Blog Title<br></br>
+       trigger={<div className='specinbox'>
+       <div className='specin-content' />
+       <div class ='specin-content'>
+       <ul> 
+         <li>
+             <h1> Why Cloud Paks? </h1>
+             <h2> 7/13/2021</h2>
+             <h3> Hit your clients with the hard numbers, a one pager 
+                  with "easy on the eyes" information & numbers...
+             </h3>
+         </li>
+       </ul>
+       </div>
+     </div>}
+       modal
+       nested
+     >
+       {close => (
+         <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
+           <button className="close" onClick={close}>
+             &times;
+           </button>
            
-           Looking for services to be added?
-              
-              <br></br>
-              
-            </div>
-            <div className="actions">
-                
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <div className="header"> Why Cloud Paks? </div>
+           <div className="content">
+           
+           <div class="industrybox img">
+           <img
+               src={BloDocFir}
+             />
+           </div>
+             
+             <br></br>
+             
+           </div>
+           <div className="actions">
+               
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-              <button
-                className="popup-button"
-                onClick={() => {
-                  console.log('modal closed ');
-                  close();
-                }}
-              >
-                Close
-              </button>
-            </div>
-            
-          </div>
-        )}
-      </Popup>
+             <button
+               className="popup-button"
+               onClick={() => {
+                 console.log('modal closed ');
+                 close();
+               }}
+             >
+               Close
+             </button>
+           </div>
+           
+         </div>
+       )}
+     </Popup>
       <Popup
         trigger={<div className='specinbox'>
         <div className='specin-content' />
