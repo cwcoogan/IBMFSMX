@@ -21,17 +21,16 @@ const Blog = () => {
 
 
       <div class="container ">
-        <div class="columncontainer">  
-
-
-          </div>
+        
 
     
     <div class="testcontainer hero-row-reverse-mobile">
       <div className="mb-3">
+        <div className="ml-5">
         <h1 className='font-weight-bold'>
           Technical <br></br>Whitepapers
         </h1>
+        </div>
       
         <Popup
        trigger={<div className='specinbox'>
@@ -229,9 +228,11 @@ const Blog = () => {
       </div>
 
     <div className="mb-3">
+    <div className="ml-5">
       <h1 className='font-weight-bold'>
         Business Value <br></br> Whitepapers
       </h1>
+      </div>
     
       <Popup
        trigger={<div className='specinbox'>
@@ -439,10 +440,12 @@ const Blog = () => {
     
 
     <div className="mb-3">
-      <h1 className='font-weight-bold'>
+    <div className="ml-5">
+      <h1 className='//font-weight-bold'>
        <br></br>TL;DR<br></br>
-       
       </h1>
+      </div>
+      
       <Popup
        trigger={<div className='specinbox'>
        <div className='specin-content' />

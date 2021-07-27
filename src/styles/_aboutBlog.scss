@@ -1,12 +1,5 @@
 //BELOW IS FORMATTING FOR COLUMN TITLES
-.columncontainer{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin-top: -30px;
-  background-color: white ;
-}
+
 
 .testcontainer{
   display: flex;
@@ -14,6 +7,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-top: -30px;
 }
 //Spacing for titles
 .columnbox{
