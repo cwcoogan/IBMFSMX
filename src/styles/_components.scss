@@ -63,6 +63,28 @@
         color:blue;
       
 }
+.Architecture {
+  width: auto;
+  height:auto;
+}
+.Architecture-content h1 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: left;
+  color: black;
+}
+.Architecture-content h2 {
+  //font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: left;
+  color: blue;
+}
+.archimage{
+    width: 100%;
+    height: 100%;
+}
 .homePageText{
   font-weight: normal;
   margin-left: 13px;
@@ -233,7 +255,6 @@
       }
 
     }
-
     .image-container {
         width: 225px;
         height: 250px;
