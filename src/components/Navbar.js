@@ -72,9 +72,9 @@ const NavBar = () => {
             <Nav.Link as={Link} to='/team' eventKey={4}>
               Team
             </Nav.Link>
-            {/* <Nav.Link as={Link} to='/blog' eventKey={5}>
+            <Nav.Link as={Link} to='/blog' eventKey={5}>
               Blog
-            </Nav.Link>*/}
+            </Nav.Link>
             <Nav.Link as={Link} to='/contact' eventKey={6}>
               Contact
             </Nav.Link>
