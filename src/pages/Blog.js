@@ -121,6 +121,7 @@ const Blog = () => {
        )}
      
       </Popup>
+      {/*
       <Popup
         trigger={<div className='specinbox'>
         <div className='specin-content' />
@@ -225,8 +226,9 @@ const Blog = () => {
           </div>
         )}
       </Popup>
+         */}  
       </div>
-
+           
     <div className="mb-3">
     <div className="ml-5">
       <h1 className='font-weight-bold'>
@@ -330,7 +332,7 @@ const Blog = () => {
          </div>
        )}
      </Popup>
-
+{/*
       <Popup
         trigger={<div className='specinbox'>
         <div className='specin-content' />
@@ -435,6 +437,7 @@ const Blog = () => {
           </div>
         )}
       </Popup>
+              */}
     </div>
     
     
@@ -500,6 +503,7 @@ const Blog = () => {
          </div>
        )}
      </Popup>
+    {/*
       <Popup
         trigger={<div className='specinbox'>
         <div className='specin-content' />
@@ -604,7 +608,7 @@ const Blog = () => {
           </div>
         )}
       </Popup>
-
+              */}
     </div>
 
   </div>
