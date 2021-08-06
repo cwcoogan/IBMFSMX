@@ -20,20 +20,24 @@ const NavBar = () => {
       setActiveKey(2);
   
     } 
-    if (location.pathname == ('/connecting')) {
+    if (location.pathname == ('/workflow')) {
       setActiveKey(3);
   
     } 
-    if (location.pathname.startsWith('/team')) {
+    if (location.pathname == ('/connecting')) {
       setActiveKey(4);
+  
+    } 
+    if (location.pathname.startsWith('/team')) {
+      setActiveKey(5);
      
     } 
     if (location.pathname.startsWith('/blog')) {
-      setActiveKey(5);
+      setActiveKey(6);
       
     } 
     if (location.pathname.startsWith('/contact')) {
-      setActiveKey(6);
+      setActiveKey(7);
       
     } 
 
@@ -66,16 +70,19 @@ const NavBar = () => {
             <Nav.Link as={Link} to='/installations' eventKey={2}>
               Installations
             </Nav.Link>
-            <Nav.Link as={Link} to='/connecting' eventKey={3}>
+            <Nav.Link as={Link} to='/workflow' eventKey={3}>
+              Workflow
+            </Nav.Link>
+            <Nav.Link as={Link} to='/connecting' eventKey={4}>
               Connecting
             </Nav.Link>
-            <Nav.Link as={Link} to='/team' eventKey={4}>
+            <Nav.Link as={Link} to='/team' eventKey={5}>
               Team
             </Nav.Link>
-            <Nav.Link as={Link} to='/blog' eventKey={5}>
+            <Nav.Link as={Link} to='/blog' eventKey={6}>
               Blog
             </Nav.Link>
-            <Nav.Link as={Link} to='/contact' eventKey={6}>
+            <Nav.Link as={Link} to='/contact' eventKey={7}>
               Contact
             </Nav.Link>
             
