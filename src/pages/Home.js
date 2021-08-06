@@ -43,19 +43,19 @@ const Home = () => {
   </div>
   <div class="column right">
 <p className="businessCaseText">
-  <h2 className= "homePageTitle">Highmark Health expedites AI in urgent times</h2>
-  Get insights into application to identify
-  high-rish patients for sepsis, cuts AI 
-  lifecycle from one year to six weeks. <a href="https://www.ibm.com/blogs/journey-to-ai/2021/01/highmark-health-teams-with-ibm-advancing-data-science-to-stem-a-growing-tide-of-sepsis-and-covid-19-hospital-admissions/"> Read →</a> </p>
+  <h2 className= "homePageTitle">CDG Prévoyance modernizes application architecture</h2>
+  Automates core processes and reduces
+  time from five days to one hour, 
+  speeding up time to market. <a href="https://www.ibm.com/case-studies/cdg-prevoyance/"> Read →</a> </p>
   <p className="businessCaseText">
-  <h2 className= "homePageTitle">Tabadul ushers in a new era when it migrates to microservices.</h2>
-  The technology firm's move to microservices architecture cuts new feature development time by two-thirds. 
-  <a href="https://www.ibm.com/case-studies/tabadul/"> Read →</a>
+  <h2 className= "homePageTitle">Telefonica, IBM, and Red hat join forces</h2>
+  Telefonica creates next phase of cloud with IBM Cloud Paks, combing technologies in containers, AI and blockchain. 
+  <a href="https://www.ibm.com/case-studies/telefonica-spain/"> Read →</a>
   </p>
   <p className="businessCaseText">
-  <h2 className= "homePageTitle">ENN takes the leap into AI automation. </h2>
-  ENN, an energy giant, tapped into hyperautomation and reduced processing time by 60%.
-   <a href="https://www.ibm.com/case-studies/enn-group/"> Read →</a>
+  <h2 className= "homePageTitle">Bic Camera, Inc. - A monumental upgrade </h2>
+  How Bic Camera increased data reporting times by 100x using IBM Cloud Pak for Data.
+   <a href="https://www.ibm.com/case-studies/bic-camera/"> Read →</a>
   </p>
   </div>
   
