@@ -21,46 +21,44 @@ const Workflow = () => {
         </div>
       </div> 
 
-      <div class="tree">
-	      <ul>
-		      <li>
-			      <a href="#">Parent</a>
-			      <ul>
-				      <li>
-					<a href="#">Child</a>
-					<ul>
-						<li>
-							<a href="#">Grand Child</a>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<a href="#">Child</a>
-					<ul>
-						<li><a href="#">Grand Child</a></li>
-						<li>
-							<a href="#">Grand Child</a>
-							<ul>
-								<li>
-									<a href="#">Great Grand Child</a>
-								</li>
-								<li>
-									<a href="#">Great Grand Child</a>
-								</li>
-								<li>
-									<a href="#">Great Grand Child</a>
-								</li>
-							</ul>
-						</li>
-						<li><a href="#">Grand Child</a></li>
-					</ul>
-				</li>
-			</ul>
-		</li>
-	</ul>
-</div>
+      <div id="familyTree">
+	<div class="generation" id="grandParents">
+		<div class="pair">
+			<div class="card-b">Mobile UI User</div>
+			<div class="card-b">Web App User</div>
+		</div>
+		
+	</div>
+	
+	<div class="generation" id="parents">
+				<div class="card-y">Open Application</div>
+			
+	</div>
+	
+	<div class="generation" id="parents">
+		<div class="card-y">Access API</div>
+	</div>
 
-      
+	<div class="generation" id="parents">
+		<div class="card-g">Account Authorization</div>
+	</div>
+	
+	<div class="generation" id="parents">
+		<div class="card-b">Deposit <br></br> Withdraw <br></br>Transfer</div>
+	</div>
+
+	<div class="generation" id="parents">
+		<div class="card-g">Access Database</div>
+	</div>
+
+<div class="generation" id="parents">
+		<div class="card-b">Secure File Transfer</div>
+	</div>
+	
+<div class="generation" id="child">
+		<div class="card-y">Request Successful</div>
+	</div>
+	</div> 
     </div>
 
     
