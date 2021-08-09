@@ -82,37 +82,6 @@ const InformationRow = () => {
             <div className="content modalText">
             Co-innovate with thousands of IBM industry and technical experts. <br></br>
             <br></br>
-            </div>
-            <div className="actions">
-              <button
-                className="popup-button"
-                onClick={() => {
-                  console.log('modal closed ');
-                  close();
-                }}
-              >
-                Close
-              </button>
-            </div>
-          </div>
-        )}
-      </Popup>
-      <Popup
-        trigger={<div className='image-container-home'>
-        <div className='image-home improve' />
-        <p className='text font-weight-bold'>Impacts of Cloud Paks</p>
-      </div>}
-        modal
-        nested
-      >
-        {close => (
-          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
-            <button className="close" onClick={close}>
-              &times;
-            </button>
-            <div className="header"> Impacts of Cloud Paks</div>
-            <br></br><br></br>
-            <div className="content modalText">
             <div className="content modalText2">
             66%<br></br></div>
             Accelerate development by up to 66% using IBM and Red Hat solutions together. <br></br>
@@ -127,38 +96,7 @@ const InformationRow = () => {
               Release 6x more innovations in market with IBM Garage. <br></br>
               <br></br>
               <br />
-            </div>
-            <div className="actions">
-              <button
-                className="popup-button"
-                onClick={() => {
-                  console.log('modal closed ');
-                  close();
-                }}
-              >
-                Close
-              </button>
-            </div>
-          </div>
-        )}
-      </Popup>
-      <Popup
-        trigger={<div className='image-container-home'>
-        <div className='image-home learn2' />
-        <p className='text font-weight-bold'>How Cloud Paks Help</p>
-      </div>}
-        modal
-        nested
-      >
-        {close => (
-          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
-            <button className="close" onClick={close}>
-              &times;
-            </button>
-            <div className="header"> How Cloud Paks Help</div>
-            <br></br><br></br>
-            <div className="content modalText">
-             <div className="content modalText2">
+              <div className="content modalText2">
               Modernize with ease:<br></br>
               </div>
               Our pre-integrated containerized software and solutions simplify modernization from 
@@ -184,6 +122,98 @@ const InformationRow = () => {
               orchestrate actions and automate responses. <br></br>
 
                <br></br>
+            </div>
+            
+            <div className="actions">
+              <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal closed ');
+                  close();
+                }}
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        )}
+      </Popup>
+      <Popup
+        trigger={<div className='image-container-home'>
+        <div className='image-home improve' />
+        <p className='text font-weight-bold'>Cloud Pak Deployment </p>
+      </div>}
+        modal
+        nested
+      >
+        {close => (
+          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
+            <button className="close" onClick={close}>
+              &times;
+            </button>
+            <div className="header"> Cloud Pak Deployment </div>
+            <br></br><br></br>
+            <div className="content modalText">
+            <div className="content modalText2">
+            IBM Cloud Paks Deployment model:<br></br></div>
+            Ipsum Lorem...etc..etc. <br></br>
+            
+              <br />
+            </div>
+            <div className="actions">
+              <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal closed ');
+                  close();
+                }}
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        )}
+      </Popup>
+      <Popup
+        trigger={<div className='image-container-home'>
+        <div className='image-home learn2' />
+        <p className='text font-weight-bold'>Why OpenShift?</p>
+      </div>}
+        modal
+        nested
+      >
+        {close => (
+          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
+            <button className="close" onClick={close}>
+              &times;
+            </button>
+            <div className="header"> Why OpenShift?</div>
+            <br></br><br></br>
+            <div className="content modalText">
+             <div className="content modalText2">
+              OpenShift on IBM Cloud Vs. Kubernetes<br></br>
+              </div>
+              Lorem Ipsum...etc..etc.<br></br><br></br>
+         {/*     <div className="content modalText2">
+              Predict Outcomes:<br></br>
+              </div>
+              Become a more predictive enterprise by collecting, organizing, and analyzing data regardless of its type or location. 
+              Our data and AI capabilities with cross-industry and vertical AI applications use the power of IBM® Watson® to simplify and 
+              accelerate your AI journey. <br></br><br></br>
+              <div className="content modalText2">
+              Automate at scale: <br></br>
+           </div>
+              Whether it’s automating repetitive tasks or more complex operations, we can help you implement a variety of intelligent workflows
+              into your business through machine learning and AI. This helps improve productivity and quality of outcomes for employees and customers alike. <br></br><br></br>
+              <div className="content modalText2">
+              Secure everything: <br></br>
+              </div>
+              We make security an integral part of our software. Mitigate threats while managing risk and compliance throughout your enterprise all without
+              moving your data. We can help you more quickly integrate your existing security tools to gain a deeper understanding of the risks facing your environment,
+              orchestrate actions and automate responses. <br></br>
+
+               <br></br>
+        */}
             </div>
             <div className="actions">
               <button
