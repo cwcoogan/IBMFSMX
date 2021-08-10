@@ -3,8 +3,6 @@ import ConImgFir from '../images/Connect1.png';
 import ConImgSec from '../images/Connect2.png';
 import ConImgThi from '../images/Connect3.png';
 import ConImgFou from '../images/Connect4.png';
-import ConImgFiv from '../images/Connect5.png';
-import ConImgSix from '../images/Connect6.png';
 import 'reactjs-popup/dist/index.css';
 
 const Connecting = () => {

@@ -51,7 +51,7 @@ const Blog = () => {
        nested
      >
        {close => (
-         <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
+         <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto", position:"fixed"}} >
            <button className="close" onClick={close}>
              &times;
            </button>
@@ -106,15 +106,27 @@ const Blog = () => {
              
            </div>
            <div className="actions">
-             <button
-               className="popup-button"
-               onClick={() => {
-                 console.log('modal closed ');
-                 close();
-               }}
-             >
-               Close
-             </button>
+           <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal transferred to contact ');
+                  window.location.href='/IBMFSMX/#/contact';
+                }}
+              >
+                Contact Us 
+              </button>
+                
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+              <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal closed ');
+                  close();
+                }}
+              >
+                Close
+              </button>
            </div>
            
          </div>
@@ -255,7 +267,7 @@ const Blog = () => {
        nested
      >
        {close => (
-         <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
+         <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto", position:"fixed"}} >
            <button className="close" onClick={close}>
              &times;
            </button>
@@ -318,15 +330,27 @@ const Blog = () => {
              
            </div>
            <div className="actions">
-             <button
-               className="popup-button"
-               onClick={() => {
-                 console.log('modal closed ');
-                 close();
-               }}
-             >
-               Close
-             </button>
+           <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal transferred to contact ');
+                  window.location.href='/IBMFSMX/#/contact';
+                }}
+              >
+                Contact Us 
+              </button>
+                
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+              <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal closed ');
+                  close();
+                }}
+              >
+                Close
+              </button>
            </div>
            
          </div>
@@ -468,7 +492,7 @@ const Blog = () => {
        nested
      >
        {close => (
-         <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
+         <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto", position:"fixed"}} >
            <button className="close" onClick={close}>
              &times;
            </button>
@@ -486,18 +510,27 @@ const Blog = () => {
              
            </div>
            <div className="actions">
-               
-             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal transferred to contact ');
+                  window.location.href='/IBMFSMX/#/contact';
+                }}
+              >
+                Contact Us 
+              </button>
+                
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-             <button
-               className="popup-button"
-               onClick={() => {
-                 console.log('modal closed ');
-                 close();
-               }}
-             >
-               Close
-             </button>
+              <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal closed ');
+                  close();
+                }}
+              >
+                Close
+              </button>
            </div>
            
          </div>

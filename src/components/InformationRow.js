@@ -15,7 +15,7 @@ const InformationRow = () => {
         nested
       >
         {close => (
-          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
+          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto", position:"fixed"}} >
             <button className="close" onClick={close}>
               &times;
             </button >
@@ -57,7 +57,7 @@ const InformationRow = () => {
         nested
       >
         {close => (
-          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
+          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto", position:"fixed"}} >
             <button className="close" onClick={close}>
               &times;
             </button>
@@ -147,7 +147,7 @@ const InformationRow = () => {
         nested
       >
         {close => (
-          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
+          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto", position:"fixed"}} >
             <button className="close" onClick={close}>
               &times;
             </button>
@@ -183,7 +183,7 @@ const InformationRow = () => {
         nested
       >
         {close => (
-          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
+          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto", position:"fixed"}} >
             <button className="close" onClick={close}>
               &times;
             </button>
