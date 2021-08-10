@@ -83,7 +83,32 @@ const Workflow = () => {
 	</div>
 	
 	<div class="generation" id="parents">
-		<div class="card-b">Deposit <br></br> Withdraw <br></br>Transfer</div>
+		<div class="card-b">
+      {/* <div class="row-container">
+      <table>
+        <tr>
+          <th>Deposit</th>
+          <th>Audit</th>
+          <th>Account Creation</th>
+        </tr>
+        <tr>
+          <th>Withdraw</th>
+          <th>B2C Transaction</th>
+          <th>Loans</th>
+        </tr>
+        <tr>
+          <th>Transfer</th>
+          <th>B2B Transaction</th>
+          <th>Investing</th>
+        </tr>
+      </table>
+      </div> */}
+      <div class="row-container">
+        <div class="left">Deposit <br></br> Withdraw <br></br>Transfer</div>
+        <div class="center">Audit <br></br> B2C Transaction <br></br> B2B Transaction</div>
+        <div class="right">Account Creation <br></br> Loans <br></br> Investing</div>
+      </div>
+    </div>
 	</div>
 
 	<div class="generation" id="parents">

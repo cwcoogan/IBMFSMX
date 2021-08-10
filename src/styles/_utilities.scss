@@ -400,7 +400,31 @@ $extraBorderSize: #{$borderRadius}; // Needed for border-radius
 
 	.card-y { background-color: lightgoldenrodyellow; } 
 	.card-g { background-color: lightgreen; } 
-  .card-b { background-color: lightblue;}
+  	.card-b { background-color: lightblue;
+		.row-container{
+			display: flex;
+			flex-direction: column;
+
+			@include media-breakpoint-down(sm) {
+				align-items: center;
+			}
+		
+			@include media-breakpoint-up(md) {
+				flex-direction: row;
+				justify-content: center;
+			}
+
+			.left{
+				justify-content: left;
+			}
+			.center{
+				justify-content: center;
+			}
+			.right{
+				justify-content: right;
+			}
+		}
+	}
 	
 	// Links
 	
