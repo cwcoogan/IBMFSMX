@@ -33,7 +33,7 @@ const Workflow = () => {
 	
 	<Popup
         trigger={<div className='generation' id='parents'>
-        <div className='card-y'>Open Application</div>
+        <div className='card-y-h'>Open Application</div>
     
       </div>}
         modal

@@ -404,6 +404,11 @@ $extraBorderSize: #{$borderRadius}; // Needed for border-radius
 		color: #212c3c;
 	}
 	
+	.card-y-h { background-color: lightgoldenrodyellow; } 
+	.card-y-h:hover{
+		transform: scale(1.2);
+	}
+
 	.card-y { background-color: lightgoldenrodyellow; } 
 	.card-g { background-color: lightgreen; } 
   .card-b { background-color: lightblue;}
