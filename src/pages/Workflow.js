@@ -1,5 +1,6 @@
 import React from 'react';
 import 'reactjs-popup/dist/index.css';
+import Popup from 'reactjs-popup';
 
 const Workflow = () => {
   return (
@@ -30,10 +31,48 @@ const Workflow = () => {
 		
 	</div>
 	
-	<div class="generation" id="parents">
-				<div class="card-y">Open Application</div>
-			
-	</div>
+	<Popup
+        trigger={<div className='generation' id='parents'>
+        <div className='card-y'>Open Application</div>
+    
+      </div>}
+        modal
+        nested
+      >
+        {close => (
+          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
+            <button className="close" onClick={close}>
+              &times;
+            </button>
+            
+            <div className="header"> Open Application </div>
+            <div className="content">
+            
+            Example Blog Title<br></br>
+           
+           Looking for services to be added?
+              
+              <br></br>
+              
+            </div>
+            <div className="actions">
+                
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+              <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal closed ');
+                  close();
+                }}
+              >
+                Close
+              </button>
+            </div>
+            
+          </div>
+        )}
+      </Popup>
 	
 	<div class="generation" id="parents">
 		<div class="card-y">Access API</div>
