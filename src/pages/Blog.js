@@ -1,5 +1,5 @@
 import React from 'react';
-import BloDocFir from '../images/TLDR1.png';
+import BloDocFir from '../images/blog/TLDR/TLDR1.png';
 import 'reactjs-popup/dist/index.css';
 import Popup from 'reactjs-popup';
 
@@ -476,7 +476,7 @@ const Blog = () => {
            <div className="header"> Why Cloud Paks? </div>
            <div className="content">
            
-           <div class="industrybox img">
+           <div class="pdf">
            <img
                src={BloDocFir}
              />
