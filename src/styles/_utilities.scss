@@ -362,7 +362,7 @@ $extraBorderSize: #{$borderRadius}; // Needed for border-radius
 #familyTree {
 	// Base styles
   font-size: 14px;
-	width: 60%;
+	width: 40%;
 	text-align: center;
 	margin: auto;
 	
@@ -400,8 +400,6 @@ $extraBorderSize: #{$borderRadius}; // Needed for border-radius
 	.card-y { background-color: lightgoldenrodyellow; } 
 
 	.card-g-h { background-color: lightgreen; } 
-		text-align: center;
-		justify-content: center;
 	.card-g-h:hover{
 		transform: scale(1.2);
 	}
