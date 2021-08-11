@@ -62,7 +62,7 @@ const Blog = () => {
            <div className="content">
            
            <div className="pdf">
-           <iframe src="https://drive.google.com/file/d/14YEvSDgobI_zzzaNgXxaPxTZ81w3fyKy/preview" width="1100" height="600" allow="autoplay"></iframe>
+           <iframe src="https://drive.google.com/file/d/14YEvSDgobI_zzzaNgXxaPxTZ81w3fyKy/preview" width="1100" height="1100" allow="autoplay"></iframe>
            </div> 
 
            </div>
@@ -124,7 +124,7 @@ const Blog = () => {
            <div className="content">
            
            <div className="pdf">
-           <iframe src="https://drive.google.com/file/d/1L_TCt6aG8u4XsBOpI4V3WrAKyyoFmI3V/preview" width="1100" height="600" allow="autoplay"></iframe>
+           <iframe src="https://drive.google.com/file/d/1L_TCt6aG8u4XsBOpI4V3WrAKyyoFmI3V/preview" width="1100" height="1100" allow="autoplay"></iframe>
            </div> 
 
            </div>
@@ -196,7 +196,7 @@ const Blog = () => {
            <div className="content">
            
            <div className="pdf">
-           <iframe src="https://drive.google.com/file/d/1Q37KpwZqn8Ut6hup3kHkEYcoVPSqZS0G/preview" width="1100" height="600" allow="autoplay"></iframe>
+           <iframe src="https://drive.google.com/file/d/1Q37KpwZqn8Ut6hup3kHkEYcoVPSqZS0G/preview" width="1100" height="1100" allow="autoplay"></iframe>
            </div>  
 
            </div>
@@ -257,7 +257,7 @@ const Blog = () => {
            <div className="content">
            
            <div className="pdf">
-           <iframe src="https://drive.google.com/file/d/1I44SqOyHOykAn1jdxYR5kJzMH0w2Ukq3/preview" width="1100" height="600" allow="autoplay"></iframe>
+           <iframe src="https://drive.google.com/file/d/1I44SqOyHOykAn1jdxYR5kJzMH0w2Ukq3/preview" width="1100" height="1100" allow="autoplay"></iframe>
            </div>  
 
            </div>
@@ -329,7 +329,7 @@ const Blog = () => {
            <div className="content">
            
            <div className="pdf">
-           <iframe src="https://drive.google.com/file/d/1JfAZ5W1q0cmsOebw1FjYyMzO7Gx4Mkqj/preview" width="1100" height="600" allow="autoplay"></iframe>
+           <iframe src="https://drive.google.com/file/d/1JfAZ5W1q0cmsOebw1FjYyMzO7Gx4Mkqj/preview" width="1100" height="1100" allow="autoplay"></iframe>
            </div>  
              
              <br></br>
@@ -392,7 +392,7 @@ const Blog = () => {
            <div className="content">
            
            <div className="pdf">
-           <iframe src="https://drive.google.com/file/d/1a9il2YGkh-HiGuhlcyTOqgdnhK90x8y0/preview" width="1100" height="600" allow="autoplay"></iframe>
+           <iframe src="https://drive.google.com/file/d/1a9il2YGkh-HiGuhlcyTOqgdnhK90x8y0/preview" width="1100" height="1100" allow="autoplay"></iframe>
            </div>  
              <br></br>
              

@@ -352,7 +352,7 @@
 // Try keeping the same content's size for all cards or the design might break
 // Have fun with the variables :)
 
-$linkBorderWidth: 2px;
+$linkBorderWidth: 3px;
 $link: #{$linkBorderWidth} solid #c6d1cb;
 $marginBelowGeneration: 20px;
 $cardMargin: 10px;
@@ -362,9 +362,12 @@ $extraBorderSize: #{$borderRadius}; // Needed for border-radius
 #familyTree {
 	// Base styles
   font-size: 14px;
-	width: 40%;
+	width: 30%;
 	text-align: center;
-	margin: auto;
+	justify-content: center;
+	margin: 50px;
+
+
 	
 	*:before, *:after {
 		content: "";
@@ -387,7 +390,7 @@ $extraBorderSize: #{$borderRadius}; // Needed for border-radius
 	
 	[class^="card"] {
 		@include flex();
-		padding: 10px;
+		padding: 13px;
 		border-radius: 3px;
 		margin: $cardMargin;
 		color: #212c3c;
@@ -409,53 +412,27 @@ $extraBorderSize: #{$borderRadius}; // Needed for border-radius
 	.card-b-h:hover{
 		transform: scale(1.2);
 	}
-  	.card-b { background-color: lightblue;
-		.row-container{
-			display: flex;
-			flex-direction: column;
+  	.card-b { background-color: lightblue;}
 
-			@include media-breakpoint-down(sm) {
-				align-items: center;
-			}
+	.left{
+		margin: auto;
+		justify-content: left;
+		text-align: center;
 		
-			@include media-breakpoint-up(md) {
-				flex-direction: row;
-				justify-content: center;
-			}
-
-			.left{
-			
-				justify-content: left;
-				text-align: center;
-			}
-			.center{
-				
-				justify-content: center;
-				text-align: center;
-			}
-			.right{
-			
-				justify-content: right;
-				text-align: center;
-			}
-		}
+	}
+	.center{
+		margin: auto;
+		justify-content: center;
+		text-align: center;
+	
+	}
+	.right{
+		margin: auto;
+		justify-content: right;
+		text-align: center;
+		
 	}
 
-	.row-container {
-		display: flex;
-		flex-direction: column;
-		
-	  
-	
-		@include media-breakpoint-down(sm) {
-			align-items: center;
-		}
-	
-		@include media-breakpoint-up(md) {
-			flex-direction: row;
-			justify-content: center;
-		}
-	}
 	
 	// Links
 	

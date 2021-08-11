@@ -19,21 +19,25 @@ const Workflow = () => {
         </div>
       </div> 
 
-      <div className='row-container container-fluid'>
+      <div className='row-container'>
+        
+      
         <div id="familyTree">
 	        <div class="generation" id="grandParents">
 		        <div class="pair">
 			        <div class="card-b">Mobile UI User</div>
 			        <div class="card-b">Web App User</div>
 		        </div>
+            
 	        </div>
 
-          <div class="generation" id="parents">
+          <div class="generation" id="">
 		        <div class="card-y">Open Application</div>
+            
 	        </div>
 	
 	        <Popup
-            trigger={<div className='generation' id='parents'>
+            trigger={<div className='generation' id="">
             <div className='card-y-h'>Access API</div>
     
             </div>}
@@ -74,11 +78,11 @@ const Workflow = () => {
             )}
           </Popup>
 
-	        <div class="generation" id="parents">
+	        <div class="generation" id="">
 		        <div class="card-g">Account Authorization</div>
 	        </div>
 	
-	        <div class="generation" id="parents">
+	        <div class="generation" id="">
 		        <div class="card-b">
               <div class="row-container">
                 <div class="left">Deposit<br></br>Withdraw<br></br>Transfer<br></br></div>
@@ -89,7 +93,7 @@ const Workflow = () => {
 	        </div>
 
           <Popup
-            trigger={<div className='generation' id='parents'>
+            trigger={<div className='generation' id=''>
               <div className='card-g-h'>Access Database</div>
     
             </div>}
@@ -131,7 +135,7 @@ const Workflow = () => {
           </Popup>
 
           <Popup
-            trigger={<div className='generation' id='parents'>
+            trigger={<div className='generation' id=''>
             <div className='card-b-h'>Secure File Transfer</div>
     
             </div>}
@@ -175,21 +179,25 @@ const Workflow = () => {
           <div class="generation" id="child">
 		        <div class="card-y">Request Successful</div>
 	        </div>
+        </div>
 
-	        <div class="generation" id="grandParents">
+      
+        {/* SECOND CHART FOR IT DEPT */}
+          <div id="familyTree">
+          <div class="generation" id="grandParents">
 			      <div class="card-b">IT Dept.</div>
-          </div>
-
-          <div class="generation" id="parents">
+         
+          </div>           
+          <div class="generation" id="">
 		        <div class="card-g">Employee VPN Authorization</div>
 	        </div>
 
-          <div class="generation" id="parents">
+          <div class="generation" id="">
 		        <div class="card-y">Edit/Open Application</div>
 	        </div>
 
           <Popup
-            trigger={<div className='generation' id='parents'>
+            trigger={<div className='generation' id=''>
             <div className='card-y-h'>Edit/Incorporate API</div>
     
             </div>}
@@ -231,7 +239,7 @@ const Workflow = () => {
           </Popup>
 
           <Popup
-            trigger={<div className='generation' id='parents'>
+            trigger={<div className='generation' id=''>
             <div className='card-b-h'>Traffic & Log Monitoring</div>
     
             </div>}
@@ -273,7 +281,7 @@ const Workflow = () => {
           </Popup>
 
           <Popup
-            trigger={<div className='generation' id='parents'>
+            trigger={<div className='generation' id=''>
             <div className='card-g-h'>Download Secure Reports</div>
     
             </div>}
@@ -314,13 +322,17 @@ const Workflow = () => {
             )}
           </Popup>
 
-          <div class="generation" id="parents">
+          <div class="generation" id="child">
 		        <div class="card-b">Download Successful</div>
 	        </div>
-
+          
+          <br></br><br></br>
+       
         </div>
-      </div>
-    </div>
+     </div>
+     </div>  
+    
+    
   );
 };
 
