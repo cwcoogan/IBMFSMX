@@ -400,6 +400,8 @@ $extraBorderSize: #{$borderRadius}; // Needed for border-radius
 	.card-y { background-color: lightgoldenrodyellow; } 
 
 	.card-g-h { background-color: lightgreen; } 
+		text-align: center;
+		justify-content: center;
 	.card-g-h:hover{
 		transform: scale(1.2);
 	}
@@ -424,13 +426,19 @@ $extraBorderSize: #{$borderRadius}; // Needed for border-radius
 			}
 
 			.left{
+			
 				justify-content: left;
+				text-align: center;
 			}
 			.center{
+				
 				justify-content: center;
+				text-align: center;
 			}
 			.right{
+			
 				justify-content: right;
+				text-align: center;
 			}
 		}
 	}
