@@ -30,10 +30,14 @@ const Workflow = () => {
 		</div>
 		
 	</div>
+
+  <div class="generation" id="parents">
+		<div class="card-y">Open Application</div>
+	</div>
 	
 	<Popup
         trigger={<div className='generation' id='parents'>
-        <div className='card-y-h'>Open Application</div>
+        <div className='card-y-h'>Access API</div>
     
       </div>}
         modal
@@ -45,7 +49,7 @@ const Workflow = () => {
               &times;
             </button>
             
-            <div className="header"> Open Application </div>
+            <div className="header"> Access API </div>
             <div className="content">
             
             Example Blog Title<br></br>
@@ -72,11 +76,7 @@ const Workflow = () => {
             
           </div>
         )}
-      </Popup>
-	
-	<div class="generation" id="parents">
-		<div class="card-y">Access API</div>
-	</div>
+  </Popup>
 
 	<div class="generation" id="parents">
 		<div class="card-g">Account Authorization</div>
@@ -111,13 +111,91 @@ const Workflow = () => {
     </div>
 	</div>
 
-	<div class="generation" id="parents">
-		<div class="card-g">Access Database</div>
-	</div>
+  <Popup
+        trigger={<div className='generation' id='parents'>
+        <div className='card-g-h'>Access Database</div>
+    
+      </div>}
+        modal
+        nested
+      >
+        {close => (
+          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
+            <button className="close" onClick={close}>
+              &times;
+            </button>
+            
+            <div className="header"> Access Database </div>
+            <div className="content">
+            
+            Example Blog Title<br></br>
+           
+           Looking for services to be added?
+              
+              <br></br>
+              
+            </div>
+            <div className="actions">
+                
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-<div class="generation" id="parents">
-		<div class="card-b">Secure File Transfer</div>
-	</div>
+              <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal closed ');
+                  close();
+                }}
+              >
+                Close
+              </button>
+            </div>
+            
+          </div>
+        )}
+  </Popup>
+
+  <Popup
+        trigger={<div className='generation' id='parents'>
+        <div className='card-b-h'>Secure File Transfer</div>
+    
+      </div>}
+        modal
+        nested
+      >
+        {close => (
+          <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto"}} >
+            <button className="close" onClick={close}>
+              &times;
+            </button>
+            
+            <div className="header"> Secure File Transfer </div>
+            <div className="content">
+            
+            Example Blog Title<br></br>
+           
+           Looking for services to be added?
+              
+              <br></br>
+              
+            </div>
+            <div className="actions">
+                
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+              <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal closed ');
+                  close();
+                }}
+              >
+                Close
+              </button>
+            </div>
+            
+          </div>
+        )}
+  </Popup>
 	
 <div class="generation" id="child">
 		<div class="card-y">Request Successful</div>

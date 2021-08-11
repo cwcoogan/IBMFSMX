@@ -397,9 +397,18 @@ $extraBorderSize: #{$borderRadius}; // Needed for border-radius
 	.card-y-h:hover{
 		transform: scale(1.2);
 	}
-
 	.card-y { background-color: lightgoldenrodyellow; } 
+
+	.card-g-h { background-color: lightgreen; } 
+	.card-g-h:hover{
+		transform: scale(1.2);
+	}
 	.card-g { background-color: lightgreen; } 
+
+	.card-b-h { background-color: lightblue; } 
+	.card-b-h:hover{
+		transform: scale(1.2);
+	}
   	.card-b { background-color: lightblue;
 		.row-container{
 			display: flex;
