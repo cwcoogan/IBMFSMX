@@ -48,6 +48,11 @@
   font-weight: bold;
 }
 
+.modalText3{
+  font-size: 14px;
+  font-weight: bold;
+}
+
 .contactPage{
   //making background grey
   background-color:rgb(24, 22, 22);
@@ -340,6 +345,17 @@
 
   @include media-breakpoint-up(lg) {
     padding-left: 80px;
+  }
+}
+
+
+.hero-img-center {
+  @include media-breakpoint-down(lg) {
+    margin-bottom: 0rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding-left: 0px;
   }
 }
 

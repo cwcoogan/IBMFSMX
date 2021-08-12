@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
+import IBMRedHat from '../images/image.png';
 
 const InformationRow = () => {
   return (
@@ -178,61 +179,54 @@ const InformationRow = () => {
               &times;
             </button>
             <div className="header"> Why OpenShift?</div>
-            <br></br><br></br>
-            <div className="content modalText">
-             <div className="content modalText2">
-              <h2>OpenShift on IBM Cloud Vs. Kubernetes</h2><br></br>
-              </div>
             
-            <div>
-              <div>
-              <b>Key Differentiators:</b>
+            <div className="content modalText">
+             
+           
+              
+              <div className='row mt-5'>
+          <div className='col-lg-6 txt-md-left'>
+            <div className=''>
+            <h2>OpenShift on IBM Cloud <br></br>Vs. Kubernetes</h2><br></br>
+            <b>Key Differentiators:</b>
             <ul>
-              <li>Commercialized vs. OpenSource Support</li>
-              <li>Stricter Security Requirements on OpenShift</li>
-              <li>Simplistic User Interface</li>
+              &nbsp;• Commercialized vs. OpenSource Support <br></br>
+              &nbsp;• Stricter Security Requirements on OpenShift <br></br>
+              &nbsp;• Simplistic User Interface
             </ul>
-            <br></br>
-              </div>
-            <h5>OpenSource vs. Commercialized Support:</h5>
-            <b>Red Hat OpenShift</b> is IBMs commercialized platform for containerized applications, development, deployment, and management. The infrastructure is based on container technology that allows for simplistic deployment of an application using OS virtualization.
+            </div>
+            
+          </div>
+          <div className='col-lg-6'>
+            <div className='hero-img-center'>
+            <img
+                src={IBMRedHat}
+                className='contact-page-img'
+                alt='Sitting on questionnaire'
+              />
+            </div>
+          </div>
+        </div>
+
+        <br></br>--------------------------------------------------------------------------------------------------------------------------<br></br><br></br>
+        
+        <h4>[OpenSource vs. Commercialized Support]<br></br><br></br></h4>
+            <b> - Red Hat OpenShift</b> is IBMs commercialized platform for containerized applications, development, deployment, and management. The infrastructure is based on container technology that allows for simplistic deployment of an application using OS virtualization.
             <br></br><br></br>
-            <b>Kubernetes</b> is an open-source project managed by the Cloud Native Computing Foundation (CNCF) and the Open-Source community. Kubernetes is an open-source project for container application deployment, automation, management, and scaling. 
+            <b>- Kubernetes</b> is an open-source project managed by the Cloud Native Computing Foundation (CNCF) and the Open-Source community. Kubernetes is an open-source project for container application deployment, automation, management, and scaling. 
             <br></br><br></br>
             The key difference between the two is that when deploying in a native Kubernetes environment, users will have to turn towards the open-source community instead of commercialized support. If they cannot upgrade or must patch, the company will rely on their internal team or the community for help. As these new releases and patches roll out, customers deploying containers using OpenShift on IBM Cloud can turn towards Red Hat + IBM for support and services to help with the rollout.  
+          <br></br><br></br>--------------------------------------------------------------------------------------------------------------------------<br></br><br></br>
+          <h4>[Security Requirements]<br></br><br></br></h4>
+          <b>- Kubernetes:</b> offers Role-Based Access Control (RBAC), which is a method for restricting network access based on the user's role. It also supports IAM, and Authentication for additional support in managing users access to data, systems, and resources.
           <br></br><br></br>
-          <h5>Security Requirements:</h5>
-          <b>Kubernetes:</b> offers Role-Based Access Control (RBAC), which is a method for restricting network access based on the user's role. It also supports IAM, and Authentication for additional support in managing users access to data, systems, and resources.
+          <b>- OpenShift:</b> offers all three, RBAC, IAM and Authentication. OpenShift on IBM Cloud manages large-scale enterprise with lots of vulnerable data and assets. Becuase of this, OpenShift has stricter security requirements. OpenShift on IBM Cloud supports FIPS 140-2 level 4 security protocols, the highest level of security for encrypting sensitive data. It also supports PCI, HIPAA, GDPR, SOC1, SOC2 Type 2, and ISO 27001.
+          <br></br><br></br>--------------------------------------------------------------------------------------------------------------------------<br></br><br></br>
+          <h4>[User Interface]<br></br><br></br></h4>
+          <b>- OpenShift</b> comes equipped with the OpenShift Container Platform (OCP) for managing the cluster through a simplistic web console. Here is where the user can manage their resources, projects, and namespaces. Users can also control their operators and deploy new projects quickly through the easy-to-deploy interface.
           <br></br><br></br>
-          <b>OpenShift:</b> offers all three, RBAC, IAM and Authentication. OpenShift on IBM Cloud manages large-scale enterprise with lots of vulnerable data and assets. Becuase of this, OpenShift has stricter security requirements. OpenShift on IBM Cloud supports FIPS 140-2 level 4 security protocols, the highest level of security for encrypting sensitive data. It also supports PCI, HIPAA, GDPR, SOC1, SOC2 Type 2, and ISO 27001.
-          <br></br><br></br>
-          <h5>User Interface:</h5>
-          <b>OpenShift</b> comes equipped with the OpenShift Container Platform (OCP) for managing the cluster through a simplistic web console. Here is where the user can manage their resources, projects, and namespaces. Users can also control their operators and deploy new projects quickly through the easy-to-deploy interface.
-          <br></br><br></br>
-          Accessing <b>Kubernetes</b> UI can be a tricky task. In Kubernetes, users must install a separate dashboard and forward their port to the clusters admin service. The user will then have to authenticate against the server by creating a bearer token because there is no login page.
-          </div>
+          - Accessing <b>Kubernetes</b> UI can be a tricky task. In Kubernetes, users must install a separate dashboard and forward their port to the clusters admin service. The user will then have to authenticate against the server by creating a bearer token because there is no login page.<br></br>    
 
-         
-         {/*     <div className="content modalText2">
-              Predict Outcomes:<br></br>
-              </div>
-              Become a more predictive enterprise by collecting, organizing, and analyzing data regardless of its type or location. 
-              Our data and AI capabilities with cross-industry and vertical AI applications use the power of IBM® Watson® to simplify and 
-              accelerate your AI journey. <br></br><br></br>
-              <div className="content modalText2">
-              Automate at scale: <br></br>
-           </div>
-              Whether it’s automating repetitive tasks or more complex operations, we can help you implement a variety of intelligent workflows
-              into your business through machine learning and AI. This helps improve productivity and quality of outcomes for employees and customers alike. <br></br><br></br>
-              <div className="content modalText2">
-              Secure everything: <br></br>
-              </div>
-              We make security an integral part of our software. Mitigate threats while managing risk and compliance throughout your enterprise all without
-              moving your data. We can help you more quickly integrate your existing security tools to gain a deeper understanding of the risks facing your environment,
-              orchestrate actions and automate responses. <br></br>
-
-               <br></br>
-        */}
             </div>
             <div className="actions">
               <button
