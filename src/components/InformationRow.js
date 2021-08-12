@@ -191,9 +191,38 @@ const InformationRow = () => {
             <br></br><br></br>
             <div className="content modalText">
              <div className="content modalText2">
-              OpenShift on IBM Cloud Vs. Kubernetes<br></br>
+              <h2>OpenShift on IBM Cloud Vs. Kubernetes</h2><br></br>
               </div>
-              Lorem Ipsum...etc..etc.<br></br><br></br>
+            
+            <div>
+              <div>
+              <b>Key Differentiators:</b>
+            <ul>
+              <li>Commercialized vs. OpenSource Support</li>
+              <li>Stricter Security Requirements on OpenShift</li>
+              <li>Simplistic User Interface</li>
+            </ul>
+            <br></br>
+              </div>
+            <h5>OpenSource vs. Commercialized Support:</h5>
+            Red Hat OpenShift is IBMs commercialized platform for containerized applications, development, deployment, and management. The infrastructure is based on container technology that allows for simplistic deployment of an application using OS virtualization.
+            <br></br><br></br>
+            Kubernetes is an open-source project managed by the Cloud Native Computing Foundation (CNCF) and the Open-Source community. Kubernetes is an open-source project for container application deployment, automation, management, and scaling. 
+            <br></br><br></br>
+            The key difference between the two is that when deploying in a native Kubernetes environment, users will have to turn towards the open-source community instead of commercialized support. If they cannot upgrade or must patch, the company will rely on their internal team or the community for help. As these new releases and patches roll out, customers deploying containers using OpenShift on IBM Cloud can turn towards Red Hat + IBM for support and services to help with the rollout.  
+          <br></br><br></br>
+          <h5>Security Requirements:</h5>
+          <b>Kubernetes:</b> offers Role-Based Access Control (RBAC), which is a method for restricting network access based on the user's role. It also supports IAM, and Authentication for additional support in managing users access to data, systems, and resources.
+          <br></br><br></br>
+          <b>OpenShift:</b> offers all three, RBAC, IAM and Authentication. OpenShift on IBM Cloud manages large-scale enterprise with lots of vulnerable data and assets. Becuase of this, OpenShift has stricter security requirements. OpenShift on IBM Cloud supports FIPS 140-2 level 4 security protocols, the highest level of security for encrypting sensitive data. It also supports PCI, HIPAA, GDPR, SOC1, SOC2 Type 2, and ISO 27001.
+          <br></br><br></br>
+          <h5>User Interface:</h5>
+          OpenShift comes equipped with the OpenShift Container Platform (OCP) for managing the cluster through a simplistic web console. Here is where the user can manage their resources, projects, and namespaces. Users can also control their operators and deploy new projects quickly through the easy-to-deploy interface.
+          <br></br><br></br>
+          Accessing Kubernetes UI can be a tricky task. In Kubernetes, users must install a separate dashboard and forward their port to the clusters admin service. The user will then have to authenticate against the server by creating a bearer token because there is no login page.
+          </div>
+
+         
          {/*     <div className="content modalText2">
               Predict Outcomes:<br></br>
               </div>
