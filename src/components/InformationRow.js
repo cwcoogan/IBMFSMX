@@ -22,7 +22,7 @@ const InformationRow = () => {
             </button >
             <div className="header"> What are Cloud Paks?</div>
             <br></br><br></br>
-            <h2>Cloud Paks:</h2>
+            <h2>IBM Cloud Paks</h2>
             <div className="content modalText">
             
               IBM Cloud Paks are AI powered software that can help organizations build, modernize, 
@@ -33,20 +33,21 @@ const InformationRow = () => {
               customers with a common operations and integration framework. Built on Red Hat OpenShift, 
               the market leader for open source, hybrid cloud platform, they provide a consistent 
               experience for an infrastructure management control plane that includes, AI, Automation and security.
-              <br></br><br></br>
-             <u> Introducing the six IBM Cloud Paks:</u>
-             <br></br><br></br>
-              <b>IBM Cloud pak for Applications:</b> Helps accelerate the modernization and building of applications by using built-in developer tools and processes. This includes support for analyzing existing applications and guiding the application owner through the modernization journey. In addition, it supports cloud-native development, microservices functions and serverless computing. Customers can quickly build cloud apps, while existing IBM middleware clients gain the most straightforward path to modernization.
+              <br></br>
+              <br></br>--------------------------------------------------------------------------------------------------------------------------<br></br><br></br>
+             <h2>Introducing the Six IBM Cloud Paks</h2>
+             <br></br>
+              <b>IBM Cloud Pak for Applications:</b> Helps accelerate the modernization and building of applications by using built-in developer tools and processes. This includes support for analyzing existing applications and guiding the application owner through the modernization journey. In addition, it supports cloud-native development, microservices functions and serverless computing. Customers can quickly build cloud apps, while existing IBM middleware clients gain the most straightforward path to modernization.
              <br></br> <br></br>
-              <b>IBM Cloud pak for Automation:</b> Helps deploy on clouds where Kubernetes is supported, with low-code tools for business users and near real-time performance visibility for business managers. Customers can migrate their automation runtimes without application changes or data migration, and automate at scale without vendor lock-in.
+              <b>IBM Cloud Pak for Automation:</b> Helps deploy on clouds where Kubernetes is supported, with low-code tools for business users and near real-time performance visibility for business managers. Customers can migrate their automation runtimes without application changes or data migration, and automate at scale without vendor lock-in.
              <br></br> <br></br>
-              <b>IBM Cloud pak for Integration:</b> Helps support the speed, flexibility, security and scale required for integration and digital transformation initiatives. It also comes with a pre-integrated set of capabilities which include API lifecycle, application and data integration, messaging and events, high-speed transfer and integration security.
+              <b>IBM Cloud Pak for Integration:</b> Helps support the speed, flexibility, security and scale required for integration and digital transformation initiatives. It also comes with a pre-integrated set of capabilities which include API lifecycle, application and data integration, messaging and events, high-speed transfer and integration security.
               <br></br> <br></br>
-              <b>IBM Cloud pak for Multi-Cloud Management:</b> Helps provide consistent visibility, automation and governance across a range of hybrid, multicloud management capabilities such as event management, infrastructure management, multicluster management, edge management and integration with existing tools and processes.
+              <b>IBM Cloud Pak for Multi-Cloud Management:</b> Helps provide consistent visibility, automation and governance across a range of hybrid, multicloud management capabilities such as event management, infrastructure management, multicluster management, edge management and integration with existing tools and processes.
               <br></br> <br></br>
-              <b>IBM Cloud pak for Security:</b> Helps accelerate security from Threat Management to IAM. CP4S allows users to connect to their SIEM, Ticketing, or logging systems to find threats in real-time, and execute them through the SOAR platform. With automation embedded, CP4S is helping customers quickly execute and prevent threats in real-time.
+              <b>IBM Cloud Pak for Security:</b> Helps accelerate security from Threat Management to IAM. CP4S allows users to connect to their SIEM, Ticketing, or logging systems to find threats in real-time, and execute them through the SOAR platform. With automation embedded, CP4S is helping customers quickly execute and prevent threats in real-time.
              <br></br> <br></br>
-              <b>IBM Cloud pak for Data:</b> Helps conglomerate data sources into one unified designation. Through the use of IBMs 'AI Ladder', customers will be able to consolidate data, cleanse it, govern rules across  databases, and simply execute analysis across the data. CP4D  is embeded with AI, Analytics, and dashboarding functions.
+              <b>IBM Cloud Pak for Data:</b> Helps conglomerate data sources into one unified designation. Through the use of IBMs 'AI Ladder', customers will be able to consolidate data, cleanse it, govern rules across  databases, and simply execute analysis across the data. CP4D  is embeded with AI, Analytics, and dashboarding functions.
               <br></br> <br></br>
               <br />
             </div>
@@ -77,32 +78,24 @@ const InformationRow = () => {
             <button className="close" onClick={close}>
               &times;
             </button>
-            <div className="header"> Cloud Pak Benefits </div>
-            <h2>Benefits of Cloud Paks:</h2>
+            <div className="header"> Cloud Pak Benefits </div><br></br><br></br>
+            <h2>Benefits of Cloud Paks</h2>
             <br></br>
             <div className="content modalText">
-            <div className="content modalText2">
-              Modernize with ease:<br></br>
-              </div>
-              Our pre-integrated containerized software and solutions simplify modernization from 
+           
+              <b>Modernize with ease:</b> Our pre-integrated containerized software and solutions simplify modernization from 
               the data center all the way to the edge. Take advantage of enterprise-grade, cloud native technologies 
               from IBM and our rich ecosystem of software and SaaS Partners offering access to over 70 ISV tools in Red Hat 
               Marketplace for easy deployment. <br></br><br></br>
-              <div className="content modalText2">
-              Predict Outcomes:<br></br>
-              </div>
-              Become a more predictive enterprise by collecting, organizing, and analyzing data regardless of its type or location. 
+             
+              <b>Predict outcomes:</b> Become a more predictive enterprise by collecting, organizing, and analyzing data regardless of its type or location. 
               Our data and AI capabilities with cross-industry and vertical AI applications use the power of IBM® Watson® to simplify and 
               accelerate your AI journey. <br></br><br></br>
-              <div className="content modalText2">
-              Automate at scale: <br></br>
-           </div>
-              Whether it’s automating repetitive tasks or more complex operations, we can help you implement a variety of intelligent workflows
+           
+              <b>Automate at scale:</b> Whether it’s automating repetitive tasks or more complex operations, we can help you implement a variety of intelligent workflows
               into your business through machine learning and AI. This helps improve productivity and quality of outcomes for employees and customers alike. <br></br><br></br>
-              <div className="content modalText2">
-              Secure everything: <br></br>
-              </div>
-              We make security an integral part of our software. Mitigate threats while managing risk and compliance throughout your enterprise all without
+              
+              <b>Secure everything:</b> We make security an integral part of our software. Mitigate threats while managing risk and compliance throughout your enterprise all without
               moving your data. We can help you more quickly integrate your existing security tools to gain a deeper understanding of the risks facing your environment,
               orchestrate actions and automate responses. <br></br>
               </div>
