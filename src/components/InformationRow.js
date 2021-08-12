@@ -61,42 +61,11 @@ const InformationRow = () => {
             <button className="close" onClick={close}>
               &times;
             </button>
-            <div className="header"> Cloud Paks Benefits</div>
-           <br></br><br></br>
-            <div className="content modalText2">
-            Gain agility and flexibility:<br></br></div>
-            <div className="content modalText">
-            Make your data, applicattions and workflows work your you, wherever you are. <br></br>
-            </div>
-            <div className="conent modalText2">
-            <br />
-            Accelerate AI and automation:<br></br>
-            </div>
-            <div className="conent modalText">
-            Deliver software and insights faster with an intelligent control plane powered by AI. <br></br>
-            <br />
-            </div>
-            <div className="content modalText2">
-            Innovate with condifence:<br></br>
-            </div>
-            <div className="content modalText">
-            Co-innovate with thousands of IBM industry and technical experts. <br></br>
+            <div className="header"> Cloud Pak Benefits </div>
+            <h2>Benefits of Cloud Paks:</h2>
             <br></br>
+            <div className="content modalText">
             <div className="content modalText2">
-            66%<br></br></div>
-            Accelerate development by up to 66% using IBM and Red Hat solutions together. <br></br>
-              
-              <br />
-              <div className="content modalText2">
-              60%<br></br></div>
-              Reduce processing time by 60% by leveraging hyperautomation to boost productivity. <br></br>
-              <br></br>
-              <div className="content modalText2">
-              6x<br></br></div>
-              Release 6x more innovations in market with IBM Garage. <br></br>
-              <br></br>
-              <br />
-              <div className="content modalText2">
               Modernize with ease:<br></br>
               </div>
               Our pre-integrated containerized software and solutions simplify modernization from 
@@ -120,9 +89,13 @@ const InformationRow = () => {
               We make security an integral part of our software. Mitigate threats while managing risk and compliance throughout your enterprise all without
               moving your data. We can help you more quickly integrate your existing security tools to gain a deeper understanding of the risks facing your environment,
               orchestrate actions and automate responses. <br></br>
+              </div>
+   
+            
+              <br />
 
-               <br></br>
-            </div>
+        
+          
             
             <div className="actions">
               <button
@@ -155,8 +128,10 @@ const InformationRow = () => {
             <br></br><br></br>
             <div className="content modalText">
             <div className="content modalText2">
-            IBM Cloud Paks Deployment model:<br></br></div>
-            Ipsum Lorem...etc..etc. <br></br>
+            <h2>IBM Cloud Paks Deployment model:</h2><br></br></div>
+            Cloud Paks are containerized applications that can be deployed locally, on-premise, in the cloud or in an hybrid environment<br></br>
+            
+            {/* finish this */}
             
               <br />
             </div>
@@ -205,9 +180,9 @@ const InformationRow = () => {
             <br></br>
               </div>
             <h5>OpenSource vs. Commercialized Support:</h5>
-            Red Hat OpenShift is IBMs commercialized platform for containerized applications, development, deployment, and management. The infrastructure is based on container technology that allows for simplistic deployment of an application using OS virtualization.
+            <b>Red Hat OpenShift</b> is IBMs commercialized platform for containerized applications, development, deployment, and management. The infrastructure is based on container technology that allows for simplistic deployment of an application using OS virtualization.
             <br></br><br></br>
-            Kubernetes is an open-source project managed by the Cloud Native Computing Foundation (CNCF) and the Open-Source community. Kubernetes is an open-source project for container application deployment, automation, management, and scaling. 
+            <b>Kubernetes</b> is an open-source project managed by the Cloud Native Computing Foundation (CNCF) and the Open-Source community. Kubernetes is an open-source project for container application deployment, automation, management, and scaling. 
             <br></br><br></br>
             The key difference between the two is that when deploying in a native Kubernetes environment, users will have to turn towards the open-source community instead of commercialized support. If they cannot upgrade or must patch, the company will rely on their internal team or the community for help. As these new releases and patches roll out, customers deploying containers using OpenShift on IBM Cloud can turn towards Red Hat + IBM for support and services to help with the rollout.  
           <br></br><br></br>
@@ -217,9 +192,9 @@ const InformationRow = () => {
           <b>OpenShift:</b> offers all three, RBAC, IAM and Authentication. OpenShift on IBM Cloud manages large-scale enterprise with lots of vulnerable data and assets. Becuase of this, OpenShift has stricter security requirements. OpenShift on IBM Cloud supports FIPS 140-2 level 4 security protocols, the highest level of security for encrypting sensitive data. It also supports PCI, HIPAA, GDPR, SOC1, SOC2 Type 2, and ISO 27001.
           <br></br><br></br>
           <h5>User Interface:</h5>
-          OpenShift comes equipped with the OpenShift Container Platform (OCP) for managing the cluster through a simplistic web console. Here is where the user can manage their resources, projects, and namespaces. Users can also control their operators and deploy new projects quickly through the easy-to-deploy interface.
+          <b>OpenShift</b> comes equipped with the OpenShift Container Platform (OCP) for managing the cluster through a simplistic web console. Here is where the user can manage their resources, projects, and namespaces. Users can also control their operators and deploy new projects quickly through the easy-to-deploy interface.
           <br></br><br></br>
-          Accessing Kubernetes UI can be a tricky task. In Kubernetes, users must install a separate dashboard and forward their port to the clusters admin service. The user will then have to authenticate against the server by creating a bearer token because there is no login page.
+          Accessing <b>Kubernetes</b> UI can be a tricky task. In Kubernetes, users must install a separate dashboard and forward their port to the clusters admin service. The user will then have to authenticate against the server by creating a bearer token because there is no login page.
           </div>
 
          
