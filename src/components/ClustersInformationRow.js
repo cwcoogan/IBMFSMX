@@ -1,11 +1,8 @@
 import React from 'react';
-import { Nav } from 'react-bootstrap';
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
-import { Switch, Route, Link } from 'react-router-dom';
-import Contact from '../pages/Contact';
 import rajesh from "../images/profile-pic/rajesh-kartha.png";
-import jerry from "../images/profile-pic/jerry-steward.png"
+import eric from "../images/profile-pic/eric-lowry.png"
 
 const ClustersInformationRow = () => {
   return (
@@ -130,7 +127,7 @@ const ClustersInformationRow = () => {
           <div className=''>
             <div className='hero-img-right'>
             <img
-                src={rajesh}
+                src={eric}
                 className='contact-page-img'
                 alt='Sitting on questionnaire'
               />
