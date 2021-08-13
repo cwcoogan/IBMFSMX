@@ -30,7 +30,7 @@ const ClustersInformationRow = () => {
             
             <div className="content modalText">
 
-            <div className='row mt-5'>
+            <div className='row mt-5 hero-row-reverse-mobile'>
           <div className='col-lg-6 txt-md-left'>
   
             <h3>[Installer]</h3>
