@@ -4,6 +4,7 @@ import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 import { Switch, Route, Link } from 'react-router-dom';
 import Contact from '../pages/Contact';
+import rajesh from "../images/profile-pic/rajesh-kartha.png";
 
 const ClustersInformationRow = () => {
   return (
@@ -28,24 +29,48 @@ const ClustersInformationRow = () => {
             <div className="header modalText2"> Cloud Pak for Data </div>
             
             <div className="content modalText">
+
+            <div className='row mt-5'>
+          <div className='col-lg-6 txt-md-left'>
+  
+            <h3>[Installer]</h3>
+             <h4>&nbsp;&nbsp;Rajesh Kartha</h4>
+             <b>&nbsp;&nbsp;rajesh.kartha@ibm.com</b>
+          </div>
+          <div className=''>
+            <div className='hero-img-center'>
+            <img
+                src={rajesh}
+                className='contact-page-img'
+                alt='Sitting on questionnaire'
+              />
+            </div>
+          </div>
+          </div>
+
+          <div className="hr-black"></div>
             {/* <div className="content font-weight-bold"> */}
-               Cloud Pak 4 Data is running on OpenShift 4.6 <br>
-              </br><br></br>
+               
+              <h3>[Installed Services]</h3>
+             
+                &nbsp;● DB2 <br></br>
+                &nbsp;● MongoDB<br></br>
+                &nbsp;● Guardium S-Tap<br></br>
+                <div className="hr-black"></div>  
+                <h3>[Versions]</h3>
+             
+                &nbsp;● Lopsum ipsum <br></br>
+                &nbsp;● Lopsum ipsum <br></br>
+                
+                <div className="hr-black"></div>
+                <h4>Cloud Pak 4 Data is running on OpenShift 4.6</h4> 
+             <br></br>
               [ABOUT]
               <br /><br></br>
-              Installer:
-              <h1 className='hr-purple2'></h1> 
-              Rajesh Kartha<br></br><br></br>
-              {/* <br /> */}
-              Installed Services:<br></br>
-              <h1 className='hr-purple2'></h1> 
-                DB2 <br></br>
-                MongoDB<br></br>
-                Guardium S-Tap<br></br>
-              <br />
-              Looking for services to be added?
+              <div className="hr-black"></div>
+              <center>Looking for services to be added?</center>
               
-              <br></br>
+            
               
             </div>
             <div className="actions">

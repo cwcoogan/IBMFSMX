@@ -241,7 +241,15 @@
 
 }
 
-
+.hr-black {
+	display: block;
+	height: 2px;
+	width: 100%;
+	border-top: 2px solid black;
+	margin: 3em 0;
+	content: " ";
+	padding: 0;
+  }
 
 .hr-purple {
   display: block;

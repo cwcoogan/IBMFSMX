@@ -34,7 +34,7 @@ const InformationRow = () => {
               the market leader for open source, hybrid cloud platform, they provide a consistent 
               experience for an infrastructure management control plane that includes, AI, Automation and security.
               <br></br>
-              <br></br>--------------------------------------------------------------------------------------------------------------------------<br></br><br></br>
+              <div className="hr-black"></div>
              <h2>Introducing the Six IBM Cloud Paks</h2>
              <br></br>
               <b>IBM Cloud Pak for Applications:</b> Helps accelerate the modernization and building of applications by using built-in developer tools and processes. This includes support for analyzing existing applications and guiding the application owner through the modernization journey. In addition, it supports cloud-native development, microservices functions and serverless computing. Customers can quickly build cloud apps, while existing IBM middleware clients gain the most straightforward path to modernization.
@@ -201,7 +201,7 @@ const InformationRow = () => {
           </div>
         </div>
 
-        <br></br>--------------------------------------------------------------------------------------------------------------------------<br></br><br></br>
+        <div className="hr-black"></div>
         
         <h4>[OpenSource vs. Commercialized Support]<br></br><br></br></h4>
             <b> - Red Hat OpenShift</b> is IBMs commercialized platform for containerized applications, development, deployment, and management. The infrastructure is based on container technology that allows for simplistic deployment of an application using OS virtualization.
@@ -209,12 +209,12 @@ const InformationRow = () => {
             <b>- Kubernetes</b> is an open-source project managed by the Cloud Native Computing Foundation (CNCF) and the Open-Source community. Kubernetes is an open-source project for container application deployment, automation, management, and scaling. 
             <br></br><br></br>
             The key difference between the two is that when deploying in a native Kubernetes environment, users will have to turn towards the open-source community instead of commercialized support. If they cannot upgrade or must patch, the company will rely on their internal team or the community for help. As these new releases and patches roll out, customers deploying containers using OpenShift on IBM Cloud can turn towards Red Hat + IBM for support and services to help with the rollout.  
-          <br></br><br></br>--------------------------------------------------------------------------------------------------------------------------<br></br><br></br>
+            <div className="hr-black"></div>
           <h4>[Security Requirements]<br></br><br></br></h4>
           <b>- Kubernetes:</b> offers Role-Based Access Control (RBAC), which is a method for restricting network access based on the user's role. It also supports IAM, and Authentication for additional support in managing users access to data, systems, and resources.
           <br></br><br></br>
           <b>- OpenShift:</b> offers all three, RBAC, IAM and Authentication. OpenShift on IBM Cloud manages large-scale enterprise with lots of vulnerable data and assets. Becuase of this, OpenShift has stricter security requirements. OpenShift on IBM Cloud supports FIPS 140-2 level 4 security protocols, the highest level of security for encrypting sensitive data. It also supports PCI, HIPAA, GDPR, SOC1, SOC2 Type 2, and ISO 27001.
-          <br></br><br></br>--------------------------------------------------------------------------------------------------------------------------<br></br><br></br>
+          <div className="hr-black"></div>
           <h4>[User Interface]<br></br><br></br></h4>
           <b>- OpenShift</b> comes equipped with the OpenShift Container Platform (OCP) for managing the cluster through a simplistic web console. Here is where the user can manage their resources, projects, and namespaces. Users can also control their operators and deploy new projects quickly through the easy-to-deploy interface.
           <br></br><br></br>
