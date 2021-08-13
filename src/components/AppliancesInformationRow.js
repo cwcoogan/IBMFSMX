@@ -1,6 +1,9 @@
 import React from 'react';
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
+import douglas from "../images/profile-pic/douglas-freeby.png"
+import robert from "../images/profile-pic/robert-pugh.png"
+import jerry from "../images/profile-pic/jerry-steward.png"
 
 
 const AppliancesInformationRow = () => {
@@ -8,11 +11,8 @@ const AppliancesInformationRow = () => {
     <div className='row-container container-fluid installations-row'>
       <Popup
         trigger={<div className='image-container'>
-        <div className='image guardiumapp' />
+        <div className='image insights' />
         <div className='title'>Guardium Appliances</div>
-        {/* <div className='text'>
-        Learn how shopping affects the environment.
-        </div> */}
       </div>}
         modal
         nested
@@ -25,24 +25,54 @@ const AppliancesInformationRow = () => {
             <div className="header modalText2"> Guardium Appliances </div>
             
             <div className="content modalText">
-             Guardium Appliances is running on X.X.X <br>
-            </br><br></br>
+            <div className='row mt-5 hero-row-reverse-mobile'>
+          <div className='col-lg-6 txt-md-left'>
+  
+            <h3>[Installer]</h3>
+             <h4>Douglas Freeby</h4>
+             <b>ddfreeby@us.ibm.com</b><br></br><br></br>
+             <h4>Robert Pugh</h4>
+             <b>repugh@us.ibm.com</b>
+          </div>
+          <div className='mt-3'>
+            <div className='hero-img-right'>
+            <img
+                src={douglas}
+                className=''
+                alt='Sitting on questionnaire'
+              />
+              &nbsp;&nbsp;&nbsp;
+              <img
+                src={robert}
+                className=''
+                alt='Sitting on questionnaire'
+              />
+            </div>
+          </div>
+          </div>
+
+          <div className="hr-black"></div>
+            {/* <div className="content font-weight-bold"> */}
+               
+              <h3>[Installed Services]</h3>
+             
+                &nbsp;● Guardium Data Protection<br></br>
+                &nbsp;● TBD<br></br>
+                &nbsp;● TBD<br></br>
+                &nbsp;● TBD<br></br>
+                <div className="hr-black"></div>  
+                <h3>[Versions]</h3>
+             
+                &nbsp;● Lopsum ipsum <br></br>
+                &nbsp;● Lopsum ipsum <br></br>
+                
+                <div className="hr-black"></div>
+                <h4>Guardium Appliances is running on X.X.X</h4> 
+             <br></br>
               [ABOUT]
               <br /><br></br>
-              Installer: 
-              <h1 className='hr-purple2'></h1> 
-              Douglas Freeby + Robert Pugh<br></br><br></br>
-              {/* <br /> */}
-              Installed Appliances:<br></br>
-              <h1 className='hr-purple2'></h1> 
-                Guardium Data Protection<br></br>
-                TBD<br></br>
-                TBD<br></br>
-                TBD<br></br>
-              <br></br>
-              Looking for services to be added? 
-            
-              <br></br>
+              <div className="hr-black"></div>
+              <center>Looking for services to be added?</center>
            
             </div>
             <div className="actions">
@@ -73,10 +103,10 @@ const AppliancesInformationRow = () => {
       </Popup>
       <Popup
         trigger={<div className='image-container'>
-        <div className='image sterling' />
+        <div className='image integration' />
         <div className='title'>Sterling Appliances</div>
         {/* <div className='text'>
-        Learn how apparel production affects the environment.
+          Learn how your choice of travel can affect the environment.
         </div> */}
       </div>}
         modal
@@ -90,22 +120,46 @@ const AppliancesInformationRow = () => {
             <div className="header modalText2"> Sterling Appliances </div>
             
             <div className="content modalText">
-             Sterling Appliances is running on X.X.X <br>
-              </br><br></br>
+            <div className='row mt-5 hero-row-reverse-mobile'>
+          <div className='col-lg-6 txt-md-left'>
+  
+            <h3>[Installer]</h3>
+             <h4>Jerry Steward</h4>
+             <b>jjstewar@us.ibm.com</b>
+          </div>
+          <div className=''>
+            <div className='hero-img-right'>
+            <img
+                src={jerry}
+                className='contact-page-img'
+                alt='Sitting on questionnaire'
+              />
+            </div>
+          </div>
+          </div>
+
+          <div className="hr-black"></div>
+            {/* <div className="content font-weight-bold"> */}
+               
+              <h3>[Installed Services]</h3>
+             
+                &nbsp;● Sterling File Gateway<br></br>
+                &nbsp;● Sterling Secure Proxy<br></br>
+                <div className="hr-black"></div>  
+                <h3>[Versions]</h3>
+             
+                &nbsp;● Lopsum ipsum <br></br>
+                &nbsp;● Lopsum ipsum <br></br>
+                
+                <div className="hr-black"></div>
+                <h4>Sterling Appliances is running on X.X.X</h4> 
+             <br></br>
               [ABOUT]
               <br /><br></br>
-              Installer: 
-              <h1 className='hr-purple2'></h1> 
-              Jerry Steward<br></br><br></br>
-              {/* <br /> */}
-              Installed Appliances:<br></br>
-              <h1 className='hr-purple2'></h1> 
-                Sterling File Gateway<br></br>
-                Sterling Secure Proxy<br></br>
-              <br></br>
-              Looking for services to be added?
+              <div className="hr-black"></div>
+              <center>Looking for services to be added?</center>
               
-              <br></br>
+           
             </div>
             <div className="actions">
               <button
