@@ -169,7 +169,7 @@
 
     .image-container-home:hover {
       transform: scale(1.2);
-      
+      cursor: pointer;
       border: 3px solid #be95ff;
       color: #be95ff;
       border-radius: 10px;
@@ -180,7 +180,7 @@
     }
     .image-container:hover {
       transform: scale(1.2);
-      
+      cursor: pointer;
       border: 3px solid #be95ff;
       color: #be95ff;
       border-radius: 10px;
@@ -347,6 +347,17 @@
     padding-left: 80px;
   }
 }
+
+.contact-img-right {
+  @include media-breakpoint-down(lg) {
+    margin-bottom: 3rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding-left: 300px;
+  }  
+}
+
 
 
 .hero-img-center {

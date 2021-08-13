@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import Accordion from "../components/Accordion";
 import Card from 'react-bootstrap/Card';
 import 'reactjs-popup/dist/index.css';
+import ContactImg from "../images/cloud--download.svg";
 
 const Contact = () => {
   return (
@@ -10,39 +11,47 @@ const Contact = () => {
       <div className='container'>
         <div className='row mt-5 hero-row-reverse-mobile home-row '>
           <div className='col-lg-12 txt-md-left'>
-            <div className='row mb-3'>
+            <div className='row'>
               <h1 className='display-5 font-weight-bold'>
               Contact us
               </h1>
               <h1 className='hr-purple'>
               </h1>
               
-            <h4><br></br>Looking for services to be added or have general questions? <br>
-            </br>Send us a email and we will be in touch. </h4>
+            <h3><br></br>Looking for services to be added or have general questions? <br>
+            </br>Send us a email and we will be in touch. </h3>
             </div>
           </div>
         </div>
       </div>  
 
-      <div className="container">
-        <div className='row mt-5 hero-row-reverse mobile home-row'>
+    
+      <div className='container'>
+        <div className='row mt-5 home-row '>
           <div className='col-lg-6 txt-md-left'>
-            <div className='row mb-3'></div>
-            <h4 className='font-weight-bold'>
+            <div className=''>
+            <h3>
               For questions email:
-            </h4>
-            <p className='lead font-weight-bold'>
+            </h3>
+              <h3>
               ● Chase Coogan: chase.coogan@ibm.com<br></br>
-              ● John Lucas: john.lucas@ibm.com
-            </p>
-          </div> 
-          <div className='col-lg-5'>
-            <div className='hero-img-right'>
-              
+              ● John Lucas: john.lucas@ibm.com 
+            </h3> 
             </div>
-          </div> 
+            
+          </div>
+          <div className='col-lg-5'>
+            <div className='contact-img-right'>
+            <img
+                src={ContactImg}
+                className='fluid-img'
+                alt='Sitting on questionnaire'
+              />
+            </div>
+          </div>
         </div>
       </div>
+      
 
     
       

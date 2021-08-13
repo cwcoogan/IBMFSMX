@@ -13,7 +13,7 @@
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
   background-color: #eee;
-  color: #444;
+  color: rgb(238, 236, 236);
   cursor: pointer;
   padding: 18px;
   display: -webkit-box;
@@ -32,8 +32,7 @@
 .accordion:hover,
 .accordion__title {
   font-family: "IBM Plex Sans";
-  font-weight: 600;
-  font-size: 14px;
+  font-size: 20px;
   text-align: left;
 }
 
@@ -64,7 +63,7 @@
 .accordion__text {
   font-family: "IBM Plex Sans";
   font-weight: 400;
-  font-size: 14px;
+  font-size: 18px;
   padding: 18px;
 }
 /*# sourceMappingURL=Accordion.css.map */

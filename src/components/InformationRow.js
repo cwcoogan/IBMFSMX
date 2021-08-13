@@ -137,7 +137,7 @@ const InformationRow = () => {
             <br></br><br></br>
             <div className="content modalText">
             <div className="content modalText2">
-            <h2>IBM Cloud Paks Deployment model:</h2><br></br></div>
+            <h3>IBM Cloud Paks Deployment Model</h3><br></br></div>
             Cloud Paks are containerized applications that can be deployed locally, on-premise, in the cloud or in an hybrid environment<br></br>
             
             {/* finish this */}

@@ -194,6 +194,7 @@
 
   .image-container:hover{
     transform: scale(1.1);
+	cursor: pointer;
   }
   .image-container {
     width: 247px;
@@ -399,18 +400,21 @@ $extraBorderSize: #{$borderRadius}; // Needed for border-radius
 	.card-y-h { background-color: lightgoldenrodyellow; } 
 	.card-y-h:hover{
 		transform: scale(1.2);
+		cursor: pointer;
 	}
 	.card-y { background-color: lightgoldenrodyellow; } 
 
 	.card-g-h { background-color: lightgreen; } 
 	.card-g-h:hover{
 		transform: scale(1.2);
+		cursor: pointer;
 	}
 	.card-g { background-color: lightgreen; } 
 
 	.card-b-h { background-color: lightblue; } 
 	.card-b-h:hover{
 		transform: scale(1.2);
+		cursor: pointer;
 	}
   	.card-b { background-color: lightblue;}
 
