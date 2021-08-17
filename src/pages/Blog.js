@@ -32,6 +32,68 @@ const Blog = () => {
           Technical <br></br>Whitepapers
         </h1>
         </div>
+      
+      {/* 8/17 technical blog */}
+
+        <Popup
+       trigger={<div className='specinbox'>
+       <div className='specin-content' />
+       <div class ='specin-content'>
+       <ul> 
+         <li>
+             <h1> Installing RHOS & Cloud Paks </h1>
+             <h2> 8/17/2021</h2>
+             <h3> A step-by-step guide to installing Red Hat OpenShift & Cloud Paks
+             </h3>
+         </li>
+       </ul>
+       </div>
+     </div>}
+       modal
+       nested
+     >
+       {close => (
+         <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto", position:"fixed" }} >
+           <button className="close" onClick={close}>
+             &times;
+           </button>
+           
+           <div className="header"> Installing RHOS & Cloud Paks </div>
+           <div className="content">
+           
+           <div className="pdf">
+           <iframe src="https://drive.google.com/file/d/1nTuo9TfB3jzXdl1CO2brG7ty7J1zz6HL/preview" width="1100" height="1100" allow="autoplay"></iframe>
+           </div> 
+
+           </div>
+           <div className="actions">
+           <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal transferred to contact ');
+                  window.location.href='/IBMFSMX/#/contact';
+                }}
+              >
+                Contact Us 
+              </button>
+        
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+              <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal closed ');
+                  close();
+                }}
+              >
+                Close
+              </button>
+           </div>
+           
+         </div>
+       )}
+     
+      </Popup> 
 
        {/* 8/10/2021 TECHNICAL WHITEPAPERS BLOG   */}
        <Popup
@@ -42,8 +104,7 @@ const Blog = () => {
          <li>
              <h1> OpenShift vs Kubernetes </h1>
              <h2> 8/10/2021</h2>
-             <h3> Cloud Paks are the future of IBM & the leading
-                  way to modernizing business...
+             <h3> A technical outlook comparing OpenShift architecture to that of Kubernetes
              </h3>
          </li>
        </ul>
@@ -167,6 +228,70 @@ const Blog = () => {
       </h1>
       </div>
     
+    {/* start here */}
+
+    {/* 8/17 business value whitepaper: */}
+
+    <Popup
+       trigger={<div className='specinbox'>
+       <div className='specin-content' />
+       <div class ='specin-content'>
+       <ul> 
+         <li>
+             <h1>Why IBM Cloud? </h1>
+             <h2> 8/17/2021</h2>
+             <h3> How does IBM compare to our competitors? Public Cloud security concerns debunked
+             </h3>
+         </li>
+       </ul>
+       </div>
+     </div>}
+       modal
+       nested
+     >
+       {close => (
+         <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto", position:"fixed"}} >
+           <button className="close" onClick={close}>
+             &times;
+           </button>
+           
+           <div className="header"> Why IBM Cloud?  </div>
+           <div className="content">
+           
+           <div className="pdf">
+           <iframe src="https://drive.google.com/file/d/1h5LfR_H7fEhHEJBq3iGySDlwJP9y1wcX/preview" width="1100" height="1100" allow="autoplay"></iframe>
+           </div>  
+
+           </div>
+           <div className="actions">
+           <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal transferred to contact ');
+                  window.location.href='/IBMFSMX/#/contact';
+                }}
+              >
+                Contact Us 
+              </button>
+                
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+              <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal closed ');
+                  close();
+                }}
+              >
+                Close
+              </button>
+           </div>
+           
+         </div>
+       )}
+     </Popup>
+
+
     {/* 8/10/2021 BUSINESS VALUE WHITEPAPER BLOG */}
     <Popup
        trigger={<div className='specinbox'>
@@ -176,8 +301,7 @@ const Blog = () => {
          <li>
              <h1>OpenShift vs Kubernetes </h1>
              <h2> 8/10/2021</h2>
-             <h3> Shedding light on the business value for our customors 
-                   & the journey to cloud...
+             <h3> Click to learn about the key differentiators in OpenShift vs. Kubernetes deployments
              </h3>
          </li>
        </ul>
@@ -237,7 +361,7 @@ const Blog = () => {
          <li>
              <h1>Why Cloud Paks? </h1>
              <h2> 7/13/2021</h2>
-             <h3> Shedding light on the business value for our customors 
+             <h3> Shedding light on the business value for our customers 
                    & the journey to cloud...
              </h3>
          </li>
@@ -300,6 +424,71 @@ const Blog = () => {
       </h1>
       </div>
       
+      {/* start here */}
+
+      <Popup
+       trigger={<div className='specinbox'>
+       <div className='specin-content' />
+       <div class ='specin-content'>
+       <ul> 
+         <li>
+             <h1> Why IBM Cloud? </h1>
+             <h2> 8/17/2021</h2>
+             <h3> Hit your clients with the hard numbers, a one pager 
+                  with "easy on the eyes" information & numbers...
+             </h3>
+         </li>
+       </ul>
+       </div>
+     </div>}
+       modal
+       nested
+     >
+       {close => (
+         <div className="modal" style={{position:"inherit", display:"inherit", overflow:"auto", position:"fixed"}} >
+           <button className="close" onClick={close}>
+             &times;
+           </button>
+           
+           <div className="header"> Why IBM Cloud? </div>
+           <div className="content">
+           
+           <div className="pdf">
+           <iframe src="https://drive.google.com/file/d/1JfAZ5W1q0cmsOebw1FjYyMzO7Gx4Mkqj/preview" width="1100" height="1100" allow="autoplay"></iframe>
+           </div>  
+             
+             <br></br>
+             
+           </div>
+           <div className="actions">
+           <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal transferred to contact ');
+                  window.location.href='/IBMFSMX/#/contact';
+                }}
+              >
+                Contact Us 
+              </button>
+                
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+              <button
+                className="popup-button"
+                onClick={() => {
+                  console.log('modal closed ');
+                  close();
+                }}
+              >
+                Close
+              </button>
+           </div>
+           
+         </div>
+       )}
+     </Popup>
+
+
       {/* 8/10/2021 TL;DR BLOG  */}
       <Popup
        trigger={<div className='specinbox'>
