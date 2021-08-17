@@ -38,10 +38,10 @@ const ClustersInformationRow = () => {
 
              <h4>[Contact]</h4>
              <b>Email: kartha@us.ibm.com</b><br></br>
-             <b>Phone: xxx-xxx-xxx</b><br></br>
+             <b>Phone: xxx-xxx-xxx</b><br></br><br></br>
           </div>
           <div className=''>
-            <div className='hero-img-right'>
+            <div className=''>
             <img
                 src={rajesh}
                 className='contact-page-img'
@@ -56,27 +56,27 @@ const ClustersInformationRow = () => {
              <br></br>
              <b>Cloud Pak for Data:</b> Helps conglomerate data sources into one unified designation. Through the use of IBMs 'AI Ladder', customers will be able to consolidate data, cleanse it, govern rules across databases, and simply execute analysis across the data. CP4D is embeded with AI, Analytics, and dashboarding functions.
 
-              <br /><br></br>
+              <br />
 
           <div className="hr-black"></div>
             {/* <div className="content font-weight-bold"> */}
                
-              <h3>[Installed Services]</h3>
+              <h3>[Installed Applications]</h3>
              
 
-              &nbsp;● <b>DB2 Warehouse-</b> Data warehouse designed for high-performance, in-database analytics.
+              &nbsp;● <b>DB2 Warehouse:</b> Data warehouse designed for high-performance, in-database analytics.
               <br></br>
-                &nbsp;●<b>DB2 Database Management Console-</b> Administer, monitor, manage, and optimize, your Db2 database from a single web-based console.
+                &nbsp;●<b>DB2 Database Management Console:</b> Administer, monitor, manage, and optimize, your Db2 database from a single web-based console.
                <br></br>               
-                &nbsp;●<b>Guardium External S-TAP-</b> Enforce data governance policies, monitor and protect sensitive and regulated data in data sources<br></br>
+                &nbsp;●<b>Guardium External S-TAP:</b> Enforce data governance policies, monitor and protect sensitive and regulated data in data sources<br></br>
             
-                &nbsp;●<b>MongoDB Enterprise-</b> Scalable, NoSQL database for enterprise deployments.
+                &nbsp;●<b>MongoDB Enterprise:</b> Scalable, NoSQL database for enterprise deployments.
                 <br></br>
                 <div className="hr-black"></div>  
                 <h3>[Versions]</h3>
              
-                &nbsp;● Cloud Pak for Data- version 3.5.0 <br></br>
-                &nbsp;● OpenShift Container Platform- version 4.6 <br></br>
+                &nbsp;● Cloud Pak for Data - <b>Version 3.5.0</b> <br></br>
+                &nbsp;● OpenShift Container Platform - <b>Version 4.6</b> <br></br>
                 
                 
               <div className="hr-black"></div>
@@ -140,11 +140,11 @@ const ClustersInformationRow = () => {
 
              <h4>[Contact]</h4>
              <b>Email: elowry@us.ibm.com</b><br></br>
-             <b>Phone: xxx-xxx-xxx</b><br></br>
+             <b>Phone: xxx-xxx-xxx</b><br></br><br></br>
         
           </div>
           <div className=''>
-            <div className='hero-img-right'>
+            <div className=''>
             <img
                 src={eric}
                 className='contact-page-img'
@@ -157,13 +157,13 @@ const ClustersInformationRow = () => {
           <div className="hr-black"></div>
                 <h4>Cloud Pak 4 Integration is running on OpenShift 4.6</h4> 
              <br></br>
-             <b>IBM Cloud Pak for Integration:</b>Helps support the speed, flexibility, security and scale required for integration and digital transformation initiatives. It also comes with a pre-integrated set of capabilities which include API lifecycle, application and data integration, messaging and events, high-speed transfer and integration security.
-              <br /><br></br>
+             <b>IBM Cloud Pak for Integration:</b> Helps support the speed, flexibility, security and scale required for integration and digital transformation initiatives. It also comes with a pre-integrated set of capabilities which include API lifecycle, application and data integration, messaging and events, high-speed transfer and integration security.
+              <br />
 
           <div className="hr-black"></div>
             {/* <div className="content font-weight-bold"> */}
                
-              <h3>[Installed Services]</h3>
+              <h3>[Installed Applications]</h3>
              
                 &nbsp;● API Connect<br></br>
                 &nbsp;● Data Power Gateaway<br></br>

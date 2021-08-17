@@ -138,7 +138,7 @@ const InformationRow = () => {
             <div className="content modalText">
             <div className="content modalText2">
             <h3>IBM Cloud Paks Deployment Model</h3><br></br></div>
-            Cloud Paks are containerized applications that can be deployed locally, on-premise, in the cloud or in an hybrid environment. Below is a surface level guide on how to install RHOS & Cloud Paks, please follow the complete guide in our <b>'BLOG'</b> section on <i>'Installing RHOS and Cloud Paks'.</i><br></br><br></br>
+            Cloud Paks are containerized applications that can be deployed locally, on-premise, in the cloud or in an hybrid environment. Below is a surface level guide on how to install RHOS & Cloud Paks, please follow the complete guide in our <a href="/IBMFSMX/#/blog" target="_blank">Blog</a>  section on <i>'Installing RHOS and Cloud Paks'.</i><br></br><br></br>
             
             Installing RHOS begins with sizing your environment. Depending on which Cloud Pak you are aiming to install, read through the configuration guide as you will need to estimate worker/master nodes, CPU, RAM, HDD, and more. <br></br><br></br>
             

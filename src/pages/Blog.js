@@ -454,7 +454,7 @@ const Blog = () => {
            <div className="content">
            
            <div className="pdf">
-           <iframe src="https://drive.google.com/file/d/1JfAZ5W1q0cmsOebw1FjYyMzO7Gx4Mkqj/preview" width="1100" height="1100" allow="autoplay"></iframe>
+           <iframe src="https://drive.google.com/file/d/1n05li906-IQbe71FJeu1aQU4_YIZKdEE/preview" width="1100" height="1100" allow="autoplay"></iframe>
            </div>  
              
              <br></br>

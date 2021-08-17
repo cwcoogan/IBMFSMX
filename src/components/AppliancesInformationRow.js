@@ -40,10 +40,10 @@ const AppliancesInformationRow = () => {
              <b>Email: ddfreeby@us.ibmcom</b><br></br>
              <b>Phone: xxx-xxx-xxx</b><br></br>
              <b>Email: repugh@us.ibm.com</b><br></br>
-             <b>Phone: xxx-xxx-xxx</b>
+             <b>Phone: xxx-xxx-xxx</b><br></br><br></br>
           </div>
           <div className='mt-3'>
-            <div className='hero-img-right'>
+            <div className=''>
             <img
                 src={douglas}
                 className=''
@@ -63,12 +63,12 @@ const AppliancesInformationRow = () => {
                 <h4>Guardium Appliances is running on X.X.X</h4> 
              <br></br>
               [ABOUT]
-              <br /><br></br>
+              <br />
 
           <div className="hr-black"></div>
             {/* <div className="content font-weight-bold"> */}
                
-              <h3>[Installed Services]</h3>
+              <h3>[Installed Applications]</h3>
              
                 &nbsp;● Guardium Data Protection<br></br>
                 &nbsp;● TBD<br></br>
@@ -139,11 +139,11 @@ const AppliancesInformationRow = () => {
              
              <h4>[Contact]</h4>
              <b>Email: jjstewar@us.ibm.com</b><br></br>
-             <b>Phone: xxx-xxx-xxx</b><br></br>
+             <b>Phone: xxx-xxx-xxx</b><br></br><br></br>
             
           </div>
           <div className=''>
-            <div className='hero-img-right'>
+            <div className=''>
             <img
                 src={jerry}
                 className='contact-page-img'
@@ -157,12 +157,12 @@ const AppliancesInformationRow = () => {
                 <h4>Sterling Appliances is running on X.X.X</h4> 
              <br></br>
               [ABOUT]
-              <br /><br></br>
+              <br />
 
           <div className="hr-black"></div>
             {/* <div className="content font-weight-bold"> */}
                
-              <h3>[Installed Services]</h3>
+              <h3>[Installed Applications]</h3>
              
                 &nbsp;● Sterling File Gateway<br></br>
                 &nbsp;● Sterling Secure Proxy<br></br>

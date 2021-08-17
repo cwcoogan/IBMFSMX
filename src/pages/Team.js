@@ -22,12 +22,13 @@ const Team = () => {
 
         {/*project leads*/}
         <div className='team-row-container'>
+        <a href="https://w3.ibm.com/bluepages/profile.html?uid=3J5119897" target="_blank">
           <div className='image-container'>
           <div className='image chase'/>
             <div className='title'>Chase Coogan</div>
             <div className='text'>Cloud Pak Technical Leader</div>
           </div>
-
+        </a>
           <div className='image-container'>
           <div className='image john'/>
             <div className='title'>John Lucas</div>
