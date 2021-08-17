@@ -157,7 +157,7 @@ const ClustersInformationRow = () => {
           <div className="hr-black"></div>
                 <h4>Cloud Pak 4 Integration is running on OpenShift 4.6</h4> 
              <br></br>
-              [ABOUT]
+             <b>IBM Cloud Pak for Integration:</b>Helps support the speed, flexibility, security and scale required for integration and digital transformation initiatives. It also comes with a pre-integrated set of capabilities which include API lifecycle, application and data integration, messaging and events, high-speed transfer and integration security.
               <br /><br></br>
 
           <div className="hr-black"></div>

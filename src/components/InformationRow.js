@@ -138,8 +138,15 @@ const InformationRow = () => {
             <div className="content modalText">
             <div className="content modalText2">
             <h3>IBM Cloud Paks Deployment Model</h3><br></br></div>
-            Cloud Paks are containerized applications that can be deployed locally, on-premise, in the cloud or in an hybrid environment<br></br>
+            Cloud Paks are containerized applications that can be deployed locally, on-premise, in the cloud or in an hybrid environment. Below is a surface level guide on how to install RHOS & Cloud Paks, please follow the complete guide in our <b>'BLOG'</b> section on <i>'Installing RHOS and Cloud Paks'.</i><br></br><br></br>
             
+            Installing RHOS begins with sizing your environment. Depending on which Cloud Pak you are aiming to install, read through the configuration guide as you will need to estimate worker/master nodes, CPU, RAM, HDD, and more. <br></br><br></br>
+            
+            Once RHOS is installed, it is time to set-up your RHEL subscription- this is your license for managing the platform. Login as <i>root</i> in each node to authorize the OpenShift Container Platform installation. <br></br><br></br>
+
+            Third, you will want to set up networking capabilites such as Secure Shell (SSH), which will be used to allow you to jump between the network. After this, you can begin the installation on all master/worker nodes to recieve your OCP UI. <br></br><br></br>
+
+            You can then log-in and create user roles, and create a project to install the correct Cloud Pak. Additional requirements will need to be met so make sure you are sized efficiently to include all operators.<br></br><br></br>
             {/* finish this */}
             
               <br />
