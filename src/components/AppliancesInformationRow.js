@@ -28,11 +28,19 @@ const AppliancesInformationRow = () => {
             <div className='row mt-5 hero-row-reverse-mobile'>
           <div className='col-lg-6 txt-md-left'>
   
-            <h3>[Installer]</h3>
+      
+          <h3>[Installer(s)]</h3>
              <h4>Douglas Freeby</h4>
-             <b>ddfreeby@us.ibm.com</b><br></br><br></br>
+             <h5>Client Technical Professional</h5><br></br>
+             
              <h4>Robert Pugh</h4>
-             <b>repugh@us.ibm.com</b>
+             <h5>Client Technical Professional</h5><br></br>
+
+             <h4>[Contact]</h4>
+             <b>Email: ddfreeby@us.ibmcom</b><br></br>
+             <b>Phone: xxx-xxx-xxx</b><br></br>
+             <b>Email: repugh@us.ibm.com</b><br></br>
+             <b>Phone: xxx-xxx-xxx</b>
           </div>
           <div className='mt-3'>
             <div className='hero-img-right'>
@@ -52,6 +60,12 @@ const AppliancesInformationRow = () => {
           </div>
 
           <div className="hr-black"></div>
+                <h4>Guardium Appliances is running on X.X.X</h4> 
+             <br></br>
+              [ABOUT]
+              <br /><br></br>
+
+          <div className="hr-black"></div>
             {/* <div className="content font-weight-bold"> */}
                
               <h3>[Installed Services]</h3>
@@ -66,11 +80,7 @@ const AppliancesInformationRow = () => {
                 &nbsp;● Lopsum ipsum <br></br>
                 &nbsp;● Lopsum ipsum <br></br>
                 
-                <div className="hr-black"></div>
-                <h4>Guardium Appliances is running on X.X.X</h4> 
-             <br></br>
-              [ABOUT]
-              <br /><br></br>
+                
               <div className="hr-black"></div>
               <center>Looking for services to be added?</center>
            
@@ -125,7 +135,12 @@ const AppliancesInformationRow = () => {
   
             <h3>[Installer]</h3>
              <h4>Jerry Steward</h4>
-             <b>jjstewar@us.ibm.com</b>
+             <h5>Client Technical Professional</h5><br></br>
+             
+             <h4>[Contact]</h4>
+             <b>Email: jjstewar@us.ibm.com</b><br></br>
+             <b>Phone: xxx-xxx-xxx</b><br></br>
+            
           </div>
           <div className=''>
             <div className='hero-img-right'>
@@ -137,6 +152,12 @@ const AppliancesInformationRow = () => {
             </div>
           </div>
           </div>
+
+          <div className="hr-black"></div>
+                <h4>Sterling Appliances is running on X.X.X</h4> 
+             <br></br>
+              [ABOUT]
+              <br /><br></br>
 
           <div className="hr-black"></div>
             {/* <div className="content font-weight-bold"> */}
@@ -151,11 +172,7 @@ const AppliancesInformationRow = () => {
                 &nbsp;● Lopsum ipsum <br></br>
                 &nbsp;● Lopsum ipsum <br></br>
                 
-                <div className="hr-black"></div>
-                <h4>Sterling Appliances is running on X.X.X</h4> 
-             <br></br>
-              [ABOUT]
-              <br /><br></br>
+                
               <div className="hr-black"></div>
               <center>Looking for services to be added?</center>
               

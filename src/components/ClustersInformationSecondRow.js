@@ -129,11 +129,21 @@ const ClustersInformationSecondRow = () => {
             <div className='row mt-5 hero-row-reverse-mobile'>
           <div className='col-lg-6 txt-md-left'>
   
-            <h3>[Installer]</h3>
+            <h3>[Installer(s)]</h3>
              <h4>Douglas Freeby</h4>
-             <b>ddfreeby@us.ibm.com</b><br></br><br></br>
+             <h5>Client Technical Professional</h5><br></br>
+             
              <h4>Robert Pugh</h4>
-             <b>repugh@us.ibm.com</b>
+             <h5>Client Technical Professional</h5><br></br>
+             
+           
+             
+             <h4>[Contact]</h4>
+             <b>Email: ddfreeby@us.ibmcom</b><br></br>
+             <b>Phone: xxx-xxx-xxx</b><br></br>
+             <b>Email: repugh@us.ibm.com</b><br></br>
+             <b>Phone: xxx-xxx-xxx</b>
+             
           </div>
           <div className='mt-3'>
             <div className='hero-img-right'>
@@ -153,24 +163,27 @@ const ClustersInformationSecondRow = () => {
           </div>
 
           <div className="hr-black"></div>
+                <h4>Guardium Insights is running on OpenShift 4.6</h4> 
+             <br></br>
+             <b>Guardium Insights</b> is built on containerized architecture, Guardium Insights is a lightweight-but-powerful platform that can flexibly deploy wherever an organization needs - aligning to data security goals without hindering business objectives in the cloud.
+              <br /><br></br>
+
+          <div className="hr-black"></div>
             {/* <div className="content font-weight-bold"> */}
                
               <h3>[Installed Services]</h3>
              
-                &nbsp;● Guardium S-Tap<br></br>
-                &nbsp;● TBD<br></br>
-                &nbsp;● TBD<br></br>
+                &nbsp;●<b>Guardium External S-TAP-</b> Enforce data governance policies, monitor and protect sensitive and regulated data in data sources<br></br>
+
+               {/* // &nbsp;● TBD<br></br>
+                &nbsp;● TBD<br></br> */}
                 <div className="hr-black"></div>  
                 <h3>[Versions]</h3>
              
-                &nbsp;● Lopsum ipsum <br></br>
-                &nbsp;● Lopsum ipsum <br></br>
+                &nbsp;●<b>Guardium Insights-</b>version: 2.5.1 <br></br>
+                &nbsp;●<b>OpenShift Container Platform-</b>version: 4.6 <br></br>
                 
-                <div className="hr-black"></div>
-                <h4>Guardium Insights is running on OpenShift 4.6</h4> 
-             <br></br>
-              [ABOUT]
-              <br /><br></br>
+               
               <div className="hr-black"></div>
               <center>Looking for services to be added?</center>
            

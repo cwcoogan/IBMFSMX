@@ -33,7 +33,12 @@ const ClustersInformationRow = () => {
   
             <h3>[Installer]</h3>
              <h4>Rajesh Kartha</h4>
-             <b>kartha@us.ibm.com</b>
+             <h5>Client Technical Professional</h5><br></br>
+            
+
+             <h4>[Contact]</h4>
+             <b>Email: kartha@us.ibm.com</b><br></br>
+             <b>Phone: xxx-xxx-xxx</b><br></br>
           </div>
           <div className=''>
             <div className='hero-img-right'>
@@ -47,24 +52,33 @@ const ClustersInformationRow = () => {
           </div>
 
           <div className="hr-black"></div>
+                <h4>Cloud Pak 4 Data is running on OpenShift 4.6</h4> 
+             <br></br>
+             <b>Cloud Pak for Data:</b> Helps conglomerate data sources into one unified designation. Through the use of IBMs 'AI Ladder', customers will be able to consolidate data, cleanse it, govern rules across databases, and simply execute analysis across the data. CP4D is embeded with AI, Analytics, and dashboarding functions.
+
+              <br /><br></br>
+
+          <div className="hr-black"></div>
             {/* <div className="content font-weight-bold"> */}
                
               <h3>[Installed Services]</h3>
              
-                &nbsp;● DB2 <br></br>
-                &nbsp;● MongoDB<br></br>
-                &nbsp;● Guardium S-Tap<br></br>
+
+              &nbsp;● <b>DB2 Warehouse-</b> Data warehouse designed for high-performance, in-database analytics.
+              <br></br>
+                &nbsp;●<b>DB2 Database Management Console-</b> Administer, monitor, manage, and optimize, your Db2 database from a single web-based console.
+               <br></br>               
+                &nbsp;●<b>Guardium External S-TAP-</b> Enforce data governance policies, monitor and protect sensitive and regulated data in data sources<br></br>
+            
+                &nbsp;●<b>MongoDB Enterprise-</b> Scalable, NoSQL database for enterprise deployments.
+                <br></br>
                 <div className="hr-black"></div>  
                 <h3>[Versions]</h3>
              
-                &nbsp;● Lopsum ipsum <br></br>
-                &nbsp;● Lopsum ipsum <br></br>
+                &nbsp;● Cloud Pak for Data- version 3.5.0 <br></br>
+                &nbsp;● OpenShift Container Platform- version 4.6 <br></br>
                 
-                <div className="hr-black"></div>
-                <h4>Cloud Pak 4 Data is running on OpenShift 4.6</h4> 
-             <br></br>
-              [ABOUT]
-              <br /><br></br>
+                
               <div className="hr-black"></div>
               <center>Looking for services to be added?</center>
               
@@ -122,7 +136,12 @@ const ClustersInformationRow = () => {
   
             <h3>[Installer]</h3>
              <h4>Eric Lowry</h4>
-             <b>elowry@us.ibm.com</b>
+             <h5>Client Technical Professional</h5><br></br>
+
+             <h4>[Contact]</h4>
+             <b>Email: elowry@us.ibm.com</b><br></br>
+             <b>Phone: xxx-xxx-xxx</b><br></br>
+        
           </div>
           <div className=''>
             <div className='hero-img-right'>
@@ -134,6 +153,12 @@ const ClustersInformationRow = () => {
             </div>
           </div>
           </div>
+
+          <div className="hr-black"></div>
+                <h4>Cloud Pak 4 Integration is running on OpenShift 4.6</h4> 
+             <br></br>
+              [ABOUT]
+              <br /><br></br>
 
           <div className="hr-black"></div>
             {/* <div className="content font-weight-bold"> */}
@@ -148,11 +173,7 @@ const ClustersInformationRow = () => {
                 &nbsp;● Lopsum ipsum <br></br>
                 &nbsp;● Lopsum ipsum <br></br>
                 
-                <div className="hr-black"></div>
-                <h4>Cloud Pak 4 Integration is running on OpenShift 4.6</h4> 
-             <br></br>
-              [ABOUT]
-              <br /><br></br>
+                
               <div className="hr-black"></div>
               <center>Looking for services to be added?</center>
               
