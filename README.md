@@ -4,7 +4,7 @@ Under Guardium Data Protection, Sterling File Gateway, and Sterling Secure Proxy
 
 This site will follow the IBM Carbon Design System Layout 
 
-This website is developed and managed by Chase Coogan + Eduardo Gomez + Emily Placet + Alejandro Obrador + Bharath Kaimal
+This website is developed and managed by Chase Coogan, Eduardo Gomez, Emily Placet, Alejandro Obrador and Bharath Kaimal
 Contact Information: Chase.coogan@ibm.com
 
 Project Link: https://cwcoogan.github.io/IBMFSMX/
