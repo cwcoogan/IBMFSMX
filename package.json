@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
-    "browser-image-compression": "^1.0.14",
+    "browser-image-compression": "^1.0.17",
     "chart.js": "^2.9.4",
     "emailjs-com": "^2.6.4",
     "firebase": "^8.6.8",
